@@ -1,0 +1,18 @@
+[submodule "desktop-apps"]
+	path = desktop-apps
+	url = git@github.com:ONLYOFFICE/desktop-apps.git
+[submodule "desktop-sdk"]
+	path = desktop-sdk
+	url = git@github.com:ONLYOFFICE/desktop-sdk.git
+[submodule "core"]
+	path = core
+	url = git@github.com:ONLYOFFICE/core.git
+[submodule "web-apps"]
+	path = web-apps
+	url = git@github.com:ONLYOFFICE/web-apps.git
+[submodule "sdkjs"]
+	path = sdkjs
+	url = git@github.com:ONLYOFFICE/sdkjs.git
+[submodule "dictionaries"]
+	path = dictionaries
+	url = git@github.com:ONLYOFFICE/dictionaries.git
