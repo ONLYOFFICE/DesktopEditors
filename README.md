@@ -17,7 +17,7 @@ ONLYOFFICE Desktop Editors contain the following components:
 
 ## Functionality
 
-ONLYOFFICE Document Server includes the following editors:
+ONLYOFFICE Desktop Editors include the following editors:
 
 * ONLYOFFICE Document Editor
 * ONLYOFFICE Spreadsheet Editor
