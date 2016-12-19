@@ -4,9 +4,7 @@
 ### New Features
 #### All Editors
 * Ability to set dash type for shapes
-* Redesigned embedded viewers
 * Better support of HiDPI systems
-* Update bootstrap to 3.3.7
 
 #### Document Editor
 * Ability to open and edit Footnotes
