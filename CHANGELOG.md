@@ -1,4 +1,27 @@
 # Change log
+## 4.2.2
+### Fixes
+#### All Editors
+* Do not perform save if there is no changes to save
+* Fix a rare problem with saving file with specific type of Chart
+* Fix problems with copy-paste
+
+#### Document Editor
+* Fix problem with losing changes while several users enter text at same time (bug #33726)
+* Fix bug with positioning of cursor after function InsertContent.
+
+#### Spreadsheet Editor
+* Fix wrong order of elements in equations (bug #34029)
+* Fix entering symbols with diacritical sign (bug #33908)
+* Fix horizontal scroll by trackpad (bug #27197)
+* Fix assembling files with Ranges in rare cases
+* Fix convert xlsx to csv
+* Fix `Match` formula return value in some cases (bug #33735)
+
+#### Presentation Editor
+* Fix a problem with saving file with notes, copied from Document Editor
+* Fix a problem with saving file with chart, copied from Presentation Editor
+
 
 ## 4.2.1
 ### New Features
