@@ -1,4 +1,91 @@
 # Change log
+## 4.8.6
+### New features
+#### All Editors
+* Preinstalled plugins set
+* Support SSO authorization
+* Czech and Slovak languages in interface
+* Macros
+* Support of fods, fodt, fodp formats
+
+### Fixes
+#### All editors
+* Fix bug with images paths
+
+#### Document Editor
+* JS Error while inserting empty cell to chart title (bug #36441)
+* Fix red cross for images in some situations
+* Fix bug with creating several synchronize tips
+* Fix line end in thumbnails
+* Fix paste simple text to equations
+* Fix cursor while rotating object (bug #36114)
+* Fix opening some docx (bug #35307)
+* Fix chart legend blocking in coedit (bug #35492)
+* Fix problem with setting tab several time (bug #34923)
+* Fix printing in Edge (bug #35323)
+* Fix help for moving shape by pixel (bug #34983)
+* Fix special paste in fast co-edit (bug #35310)
+* Fix duplicates in strict mode after special paste (bug #35312)
+* Fixed bug with moving cursor to the start of the document after removing content control.
+* Fix minor problems with co-edit in real time (bug #35398, #35399, #35400)
+* A lot of fixes in translations
+
+#### Spreadsheet Editor
+* Fix a.Se is not a function error while opening file (bug #36344)
+* Fix error with merge table colors
+* Fix merge cells after apply table template (bug #36405)
+* Fix JS error for some pivot table styles (bug #36290)
+* Check xfIndexNumber when merging styles to avoid errors with column styles
+* Fix conditional formatting while changing cell values (bug #36253)
+* Fix change shape size by yellow markers (bug #35451)
+* Fix case sensitive VLOOKUP and HLOOKUP (bug #35528, DocumentServer#140)
+* Fix box for Show empty cells as in Russian (bug #35299)
+* Fix sparkline type in setting window (bug #35296)
+* Fix error in conditional formatting with formula and offset (duplicate variable) (bug #35334)
+* Fix error in SEARCH formula (bug #35340)
+* Fix freeze pane shadow not hiding (bug #35359)
+* Fix showing hidden objects
+* Fix VLOOKUP format cell
+* A lot of fixes in translations
+
+#### Presentation Editor
+* Check buttons layout in reporter mode
+* Disable scroll to target in selectwheel (empty selection)
+* Fix applying image as background for several slides (bug #36399)
+* Fix mouse slide scroll without change zoom (bug #28096)
+* Don't disable prev-next buttons for slide demonstration
+* Fix presentation demonstration: start from beginning
+* Fix notes scroll
+* Fix insert text operation duration (bug 36208)
+* Fix browser zoom problem with reported pointer
+* Fix bug with position of hyperlink tooltip and slide num tooltip
+* Fix slide resize bug
+* Fix search in text in placeholder (bug #36133)
+* Fix layout in reported mode
+* Fix js error in Tables_test.pptx (bug #17147)
+* Fix comment reply duplication (bug #35408)
+* Fix bug with drag-and-drop chart into title
+* Fix changing presentation language if no shape selected (bug #35231)
+* Fix columns in placeholder (bug #35074)
+* Fix connector losing shape after moving shape in group (bug #35317)
+* Fix hidden markers for connector on chart and image (bug #35300)
+* Fix cell link after copy paste (bug #35362, DocumentServer#122)
+* A lot of fixes in translations
+
+#### Plugins
+* Fix crash on unknown ole-object resize
+* Fix problems with scroll
+
+#### Converion
+* Fix colors schemes for table cells (bug #36322)
+* Fix problem with image in footnote (bug #36380)
+* Fix saving some files to odt (bug #35389)
+* Fix custom shape with connectors in xls
+* Fix margins in ods
+* Fix convert named range with formulas in ods
+* Fix audio wav files in pptx
+* Fix old standard ole in pptx
+
 
 ## 4.4.1
 ### New features
