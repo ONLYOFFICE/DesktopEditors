@@ -1,4 +1,40 @@
 # Change log
+## 4.8.7
+### New features
+#### All Editors
+* Support for two-factor authentication
+* Brazilian Portuguese as new interface languages
+
+#### Spreadsheet Editors
+* Add stirkeout, superscript and subscript in top toolbar (bug #26581)
+
+### Fixes
+#### All Editors
+* Update translations
+
+#### Document Editor
+* Fix opening docx file with formula in MS Word (bug #36490)
+* Fix JS error while inserting Spreadsheet cell with comment (bug #36506)
+* Fix bug with inserting the content control in the math equation.
+* Fix reset selection from object in header/footer after keyboard move
+
+#### Spreadsheet Editors
+* Fix wrong dependence in formula with 3D Ref after removing sheet
+* Fix opening odt with chart
+* Fix calculating sparkline in some case (bug #36603)
+* Fix printing image outside of printed range (bug #36573)
+
+#### Presentation Editor
+* Fix shape blocking in coedit for users with different mode (bug #36435)
+* Fix chart `Constant proportions` working only once (bug #36494)
+* Fix error while inserting page number from Document Editor (bug #36508)
+* Fix error while undo of table (bug #36515)
+
+#### Conversion
+* Fix some DOCX, DOC, RTF files from users
+* Fix DOCX with MathType equations (bug #36524)
+
+
 ## 4.8.6
 ### New features
 #### All Editors
@@ -76,7 +112,7 @@
 * Fix crash on unknown ole-object resize
 * Fix problems with scroll
 
-#### Converion
+#### Conversion
 * Fix colors schemes for table cells (bug #36322)
 * Fix problem with image in footnote (bug #36380)
 * Fix saving some files to odt (bug #35389)
