@@ -1,4 +1,126 @@
 # Change log
+
+## 5.1.27
+### New features
+#### All editors
+* New `View Settings` menu in top right corner
+* New selector for links type in Spreadsheet and Presentation Editor
+* Ability to replace image via context menu (#11493)
+* Update translations
+* New help entries
+* New `no squares` font engine, find best replacement font for `□` characters
+* Ability to distribute data in tables
+* Fully rewritten composite input for characters
+* New header and background color
+* Support of shape side panel for images
+* Change table size by drag'n'drop
+* New bullet list marker - `–`
+* Increase supported document size (without media-content)
+* New help entries
+* Search in help
+
+#### Document Editor
+* Implement an East Asian script and line break in hieroglyphs ([sdkjs#300](https://github.com/ONLYOFFICE/sdkjs/pull/304))
+* Add hotkey Ctrl+Shift+Num8 - show/hide non printable symbols
+* Support of multi comments baloon (bug #37422)
+* Ability to set Tab Leader symbols
+* Support of Table of Contents
+* New `Navigation` left sidebar
+* New `Reference` tab
+* Changes history in Strict Co-Edit
+* Rename `Display Modes` entries for Track Changes
+* File tab `Go to documents` opens in new tab
+* Ability to set negative top and bottom page margin
+* Copy paragraph style will not overwright custom run style
+* Special paste of tables
+
+#### Spreadsheet Editor
+* Add French translation for formulas
+* Ability to select Cell format via context menu (#16272)
+* Custom user cell styles are now placed before default ones
+* 8 new formulas: `F.TEST`, `FORECAST.ETS`, `FORECAST.ETS.CONFINT`,
+`FORECAST.ETS.SEASONALITY`, `FORECAST.ETS.STAT`, `FORMULATEXT`,
+`IFS`, `PDURATION`
+* New `None` Table Template
+* New regional presets - `Deutsch (Schweiz)`, `Español (México)`,
+ `Nederlands (Nederland)`, `Slovenčina (Slovenská republika)`
+* New date formats `yy/m/d`, `yy/mm/dd`, `yyyy/m/d`
+* CSV preview before opening
+
+#### Preseentation Editor
+* Add hints to presentation themes (bug #21362)
+* Special paste
+* Presentation level comments
+
+#### Back-End
+* Update `icu` dependency from `5.5` to `5.8`
+* Support a lot of features in xls format (macros, controls etc.)
+* Speedup of opening ooxml files on 5-10%
+* Better compatibility with OpenFormat, RTF
+* Fix a lot of error in user-send files in all supported formats
+
+### Fixes
+#### All editors
+* Fix crash on opening files with empty pie charts ([sdkjs#318](https://github.com/ONLYOFFICE/sdkjs/pull/318))
+* Fix undo after copy paste in coedit (bug #37424)
+* Fix problems with some thai symbols (bug #37446) ([sdkjs#297](https://github.com/ONLYOFFICE/sdkjs/pull/297))
+* Hide empty width glyphs fonts in font picker
+* Don't save changes for undo/redo in server build mode
+* Change size of image pasted form html
+* Fix problem in text selection with Shift
+* Fix redundant symbol in cell after undo-redo (#37343)
+* Fix problems with icons of some buttons
+* Fix sync coedit button in top toolbar and menu (#37377)
+* Fix toolbar icons problems
+
+#### Document Editor
+* Fix displaying table after html convert (#37472)
+* Fix adding comment to whole doc (#37425, [DocumentServer#287](https://github.com/ONLYOFFICE/DocumentServer/issues/287)) ([sdkjs#319](https://github.com/ONLYOFFICE/sdkjs/pull/319))
+* Fix copy Rich Text Content from table (#37546) ([sdkjs#320](https://github.com/ONLYOFFICE/sdkjs/pull/320))
+* Fix changing labels of Content Control ([sdkjs#296](https://github.com/ONLYOFFICE/sdkjs/pull/296))
+* Fix search text in drawing formats ([sdkjs#292](https://github.com/ONLYOFFICE/sdkjs/pull/292))
+* Fix problem with loading pdf renamed to docx ([sdkjs#295](https://github.com/ONLYOFFICE/sdkjs/pull/295))
+* Fix right mouse buttom menu for TOC (#37241)
+* Fix usage Clip ParaDrawing by line top and bottom
+* Don't clip images in text arts
+* Add vertical clip for inline drawing
+* Fix problems in drawing inline objects
+* Fix bug in calculation text clip rect in documents
+
+#### Spreadsheet Editor
+* Fix formula dependency and file assemble after add col/row ([sdkjs#312](https://github.com/ONLYOFFICE/sdkjs/pull/312))
+* Fix opening specific xlsx file (#37515) ([sdkjs#316](https://github.com/ONLYOFFICE/sdkjs/pull/316))
+* Fix open pivot tables with VALUES ([sdkjs#298](https://github.com/ONLYOFFICE/sdkjs/pull/298))
+* Add `CONVERT`, `FTEST`, `HYPGEOM.DIST` formulas
+* Add Spanish formula translations
+* Fix right mouse button error (#37330)
+* Fix inserting hieroglyphs from text editor (#37356)
+* Fix bug with enter symbol point in formula autocompleate (#37300)
+* Fix bug with enter symbol `_` or `\` in start formula autocompleate (bug #37354)
+* Fix bug with enter Chinese numbers in formula autocompleate
+* Fix sheet context menu visibility (#37307)
+* Fix translations for formulas
+* Fix inserting function in opened cell (#37348)
+* Correct some formulas translations
+
+#### Presentation Editor
+* Fix hieroglyph problem in chart title (#37293)
+* Fix chart title focus problem in coedit (#37295)
+* Fix object selection problem in coedit (#37336)
+* Clamp scroll_central position
+* Bug with clearing cached canvas
+* Fix bug in calculation of slide layout bounds
+
+#### Back-end
+* Fix doc users files with table ([core#71](https://github.com/ONLYOFFICE/core/pull/71))
+* Fix opening docx, pptx, rtf, odf usersfiles ([core#75](https://github.com/ONLYOFFICE/core/pull/75)) ([core#76](https://github.com/ONLYOFFICE/core/pull/76))
+* Fix mac related build problems
+* ppt - fix shape geometry in files from newest ms office
+* Fix font generation
+* Fix reopening files with macros (#37323)
+* Fix opening some Docx user files
+* Fix opening some XLS user files
+
 ## 4.8.7
 ### New features
 #### All Editors
