@@ -1,5 +1,201 @@
 # Change log
 
+## 5.2.80
+### New features
+* Added an option to change the UI language
+* Added an option to change the user name
+* Improved HiDPI screens detection
+* Extended the list of providers for collaborative portals (ownCloud, Nextcloud)
+* Added encryption options (test mode)
+
+#### All editors
+* Add warning when open file protected with password
+* Don't show resolved comments by default in Document and Spreadsheet editor
+* Customize availability of help in the editor
+* Add File and Plugins tabs for viewers
+* Mark username by color in the comments, review changes, chat messages
+* Show edit-mode users in format
+* Don't duplicate online users in the left chat panel
+* Sort comments in the popover by ascending creation time
+
+#### Document Editor
+* Ability to work with bookmarks
+* Ability to add/change hyperlinks anchored to bookmarks/headings
+* Change numbering value, start/continue numbering
+* Ability to continue numberings
+* Content controls settings (highlight and appearance)
+* Review changes and comments are in combined window
+* Add page presets А0, А1, А2, А6 (bug #36583)
+* Enable closing chart dialog while loading (bug #36870)
+* Change encoding format for txt files (bug #36998)
+* Add mode for filling forms
+* Enable closing window when save to txt
+* Enable inserting shapes when shape is selected
+* Check new revisions in fast co-editing mode
+* Save track-changes option for file key
+
+#### Spreadsheet Editor
+* Cell settings in the right panel
+* Add Layout tab: save margins, page size, orientation for sheets,
+ align/arrange, group/ungroup objects (shapes, images, charts)
+* Added hint for autofilters
+* Change encoding format for csv files (bug #36998)
+* Save page options to file before printing
+* Add ability to view Combo Charts
+* Enhanced completely rewritten scroll
+* Support of R1C1 references style
+
+#### Presentation Editors
+* Add hints to presentation themes (bug #21362)
+* Add presenter preview in the viewer (bug #37499)
+* Enable closing chart dialog while loading (bug #36870)
+
+
+### Fixes
+#### All editors
+* Update translations
+* Fix position for zoom buttons in the toolbar
+* Fix tab 'File' lost active state when click inner panels
+* Fix `Replace image by url` in context menu (#37651)
+* Fix copy comments from comment balloon (#37666, #35896)
+* Fix footnote dialog layout (#37660)
+* Fix error while changing shape connector (bug #37788)
+* Fix error while changing default tab in shape (bug #38084)
+* Fix opening custom color for shape (bug #37841)
+* Fix comment loss from other user (bug #37570)
+* Fix bug with cff fonts (glyph loader)
+* Fix error while `ctrl+s` in chart editor (bug #39254)
+* Remove 'command+h' hotkey for MacOs
+* Fix special paste icon while inserting ClipArt (bug #39462)
+* Show conversion error in case of pdf renamed to docx
+* Fix bug with solid fill without color
+* Fix opening presenter view on ownCloud\Nextcloud (bug #39559)
+* Fix bug when apply new font (current font name and new name are empty)
+* A lot of bug fixed in all editors
+
+#### Document Editor
+* Fix getting parent cell in blocklevelstd
+* Fix justify chinese text (#37659)
+* Fix setting option Realtime collaboration changes to "ViewAll"
+* Fix protected document window layout (#37658)
+* Disable bookmarks in the document headers (bug #38957)
+* Fix opening docx with track changes and math created by aspose
+* Fix problem with reading the Id of a content control
+* Fix crash in `CNumberingLvlLegacy.ReadFromBinary`
+* Fix problem with selecting tables
+* Fix the problem with replacing misspelled word
+* Fix the critical issue with locking the document on the undo in the fast collaboration
+* Fix lost `Hide Degree` menu entry for equations (bug #39135)
+* Fix the problem when recalculating in co-editing
+* Fix the problem with processing the pageDown button in co-editing
+* Fix error while deleting table column (bug #39252)
+* Fix problem with render while replacing text (bug #39269)
+* Fix problem with saving/loading table state on undo/redo
+* Fix showing charts added by macros (bug #39304)
+* Fix the problem with calculating a large tables separated by columns
+* Fix error after discarding changing font name in combo box
+* Fix input of korean, chinese and japanese symbols in Content Control (bug #39724)
+* Fix the problem with recalculating a document with large tables
+* Fix the problem with accept/reject an uncalculated revision change
+* Fix bug with recalculating a document when deleting a section
+* Fix the problem with checking complex fields in selection
+* Fix the problem with updating cursor in collaborative editing
+* Fix bug with moving cursor through a table
+* Fix bug with recalculating large tables
+* Fix the problem with moving an image inside a large table
+* Fix bug with accept/reject the change in review
+* Fix the problem with updating current position in table after accepting changes
+* Fix bug with special paste of paragraph with numbering
+* Fix reading rtf comments
+* Fix opening file with image in shape in rtf (bug #37902)
+
+#### Spreadsheet Editor
+* Fix enter formula with arrow keys and scroll
+* Fix multiselect autofit column width. Autofit only exist columns (#37555)
+* Fix formula dependency and file assemble after copying with drag and drop
+* Fix out of memory error in case of insert rows in file with many columns
+* Fix incorrect error for chart with empty dataset (#37762)
+* Fix deleting comments (bug #37772)
+* Fix check pane and opening some xlsx files (bug #38113)
+* Fix hyphenation position for chinese symbols with wrap
+* Fix missed french and spanish formulas
+* Fix missed region formats
+* Disable table settings when cell is edited
+* Fix change active cell in selection across merge. Previously, passing
+ through the first cell of the merge range, we fell into the merge range,
+ even if it was not selected (through the selection of a row / column)
+* Fix selection when selecting row/col/all
+* Hide options for headings, gridlines, freeze panes in the viewer (bug #38033)
+* Fix losing document after reopen xlsx file (bug #37892)
+* Fix open file with unknown picture format
+* Fix problems with multichart files (bug #37945, 37946)
+* Fix crash on build file with comment changes
+* Fix incorrect chart for area with autofilter (bug #39168)
+* Fix incorrect select cells while changing formula by keyboard (bug #39181)
+* Fix brower hangup in some file with formula (bug #39190)
+* Fix incorrect display of doughnut chart with autofilter (bug #39200)
+* Fix incorrect `IF` formula values (bug #39233)
+* Fix problem with replace count (bug #39273)
+* Fix error while copy deleted shape (bug #39312)
+* Fix specific error while sorting (bug #39397)
+* Fix undo for filter in specific files (bug #39402)
+* Fix scroll to end of table (bug #21946)
+* Fix sorting first row in some files (bug #39397)
+* Fix sorting range if there is filtered data (bug #39410)
+* Fix double columns borders (bug #39392)
+* Fix rendering last rows in some files (bug #39394)
+* Disable cell settings when editor is disconnected
+* Fix print and calculate. Speed up prepare cache
+* Fix scrolling issues in specific file (bug #39395)
+* Fix issue with open only one SheetView to avoid property conflicts(tabSelected) (bug #39511)
+* Fix freeze while cut paste several columns (bug #37965)
+* Fix incorrect `sum` formula for copied sheet (bug #39548)
+* Fix error while entering more data than cell width (bug #39623)
+* Fix incorrect digit count while using `Decrease Decimal` (bug #39661)
+* Fix opening file with 'si', 'formula' without 'ref'
+* Fix opening specific file with chart (bug #39902)
+* Fix error while copy specific sheet in file (bug #39921)
+
+#### Presentation Editor
+* Fix deleting placholder text in strict co-edit (#37712)
+* Fix duplicate comments in exported pptx (#37698)
+* Fix specific error while opening empty presentation in comment mode (#37679)
+* Fix copy-paste placeholder in fast coedit (bug #37922)
+* Fix bug copy/paste slide with picture (bug #37928)
+* Fix placeholder titles in Chinese (bug #37927)
+* Fix specific error while opening some pptx (bug #39191)
+* Fix problem with negative spacing
+* Fix error while copy table (bug #39264)
+* Fix opening specific ppt file (bug #39901)
+
+#### Back-End
+* Bump compatibilityMode setting. Prevent opening files in compatibility mode in Word 2016.
+* Fix doc, rtf, xls users files
+* Fix exporting current list of XLSX to csv (#37579)
+* Fix opening specific pptx file (#37589, bug #39747, #39745)
+* Fix save comments for presentation (undelete ms office)
+* Fix opening specific RTF document (#37500)
+* Fix slide theme for ODT export (#37740)
+* Fix chart legend in ODS file (#37746)
+* Set default value for math nodes with val attribute and COnOfftype
+* Fix empty rtf (bug #39172)
+* Fix opening some ods (bug #39192)
+* graphics - metafile - fix convert to rastr on linux without set fonts
+* PptxFormat - fix binary convert mathType version over 3.0
+* Fix document structure for specific file (bug #39236)
+* Fix opening in MS word some file (bug #39216)
+* Fix opening specific docx file (bug #39248)
+* Fix open some rtf files (bug #39315)
+* Fix selecting row in pdf file (bug #39214)
+* Fix crash on empty dash pen
+* Fix loss of grouped shape in odt (bug #39467)
+* Fix convert of wmf file (bug #39533)
+* Fix bug with metadata in UTF16 format
+* Fix convert of specific xls (bug #39541)
+* OdfFormat - refactoring same auto shapes
+* Fix convert vml -> drawing_ml
+* Fix bug with calculating inverse matrix in PDF
+
 ## 5.1.27
 ### New features
 #### All editors
