@@ -1,6 +1,6 @@
 # Change log
 
-## 5.2.80
+## 5.2.4
 ### New features
 * Added an option to change the UI language
 * Added an option to change the user name
