@@ -1,4 +1,8 @@
 # Change log
+## 5.2.8
+### Fixes
+* Major bugfix for interaction with Nextcloud and ownCloud portals
+
 
 ## 5.2.4
 ### New features
