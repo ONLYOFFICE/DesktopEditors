@@ -1,4 +1,86 @@
 # Change log
+## 5.3.3
+
+### Fixes
+
+#### All Editors
+
+* New placements for undo-redo, save and print button in top toolbar
+* 250 document languages (mostly without spellchecker)
+* Completely redone font engine (Better support of CJK fonts and much more)
+* Ability to flip and rotate shape/images
+* Ability to crop images
+* Adding bookmark do not close bookmark window
+* Comments are show in all edit-view modes
+* New hotkeys on MacOS
+* Add options for objects align (align to page, margin, slide)
+* New hints for shapes (Bug #20091)
+* Completely new photo editor plugin
+* Fix some more problems with SVG
+* Fix a lot of bugs with drawings positioning
+
+#### Document Editor
+
+* Formulas in Tables
+* Save as DOTX, PDF-A, OTT
+* Show review changes in view mode
+* Can't remove review changes of another user
+* Can't remove a comments of another user
+* Add description for moved text and move to changed text in Review mode
+* Get link to bookmark
+* Search selected text
+* Add support for calculating tabs in word2013 style that lies to the
+ right of the right margin
+* Fix JS error while scrolling in mail merge window (bug #41787)
+* Fix JS error while opening some specific docx (bug #41847)
+* Fix JS error while using final mode in review mode (bug #41846)
+* Fix the problem with updating positions in the inner
+  classes within a paragraph (bug #41848)
+* Do not add changes to reviews with changes of the text properties
+  if in fact there have been no changes (bug #41833)
+* Fix critical bug on setup hideContentControlTrack property
+* Fix show changes of second user if show changes disabled (bug #41576)
+* Fix the problem with accepting/rejecting review changes
+* Fix JS error while entering text in content control in specific docx (bug #41687)
+* Fix the problem with calculating numbering value with merged cells (bug #41699)
+* Fix JS error while undo entered text in review mode (bug #41708)
+* Fix deleting whole TOC field after selecting it (bug #41714)
+* Fix showing numbering as changes for review in specific document (bug #41518)
+* Fix opening Modelling_scholarly_communication_report_final1.docx (bug #41717)
+* Fix crash on refresh recalculated data
+* Fix bug with moving object in group
+* Fix the problem with rendering WMF files (bug #41495)
+
+#### Spreadsheet Editor
+
+* Български, Svenska (Finland), Svenska (Sverige) number format
+* Translates of formulas to Italian
+* Go to link by click, not control click
+* `ASC`, `BETAINV`, `HYPERLINK` formulas
+* Support of Print areas
+* Ability to set exact text orientations in degrees
+* Text to column Wizards
+* Paste Text Wizard
+* Save as XLTX, PDF-A, OTS
+* Support of Array Formula
+* Icon and Data Bars Conditional Formatting
+* Gradient and Texture cell fill
+* Show hint with function/arguments description when typing function
+* Show min and max values in status bar
+* Distribute objects
+* Redone cut cell process (cell not removed after cut immediately)
+* Fix JS error for `Replace all` in some cases (bug #41760)
+* Fix column index error while insertion
+* Fix add changes to history on drawing sparklines
+* Fix undo moved cell in print area (bug #41723)
+
+#### Presentation Editor
+
+* Save as POTX, PDF-A, OTP
+* Add font rendering option
+* Search and replace text
+* Internal hyperlinks: entering the slide number manually
+
 ## 5.2.8
 ### Fixes
 * Major bugfix for interaction with Nextcloud and ownCloud portals
