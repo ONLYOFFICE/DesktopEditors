@@ -16,6 +16,7 @@
 * Add options for objects align (align to page, margin, slide)
 * New hints for shapes (Bug #20091)
 * Completely new photo editor plugin
+* Plugin for sending document via system email client
 * Fix some more problems with SVG
 * Fix a lot of bugs with drawings positioning
 
@@ -80,6 +81,7 @@
 * Add font rendering option
 * Search and replace text
 * Internal hyperlinks: entering the slide number manually
+* Possibility to insert audio/video content
 
 ## 5.2.8
 ### Fixes
