@@ -5,6 +5,8 @@
 
 #### All Editors
 
+* Improved HiDPI screens compatibility
+* Added Chinese as UI language
 * New placements for undo-redo, save and print button in top toolbar
 * 250 document languages (mostly without spellchecker)
 * Completely redone font engine (Better support of CJK fonts and much more)
