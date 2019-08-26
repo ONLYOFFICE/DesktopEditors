@@ -1,4 +1,38 @@
 # Change log
+
+## 5.3.5
+
+### New Features
+
+#### Plugins
+
+* Translations for Photo Editor plugin
+
+### Fixes
+
+#### All Editors
+
+* Fix connection to Community Server v10.0.4
+* Fix bugs in encryption mode
+
+#### Document Editor
+
+* Fix JS error while undo insert empty row in table (bug #41995)
+* Fix the problem with adding an equation inside a hyperlink
+* Fix crash while opening file with math created by aspose
+
+#### Presentation Editor
+
+* Fix background color of slide
+
+#### x2t
+
+* Decode xlsx escaped chars (bug #36575, #41890)
+
+## 5.3.4
+
+### No public release
+
 ## 5.3.3
 
 ### Fixes
