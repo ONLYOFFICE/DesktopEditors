@@ -1,4 +1,4 @@
-[![License](https://img.shields.io/badge/License-GNU%20AGPL%20V3-green.svg?style=flat)](https://www.gnu.org/licenses/agpl-3.0.en.html) ![Release](https://img.shields.io/badge/Release-v4.4-blue.svg?style=flat) ![Platforms Windows | macOS | Linux](https://img.shields.io/badge/Platforms-Window%20%7C%20macOS%20%7C%20Linux-lightgrey.svg?style=flat)
+[![License](https://img.shields.io/badge/License-GNU%20AGPL%20V3-green.svg?style=flat)](https://www.gnu.org/licenses/agpl-3.0.en.html) ![Release](https://img.shields.io/badge/Release-v5.3-blue.svg?style=flat) ![Platforms Windows | macOS | Linux](https://img.shields.io/badge/Platforms-Window%20%7C%20macOS%20%7C%20Linux-lightgrey.svg?style=flat)
 
 ## Overview
 
