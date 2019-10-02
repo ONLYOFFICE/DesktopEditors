@@ -1,5 +1,107 @@
 # Change log
 
+## 5.4.1
+
+### New Features
+
+#### All Editors
+
+* More options for Paragraph Spacing
+* Ability to set paragraph Outline level
+* Ability to get current color scheme
+* Redone Document Info page
+* Better and more templates for tables
+* Select languages using keyboard (bug #24317)
+* Ability to show shadow for images/shapes
+* Add mentions to comments
+* Show multi-gradient fill in shapes (bug #40719)
+
+#### Document Editor
+
+* Ability create new style - next style same as previous
+* Ability to add watermarks
+* Ability to save docx in mode compatible with old versions
+* Add tooltip for table styles
+
+#### Spreadsheet Editor
+
+* Ability to change look of chart elements
+* Ability to set Headers and Footers
+* New options for working with formulas
+* Ability to group data
+* Spellchecker
+* Ability to resize autofilter window
+* Show the number of cells in autofilter window
+* Save 10 last used functions
+* Set default value for regional settings (bug #41549)
+* Asynchronous loading of formulas
+
+#### Presentation Editor
+
+* New themes for slides
+* Ability to set Headers and Footers
+* Ability to insert slide number
+* Ability to insert date/time
+* Add tooltip for table styles
+
+### Fixes
+
+#### All Editors
+
+* Fix detecting document info as document change (bug #42717)
+* Fix paste in canvas after opening settings
+* Fix some issues with loading of translations
+
+#### Document Editor
+
+* Fix the problem with drawing a track around a content control (bug #42657)
+* Fix the problem with accept/reject in case when moved text gets into selection (bug #42665)
+* Fix the problem with deleting text that was previously added by the same user (bug #41242)
+* Fix "No image uploaded" for Watermark background (bug #42832)
+* Fix rules unit of measurements (bug #42608)
+* Fix some watermark bugs
+* Fix style list in `Create New Style` window on small window size (bug #42799)
+* Fix changing display mode for track changes (without plugins tab)
+
+#### Spreadsheet Editor
+
+* Fix opening some files with pivot table without pivot style
+* Fix JS error in `SUBTOTAL` function (bug #42833)
+* Fix scale options while printing (bug #34704)
+* Fix adding image from storage (bug #42789)
+* Fix auto-sum icon
+* Fix button icons (chat, comments)
+
+#### Presentation Editor
+
+##### doc
+
+* Fix extended comments
+
+##### docx
+
+* Fix bookmarks saving inside hyperlink
+
+##### xls
+
+* Fix marker filters in some xls (bug #42239)
+* Fix image size in save to xls (bug #42618)
+* Fix group data display (bug #42216)
+
+##### xlsx
+
+* Fix tooltip for data validation (bug #42667)
+* Fix Excel recovery error for files with comments (bug #42968)
+* Remove reply duplicates (bug #42969)
+
+##### odf
+
+* Fix error in headers/footers
+* Fix print areas (bug #42654)
+* Fix column width (bug #42790)
+* Fix cell color (bug #42932)
+* Fix link to formatted as table (bug #42938)
+
 ## 5.3.5
 
 ### New Features
