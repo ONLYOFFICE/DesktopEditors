@@ -1,5 +1,28 @@
 # Change log
 
+## 5.4.2
+
+### Fixes
+
+### All Editors
+
+* Improved compatibility with macOS 10.15 Catalina
+
+#### Document Editor
+
+* Fix the problem with removing previously added text by
+  other user in the review mode (bug #43183)
+* Fix the problem with moving text in the review mode
+  (bug #43238)
+* Fix the problem of inserting a table over another table
+* Fix the problem with reviewed numbering
+* Fix some problems with watermarks
+
+#### Plugins
+
+* Fix starting PhotoEditor plugin (bug #42473)
+* Fix issues with YouTube plugin
+
 ## 5.4.1
 
 ### New Features
