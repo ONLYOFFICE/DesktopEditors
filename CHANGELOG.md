@@ -50,7 +50,6 @@
 
 #### All Editors
 
-* Fixed an issue with missing 1.5x icons ([DocumentServer#812](https://github.com/ONLYOFFICE/DocumentServer/issues/812))
 * Localization improvements
 * Fixed some security issues
 * Fix some more issues with user files
