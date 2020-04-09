@@ -73,8 +73,6 @@
 
 * All components received countless fixed
 
-/*****/
-
 ## 5.4.2
 
 ### Fixes
