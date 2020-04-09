@@ -1,5 +1,80 @@
 # Change log
 
+## 5.5.1
+
+### New features
+
+#### All Editors
+
+* Multi-Window mode
+* Loading speed improvements
+* `Symbol table` now is system component, not a plugin
+* New button `Top Toolbar -> Collaboration -> Remove comments`
+* Replace `Default Size` button to `Actual Size`
+
+#### Document Editor
+
+* Adding content control (available only for paid version)
+* Ability to remove table cells
+* Ability to insert several rows\columns
+* Ability to add titles for shapes, table and levels
+* New content control types (Picture, Combo box, Drop-down list, Date, Checkbox)
+* New options for margins
+* New options for bullet lists
+* Ability to draw and erase table
+* Ability to edit gutter and mirror margins
+
+#### Spreadsheet Editor
+
+* Added support of reading drop-down lists.
+* Added support of reading data validation.
+* Ability to recalculate all formulas
+* New scale options
+* New options for cell fill
+* Ability to set Cell Snapping
+* Sheets multi-select
+* Bullets and numbering options from context menu
+* Ability to change bullets marker
+* New spellchecker options
+* Ability to sort by several columns\rows
+* Option for setting separators
+
+#### Presentation Editor
+
+* Ability to add object to slide template
+* Ability to reset slide
+* New list settings
+* Ability to add object to placeholder
+
+### Fixes
+
+#### All Editors
+
+* Fixed an issue with missing 1.5x icons ([DocumentServer#812](https://github.com/ONLYOFFICE/DocumentServer/issues/812))
+* Localization improvements
+* Fixed some security issues
+* Fix some more issues with user files
+
+#### Document Editor
+
+* Fixed an issue with comment duplication in other editors (bug #44689)
+
+#### Spreadsheet Editor
+
+* Better support of TIME function (bug #44849)
+
+#### files editing/convertion
+
+* Fixed some security issues
+* Fixed an issues with DOC, RTF and XLSX formats(bug 44756) (bug 44934) (bug 44840)
+* Fixed corrupting of mime-type after some DOCX editing (Bug 44957)
+
+### Fixes
+
+* All components received countless fixed
+
+/*****/
+
 ## 5.4.2
 
 ### Fixes
