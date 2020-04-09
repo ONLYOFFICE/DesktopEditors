@@ -14,11 +14,9 @@
 
 #### Document Editor
 
-* Adding content control (available only for paid version)
 * Ability to remove table cells
 * Ability to insert several rows\columns
 * Ability to add titles for shapes, table and levels
-* New content control types (Picture, Combo box, Drop-down list, Date, Checkbox)
 * New options for margins
 * New options for bullet lists
 * Ability to draw and erase table
@@ -50,6 +48,7 @@
 
 #### All Editors
 
+* All components received countless fixed
 * Localization improvements
 * Fixed some security issues
 * Fix some more issues with user files
@@ -68,9 +67,6 @@
 * Fixed an issues with DOC, RTF and XLSX formats(bug 44756) (bug 44934) (bug 44840)
 * Fixed corrupting of mime-type after some DOCX editing (Bug 44957)
 
-### Fixes
-
-* All components received countless fixed
 
 ## 5.4.2
 
