@@ -6,7 +6,7 @@
 
 #### All Editors
 
-* Multi-Window mode
+* Multi-Window mode (Windows, Linux)
 * Loading speed improvements
 * `Symbol table` now is system component, not a plugin
 * New button `Top Toolbar -> Collaboration -> Remove comments`
