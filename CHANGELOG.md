@@ -6,8 +6,8 @@
 
 #### All Editors
 
-* Support of Private Rooms plugin (ONLYOFFICE Enterprise Edition 11.0 needed as well).
-* Possibility to gain access to some features of commercial versions Document Server.
+* Support of Private Rooms plugin (ONLYOFFICE Enterprise Edition 11.0 needed as well)
+* Possibility to gain access to some features of commercial versions Document Server
 
 ### Fixes
 
