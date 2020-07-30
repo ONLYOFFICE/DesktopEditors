@@ -1,5 +1,66 @@
 # Change log
 
+## 5.6.0
+
+### New features
+
+#### All Editors
+
+* Support of Private Rooms plugin (ONLYOFFICE Enterprise Edition 11.0 needed as well)
+* Possibility to gain access to some features of commercial versions Document Server
+
+### Fixes
+
+#### All Editors
+
+* Fixed opening zero-bytes files created with MS Office folder menu
+* Fixed an issue with opening long path files (Bug 45117)
+* Added ability to run an application with system title bar by --system-title-bar flag (Linux) (Bug 43189) (#271)
+* Fixed an unexpected application window behavior after presentation showing was ended (Bug 44968)
+* Fixed an unexpected application behavior after undocking window with presenter mode (Bug 45483)
+* Fixed an ability of resizing application windows on macOS (Bug 45135)
+* Fixed an issue with connecting to cloud servers if url contains spaces (Bug 42293)
+* Fixed an issue with restoring application window after some scenarios (Bug 45292)
+* Fixed a dialog window displaying while all application windows is closing (Bug 44974)
+* Fixed a window title scaling on HiDPI displays in some scenarios (Bug 45060)
+* Fixed a duplication of print button after undocking PDF-viewer window (Bug 45170)
+* Some translations in dialog windows was improved
+* Fixed a position of application window after printing operations was canceled (Bug 45003)
+* Fixed an issue with displaying artifacts on about page in some scenarios (Bug 44684)
+* Fixed an issue with displaying artifacts after installation on Windows 10 was finished (Bug 45089)
+* Fixed an issue with user name updating while document is opened (Bug 45254)
+* Added user name limitation in field (Bug 44742)
+* Fixed an issue with locking modal dialogs while print dialogue in opened and updocked (Bug 42791)
+* Fixed an editor tab position after window is attaching (Bug 44749)
+* Added custom title for Windows Apps entry in Add or Remove Programs
+* Fixed unexpected system rebooting after VSRedis installation
+* Fixed displaying of dialogue windows on some linux color schemes (Bug 31995)
+
+#### Document Editor
+
+* Fixed in issue with autocolor feature for graphical objects in some DOCX user files (Bug 45460)
+* Fixed an issue with increasing font size in some DOCX user files (Bug 44852)
+* Fixed disabling undo/redo buttons after the documents comparing
+* Fixed incorrect displaying of some PDF user files (Bug 45336, Bug 39097, Bug 19078)
+* Fixed incorrect displaying of watermark on CJK languages (Bug 45886)
+* Fixed an export of some DOCX user files to PDF (Bug 45319)
+
+
+#### Spreadsheet Editor
+
+* Fixed invalid icon in cells border menu (Bug 45910)
+* Fixed an error with copy and past format table in some XLSX files (Bug 45731)
+* Fixed an error with format table creation in some XLSX files (Bug 45773)
+* Fixed an error with entering big data in last partially view cell (Bug 45653) (#903)
+* Fixed an appearance of color selection dialogue box for bullet lists (Bug 45417)
+
+#### Presentation Editor
+
+* Fixed an appearance of color selection dialogue box for bullet lists (Bug 45417)
+
+#### files editing/convertion
+
+
 ## 5.5.1
 
 ### New features
