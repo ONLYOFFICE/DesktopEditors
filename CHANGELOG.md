@@ -1,5 +1,18 @@
 # Change log
 
+## 5.6.4
+
+### Fixes
+
+#### Back-end
+
+* Fix several vulnerabilities in convertion app (Bug #46348, Bug #46352, Bug #46353,
+  Bug #46384, Bug #46434, Bug #46436)
+* Fix vulnerability in TXT converter (Bug #46437)
+* Fix Path Traversal vulnerability via image upload params (Bug #46113)
+* Fix Path Traversal vulnerability via `savefile` param (Bug #46037)
+* Fix Path Traversal vulnerability via Convert Service param (Bug #45976)
+
 ## 5.6.0
 
 ### New features
