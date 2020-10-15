@@ -1,5 +1,64 @@
 # Change log
 
+## 6.0.0
+
+### New Features
+
+#### All Editors
+
+* Option to adjust application interface scaling (Windows, Linux)
+* Autofit settings for shape
+* Ability to insert special characters
+* Autorun settings for macros
+* Selecting an image from storage for watermarks, shapes and slides filling
+* Added an autocorrection list
+* Redesign of color selection component
+* Ability to change a position and size of chart elements
+* Hotkey Ctrl + 0 for zoom resetting
+* Changed a behavior of hiding icons in tabs when editor window is reducing
+
+#### Document Editor
+
+* Ability to insert date and time
+* Ability to print selection in view mode
+* Converting an equation from old formats
+* Changed placeholder for content controls
+* Redone the algorithm the justifying of a paragraph with condensing spaces
+
+#### Spreadsheet Editor
+
+* Full support of pivot tables
+* Autofilter settings in pivot tables
+* Support of open all existing in file conditions for data bar conditional formatting
+* Support of open all existing in file gradients for data bar conditional formatting
+* Full support of slicers for format tables
+* Special paste settings
+* Ability to move a sheet from one workbook to another
+* Internal link to named range
+* Print titles
+* New component for cells selection
+* Ability to remove duplicate values
+* Ability to insert function via Function Arguments dialogue
+* Wrap Text and Shrink to Fit settings in right toolbar
+* Vertical Text option in text orientation settings
+* Ability to change the function in Total Row for formatted table
+* Delimiter settings for Special Paste and Text to Columns dialogue
+* LINEST function
+* Hotkeys Ctrl+Shift+'Plus sign' and Ctrl+Shift+'Minus sign' for date and time insertion
+* Hotkey Shift+F3 for a function insertion
+* Status bar settings
+* New mouse actions for work with format tables
+
+#### Presentation Editor
+
+* Changed interface for internal link
+* Ability to print selection in view mode
+* Redesign of bullet and numbering list menu
+
+### Fixes
+
+* All editors received countless fixes
+
 ## 5.6.4
 
 ### Fixes
