@@ -1,5 +1,13 @@
 # Change log
 
+## 6.0.2
+
+### Fixes
+
+#### All Editors
+
+* Fix problem with insert BMP image in doc (Bug #47276)
+
 ## 6.0.1
 
 ### Fixes
