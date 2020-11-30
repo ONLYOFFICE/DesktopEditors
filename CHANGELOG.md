@@ -1,5 +1,41 @@
 # Change log
 
+## 6.1.0
+
+### New Features
+
+#### All Editors
+
+* Complete redone html-based formats (`ePub`, `mht`, `html`)
+* `fb2` format can be opened in viewer
+* Redone gradient control and ability to set custom angle for gradient fill
+* New icons in context menu
+* Add support of AutoFormat as you type
+* Apply button in File menu always visible
+* Ability to copy comment from left sidebar
+* Translate plugin uses Google Translate, instead of Yandex
+
+#### Document Editor
+
+* Ability to show line numbering
+* Ability to add cross-reference
+* Add support of endnotes
+* Ability to edit AutoCorrect list
+* Select Data button in Chart Editor
+
+#### Spreadsheet Editor
+
+* Ability to work with sheet view (available only for paid version)
+* Support of editing data ranges in Chart
+* Redone cell editor height change
+* New cursor for column\row hover
+* Ability to hide freeze pane shadow
+* Pivot Table can be inserted from `Insert` tab
+
+### Fixes
+
+* All components received countless fixes
+
 ## 6.0.2
 
 ### Fixes
