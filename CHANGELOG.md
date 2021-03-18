@@ -9,6 +9,8 @@
 * Ability to use Tab/Shift+Tab in some dialog windows
 * Change color of loader to darker one
 * Ability to setup font size 300pt (409pt for Spreadsheets)
+* Implemented a new Document Server integration scheme
+* Ability to protect documents, spreadsheets and presentations using a digital signature
 
 #### Document Editor
 
