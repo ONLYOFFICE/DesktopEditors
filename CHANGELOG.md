@@ -1,5 +1,41 @@
 # Change log
+## 6.3.1
 
+### New Features
+* Added Seafile provider connection options
+* Interface Themes support
+* 150% interface scaling support (Windows, Linux)
+* Spellchecker implemented as SharedWorker. No more back-end service for spellchecker
+* Ability to add file to favorites (must be supported on DMS side)
+* Password protection support
+* New chart types (lines and scatter)
+* Check hyperlinks for 2083 symbol length
+
+### Document Editor
+* Wrapping for shapes in Top Toolbar
+* Indents settings in Paragraph Right Sidebar
+* Change Register operation in Top Toolbar
+* Change List Level operation
+* Export to html, fb2, ePub
+
+### Spreadsheet Editor
+* Add new chart type - combo
+* Redone Chart Advanced Setting with more axis settings
+* Add ability to set axis label format
+* New date format "YYYY-MM-DD" (ISO 8601)
+* Cell Indent setting in Table Right Sidebar
+* Opening of Microsoft Office XML 2003 files
+* Group and Ungroup operation for Pivot Tables
+* XLOOKUP function
+
+### Presentation Editor
+* Slide opacity setting
+* Setup columns in shape via Top Toolbar
+* Presentation Animations are saved after export from our editor
+
+### Fixes
+* All editors received countless fixes
+ 
 ## 6.2.0
 
 ### New Features
