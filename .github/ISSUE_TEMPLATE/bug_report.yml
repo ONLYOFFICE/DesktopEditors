@@ -28,7 +28,7 @@ body:
     id: version
     attributes:
       label: "Version information"
-      description: "Please provide the exact version of the app you are using. If you don't know what version you are using, look at the 'About' tab in the OnlyOffice DesktopEditors. Before submitting an issue, ensure you are using the [latest version of the app](https://www.onlyoffice.com/en/download-desktop.aspx)."
+      description: "Please provide the exact version of the app you are using. If you don't know it, look at the 'About' tab in the ONLYOFFICE Desktop Editors. Before submitting an issue, ensure you are using the [latest version of the app](https://www.onlyoffice.com/en/download-desktop.aspx)."
       placeholder: "Example: 6.3.1.56"
     validations:
       required: true
