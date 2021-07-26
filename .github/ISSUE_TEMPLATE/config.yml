@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Appimage package
+    url: https://github.com/ONLYOFFICE/appimage-desktopeditors/issues?q=
+    about: Everything about the appimage version goes here.
+  - name: Flatpak package
+    url: https://github.com/flathub/org.onlyoffice.desktopeditors/issues?q=
+    about: Everything about the flatpak version goes here.
+  - name: Snap package
+    url: https://github.com/ONLYOFFICE/snap-desktopeditors/issues?q=
+    about: Everything about the snap version goes here.
