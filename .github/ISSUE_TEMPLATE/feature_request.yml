@@ -1,6 +1,5 @@
 name: "Feature request"
 description: "Use this form to suggest a feature."
-labels: enhancement
 body:
   - type: checkboxes
     attributes:
