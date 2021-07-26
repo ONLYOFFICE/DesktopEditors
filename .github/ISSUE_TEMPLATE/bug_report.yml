@@ -1,6 +1,5 @@
 name: "Bug report"
 description: "Use this template if you're running into issues with Windows, macOS, or Linux (native package) version."
-labels: bug
 body:
   - type: checkboxes
     id: unique
