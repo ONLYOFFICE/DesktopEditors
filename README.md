@@ -27,6 +27,13 @@ ONLYOFFICE Desktop Editors include the following editors:
  
 The editors allow you to create, edit, save and export text, spreadsheet and presentation documents.
 
+## Installation methods
+
+* Deb, rpm, exe, dmg on the [official website](https://www.onlyoffice.com/download-desktop.aspx?utm_source=GitHub&utm_medium=social&utm_campaign=GitHubDesktop)
+* Snap package. Get on [snapcraft.io](https://snapcraft.io/onlyoffice-desktopeditors) // See [source code](https://github.com/ONLYOFFICE/snap-desktopeditors)
+* Flatpak. Get on [flathub.org](https://flathub.org/apps/details/org.onlyoffice.desktopeditors) // See [source code](https://github.com/flathub/org.onlyoffice.desktopeditors)
+* AppImage.  Get on [AppImageHub](https://appimage.github.io/ONLYOFFICE/) // See [source code](https://github.com/ONLYOFFICE/appimage-desktopeditors)
+
 ## Project Information
 
 Official website: [https://www.onlyoffice.com/apps.aspx](https://www.onlyoffice.com/apps.aspx?utm_source=github&utm_medium=cpc&utm_campaign=GitHubDesktop)
