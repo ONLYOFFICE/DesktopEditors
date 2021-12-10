@@ -24,4 +24,4 @@ jobs:
           SPELLCHECK_OUT=$(cat CHANGELOG.md \
             | aspell --lang=en --encoding=utf-8 --personal=./.aspell.en.pws list)
           echo $SPELLCHECK_OUT
-          test $(echo -n $SPELLCHECK_OUT | wc -c) -ne 0 && exit 1
+          test $(echo -n $SPELLCHECK_OUT | wc -c) -eq 0
