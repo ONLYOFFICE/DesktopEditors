@@ -301,7 +301,7 @@
 * Fixed an issue with displaying artifacts after installation on Windows 10 was finished (Bug 45089)
 * Fixed an issue with user name updating while document is opened (Bug 45254)
 * Added user name limitation in field (Bug 44742)
-* Fixed an issue with locking modal dialogs while print dialogue in opened and updocked (Bug 42791)
+* Fixed an issue with locking modal dialogues while print dialogue in opened and updocked (Bug 42791)
 * Fixed an editor tab position after window is attaching (Bug 44749)
 * Added custom title for Windows Apps entry in Add or Remove Programs
 * Fixed unexpected system rebooting after VSRedis installation
@@ -806,7 +806,7 @@
 * Fix error while copy specific sheet in file (bug #39921)
 
 #### Presentation Editor
-* Fix deleting placholder text in strict co-edit (#37712)
+* Fix deleting placeholder text in strict co-edit (#37712)
 * Fix duplicate comments in exported pptx (#37698)
 * Fix specific error while opening empty presentation in comment mode (#37679)
 * Fix copy-paste placeholder in fast coedit (bug #37922)
@@ -867,7 +867,7 @@
 #### Document Editor
 * Implement an East Asian script and line break in hieroglyphs ([sdkjs#300](https://github.com/ONLYOFFICE/sdkjs/pull/304))
 * Add hotkey Ctrl+Shift+Num8 - show/hide non printable symbols
-* Support of multi comments baloon (bug #37422)
+* Support of multi comments balloon (bug #37422)
 * Ability to set Tab Leader symbols
 * Support of Table of Contents
 * New `Navigation` left sidebar
@@ -925,7 +925,7 @@
 * Fix changing labels of Content Control ([sdkjs#296](https://github.com/ONLYOFFICE/sdkjs/pull/296))
 * Fix search text in drawing formats ([sdkjs#292](https://github.com/ONLYOFFICE/sdkjs/pull/292))
 * Fix problem with loading pdf renamed to docx ([sdkjs#295](https://github.com/ONLYOFFICE/sdkjs/pull/295))
-* Fix right mouse buttom menu for TOC (#37241)
+* Fix right mouse button menu for TOC (#37241)
 * Fix usage Clip ParaDrawing by line top and bottom
 * Don't clip images in text arts
 * Add vertical clip for inline drawing
@@ -940,9 +940,9 @@
 * Add Spanish formula translations
 * Fix right mouse button error (#37330)
 * Fix inserting hieroglyphs from text editor (#37356)
-* Fix bug with enter symbol point in formula autocompleate (#37300)
-* Fix bug with enter symbol `_` or `\` in start formula autocompleate (bug #37354)
-* Fix bug with enter Chinese numbers in formula autocompleate
+* Fix bug with enter symbol point in formula autocomplete (#37300)
+* Fix bug with enter symbol `_` or `\` in start formula autocomplete (bug #37354)
+* Fix bug with enter Chinese numbers in formula autocomplete
 * Fix sheet context menu visibility (#37307)
 * Fix translations for formulas
 * Fix inserting function in opened cell (#37348)
@@ -1121,7 +1121,7 @@
 * Translates for cell styles        
 * Search and replace by select
 * Option to hide solved comments
-* Abitity to specify bullets and numbering for text in shape.
+* Ability to specify bullets and numbering for text in shape.
 * Ability to specify columns for Text Areas
 * Ability to add the connectors for the shapes
 * Support `Shift+Delete`, `Ctrl+Insert` and `Shift+Insert` for cut/paste
