@@ -1,5 +1,8 @@
 name: check
-on: push
+on:
+  push:
+    paths:
+      - 'CHANGELOG.md'
 jobs:
   markdownlint:
     runs-on: ubuntu-latest
