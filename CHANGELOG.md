@@ -7,7 +7,9 @@
 * Added Liferay provider connection options
 * Added kDrive provider connection options
 * Added ability to launch editor in a single window
-* New UI languages (Belorusian, Bulgarian, Catalan, Danish, Dutch, Finnish, Greek, Hungarian, Indonesian, Japanese, Korean, Latvian, Norwegian, Romanian, Slovene, Swedish, Turkish, Ukrainian, Vietnamese, Lao)
+* New UI languages (Belarusian, Bulgarian, Catalan, Danish, Dutch, Finnish,
+  Greek, Hungarian, Indonesian, Japanese, Korean, Latvian, Norwegian, Romanian,
+  Slovene, Swedish, Turkish, Ukrainian, Vietnamese, Lao)
 * 125% and 175% interface scaling support (Windows, Linux)
 * Ability to setup editor launch mode
 * New sort types for Comment left sidebar
