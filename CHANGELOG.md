@@ -294,22 +294,29 @@
 
 * Fixed opening zero-bytes files created with MS Office folder menu
 * Fixed an issue with opening long path files (Bug 45117)
-* Added ability to run an application with system title bar by --system-title-bar flag (Linux) (Bug 43189) (#271)
-* Fixed an unexpected application window behavior after presentation showing was ended (Bug 44968)
-* Fixed an unexpected application behavior after undocking window with presenter mode (Bug 45483)
+* Added ability to run an application with system title bar by
+  --system-title-bar flag (Linux) (Bug 43189) (#271)
+* Fixed an unexpected application window behavior after presentation showing was
+  ended (Bug 44968)
+* Fixed an unexpected application behavior after undocking window with presenter
+  mode (Bug 45483)
 * Fixed an ability of resizing application windows on macOS (Bug 45135)
 * Fixed an issue with connecting to cloud servers if url contains spaces (Bug 42293)
 * Fixed an issue with restoring application window after some scenarios (Bug 45292)
-* Fixed a dialog window displaying while all application windows is closing (Bug 44974)
+* Fixed a dialog window displaying while all application windows is closing
+  (Bug 44974)
 * Fixed a window title scaling on HiDPI displays in some scenarios (Bug 45060)
 * Fixed a duplication of print button after undocking PDF-viewer window (Bug 45170)
 * Some translations in dialog windows was improved
-* Fixed a position of application window after printing operations was canceled (Bug 45003)
+* Fixed a position of application window after printing operations was canceled
+  (Bug 45003)
 * Fixed an issue with displaying artifacts on about page in some scenarios (Bug 44684)
-* Fixed an issue with displaying artifacts after installation on Windows 10 was finished (Bug 45089)
+* Fixed an issue with displaying artifacts after installation on Windows 10 was
+  finished (Bug 45089)
 * Fixed an issue with user name updating while document is opened (Bug 45254)
 * Added user name limitation in field (Bug 44742)
-* Fixed an issue with locking modal dialogues while print dialogue in opened and updocked (Bug 42791)
+* Fixed an issue with locking modal dialogues while print dialogue in opened and
+  updocked (Bug 42791)
 * Fixed an editor tab position after window is attaching (Bug 44749)
 * Added custom title for Windows Apps entry in Add or Remove Programs
 * Fixed unexpected system rebooting after VSRedis installation
@@ -317,7 +324,8 @@
 
 #### Document Editor
 
-* Fixed in issue with autocolor feature for graphical objects in some DOCX user files (Bug 45460)
+* Fixed in issue with autocolor feature for graphical objects in some DOCX user
+  files (Bug 45460)
 * Fixed an issue with increasing font size in some DOCX user files (Bug 44852)
 * Fixed disabling undo/redo buttons after the documents comparing
 * Fixed incorrect displaying of some PDF user files (Bug 45336, Bug 39097, Bug 19078)
@@ -483,8 +491,10 @@
 #### Document Editor
 
 * Fix the problem with drawing a track around a content control (bug #42657)
-* Fix the problem with accept/reject in case when moved text gets into selection (bug #42665)
-* Fix the problem with deleting text that was previously added by the same user (bug #41242)
+* Fix the problem with accept/reject in case when moved text gets into selection
+  (bug #42665)
+* Fix the problem with deleting text that was previously added by the same user
+  (bug #41242)
 * Fix "No image uploaded" for Watermark background (bug #42832)
 * Fix rules unit of measurements (bug #42608)
 * Fix some watermark bugs
@@ -811,7 +821,8 @@
 * Disable cell settings when editor is disconnected
 * Fix print and calculate. Speed up prepare cache
 * Fix scrolling issues in specific file (bug #39395)
-* Fix issue with open only one SheetView to avoid property conflicts(tabSelected) (bug #39511)
+* Fix issue with open only one SheetView to avoid property
+  conflicts(tabSelected) (bug #39511)
 * Fix freeze while cut paste several columns (bug #37965)
 * Fix incorrect `sum` formula for copied sheet (bug #39548)
 * Fix error while entering more data than cell width (bug #39623)
@@ -835,7 +846,8 @@
 
 #### Back-End
 
-* Bump compatibilityMode setting. Prevent opening files in compatibility mode in Word 2016.
+* Bump compatibilityMode setting. Prevent opening files in compatibility mode in
+  Word 2016.
 * Fix doc, rtf, xls users files
 * Fix exporting current list of XLSX to csv (#37579)
 * Fix opening specific pptx file (#37589, bug #39747, #39745)
@@ -947,7 +959,8 @@
 #### Document Editor
 
 * Fix displaying table after html convert (#37472)
-* Fix adding comment to whole doc (#37425, [DocumentServer#287](https://github.com/ONLYOFFICE/DocumentServer/issues/287)) ([sdkjs#319](https://github.com/ONLYOFFICE/sdkjs/pull/319))
+* Fix adding comment to whole doc (#37425, [DocumentServer#287](https://github.com/ONLYOFFICE/DocumentServer/issues/287))
+  ([sdkjs#319](https://github.com/ONLYOFFICE/sdkjs/pull/319))
 * Fix copy Rich Text Content from table (#37546) ([sdkjs#320](https://github.com/ONLYOFFICE/sdkjs/pull/320))
 * Fix changing labels of Content Control ([sdkjs#296](https://github.com/ONLYOFFICE/sdkjs/pull/296))
 * Fix search text in drawing formats ([sdkjs#292](https://github.com/ONLYOFFICE/sdkjs/pull/292))
@@ -988,7 +1001,8 @@
 #### Back-end
 
 * Fix doc users files with table ([core#71](https://github.com/ONLYOFFICE/core/pull/71))
-* Fix opening docx, pptx, rtf, odf usersfiles ([core#75](https://github.com/ONLYOFFICE/core/pull/75)) ([core#76](https://github.com/ONLYOFFICE/core/pull/76))
+* Fix opening docx, pptx, rtf, odf usersfiles ([core#75](https://github.com/ONLYOFFICE/core/pull/75))
+  ([core#76](https://github.com/ONLYOFFICE/core/pull/76))
 * Fix mac related build problems
 * ppt - fix shape geometry in files from newest ms office
 * Fix font generation
@@ -1074,7 +1088,8 @@
 * Fix help for moving shape by pixel (bug #34983)
 * Fix special paste in fast co-edit (bug #35310)
 * Fix duplicates in strict mode after special paste (bug #35312)
-* Fixed bug with moving cursor to the start of the document after removing content control.
+* Fixed bug with moving cursor to the start of the document after removing
+  content control.
 * Fix minor problems with co-edit in real time (bug #35398, #35399, #35400)
 * A lot of fixes in translations
 
@@ -1090,7 +1105,8 @@
 * Fix case sensitive VLOOKUP and HLOOKUP (bug #35528, DocumentServer#140)
 * Fix box for Show empty cells as in Russian (bug #35299)
 * Fix sparkline type in setting window (bug #35296)
-* Fix error in conditional formatting with formula and offset (duplicate variable) (bug #35334)
+* Fix error in conditional formatting with formula and offset (duplicate
+  variable) (bug #35334)
 * Fix error in SEARCH formula (bug #35340)
 * Fix freeze pane shadow not hiding (bug #35359)
 * Fix showing hidden objects
@@ -1156,17 +1172,17 @@
 * Formulas with conditional formatting
 * Ability to specify custom delimiter for CSV import\export
 * Added `ACOT`, `ACOTH`, `ARABIC`, `BASE`, `BETA.DIST`, `BETA.INV`, `BETADIST`,
-        `BINOM.DIST`, `BINOM.INV`, `CEILING.MATH`, `CEILING.PRECISE`,
-        `CHIDIST`, `CHIINV`, `CHISQ.DIST`, `CHISQ.DIST.RT`,
-        `CHISQ.INV`, `CHISQ.INV.RT`, `COMBINA`, `CONCAT`, `CONFIDENCE.NORM`,
-        `CONFIDENCE.T`, `COT`, `COTH`, `CSC`, `CSCH`, `DECIMAL`, `EXPON.DIST`, `F.DIST`,
-        `F.DIST.RT`, `F.INV`, `F.INV.RT`, `FDIST`, `FINV`, `FLOOR.MATH`,
-        `FLOOR.PRECISE`, `GAMMA`, `GAMMA.DIST`, `GAMMA.INV`, `GAMMA.PRECISE`,
-        `GAMMADIST`, `GAMMAINV`, `GAUSS`, `IFNA`, `IMCOSH`, `IMCOT`, `IMCSC`,
-        `IMCSCH`, `IMSEC`, `IMSECH`, `IMSINH`, `IMTAN`, `ISO.CEILING`,
-        `LOGNORM.DIST`, `LOGNORM.INV`, `NUMBERVALUE`, `PERCENTILE.EXC`, `PERCENTILE.INC`,
-        `PERCENTRANK.EXC`, `PERCENTRANK.INC`, `RANK`, `RANK.AVG`, `RANK.EQ`, `SEC`, `SECH`,
-        `T.DIST`, `T.DIST.2T`, `T.DIST.RT`, `T.INV`, `T.INV.2T`, `TDIST`, `TINV`, `XOR` functions
+  `BINOM.DIST`, `BINOM.INV`, `CEILING.MATH`, `CEILING.PRECISE`, `CHIDIST`,
+  `CHIINV`, `CHISQ.DIST`, `CHISQ.DIST.RT`, `CHISQ.INV`, `CHISQ.INV.RT`,
+  `COMBINA`, `CONCAT`, `CONFIDENCE.NORM`, `CONFIDENCE.T`, `COT`, `COTH`, `CSC`,
+  `CSCH`, `DECIMAL`, `EXPON.DIST`, `F.DIST`, `F.DIST.RT`, `F.INV`, `F.INV.RT`,
+  `FDIST`, `FINV`, `FLOOR.MATH`, `FLOOR.PRECISE`, `GAMMA`, `GAMMA.DIST`,
+  `GAMMA.INV`, `GAMMA.PRECISE`, `GAMMADIST`, `GAMMAINV`, `GAUSS`, `IFNA`,
+  `IMCOSH`, `IMCOT`, `IMCSC`, `IMCSCH`, `IMSEC`, `IMSECH`, `IMSINH`, `IMTAN`,
+  `ISO.CEILING`, `LOGNORM.DIST`, `LOGNORM.INV`, `NUMBERVALUE`, `PERCENTILE.EXC`,
+  `PERCENTILE.INC`, `PERCENTRANK.EXC`, `PERCENTRANK.INC`, `RANK`, `RANK.AVG`,
+  `RANK.EQ`, `SEC`, `SECH`, `T.DIST`, `T.DIST.2T`, `T.DIST.RT`, `T.INV`,
+  `T.INV.2T`, `TDIST`, `TINV`, `XOR` functions
 * Exclude hidden rows from copy, autofill, formatting etc...
 * Update active cell color
 * Frozen pane now with shadow
@@ -1286,7 +1302,8 @@
 * Fixed an issue with SUMIFS formula (bug #33602)
 * Fixed an issue with inserting image size (bug #33604)
 * Fixed an issue with zero values sparklines (bug #33612)
-* Fixed an issue with changing number format while changing regional format (bug #31395)
+* Fixed an issue with changing number format while changing regional format
+  (bug #31395)
 * Fixed an issue with replacing formula delimiters (bug #33608)
 * Fixed an issue with cell size while drag'n'drop (bug #33607)
 * Fixed an issue with cursor size in @2x (bug #33606)
@@ -1307,7 +1324,8 @@
 
 #### Document Editor
 
-* Fix problem with losing changes while several users enter text at same time (bug #33726)
+* Fix problem with losing changes while several users enter text at same time
+  (bug #33726)
 * Fix bug with positioning of cursor after function InsertContent.
 
 #### Spreadsheet Editor
