@@ -13,7 +13,7 @@ body:
     attributes:
       label: "Have you tried rebooting?"
       options:
-      - label: "I tried rebooting and the issue still occurs."
+      - label: "I have tried rebooting and the issue still occurs."
         required: true
   - type: dropdown
     id: os
