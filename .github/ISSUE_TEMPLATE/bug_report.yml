@@ -8,6 +8,13 @@ body:
       options:
       - label: "I have used the [search tool](https://github.com/ONLYOFFICE/DesktopEditors/issues?q=) and did not find an issue describing my bug."
         required: true
+  - type: checkboxes
+    id: rebooted
+    attributes:
+      label: "Have you tried rebooting?"
+      options:
+      - label: "I tried rebooting and the issue still occurs."
+        required: true
   - type: dropdown
     id: os
     attributes:
