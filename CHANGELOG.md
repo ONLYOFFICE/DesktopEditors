@@ -21,7 +21,7 @@
 * Completely new mode for creating, filling and sharing forms
 * Dark Mode (dark canvas background and other interface changes)
 * New settings to change review mode `Track Changes Display`
-* Ability to select local file for `Mail Merge`
+* Ability to select local file for `Mail Merge` for cloud-stored files
 * New setting for AutoFormat as you type -> hyperlinks and network paths
 
 #### Spreadsheet Editor
