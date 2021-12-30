@@ -39,6 +39,7 @@
 * Ability to display animations
 * Slide animation settings moved to top Tab
 * New setting for AutoFormat as you type -> hyperlinks and network paths
+* Ability to save presentation to `JPG` and `PNG`
 
 ### Fixes
 
