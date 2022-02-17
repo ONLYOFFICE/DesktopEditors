@@ -1,0 +1,25 @@
+name: Update submodules
+
+on:
+
+  workflow_dispatch:
+
+jobs:
+
+  update-submodules:
+    runs-on: ubuntu-latest
+    steps:
+
+      - uses: actions/checkout@v2
+        with:
+          submodules: recursive
+
+      - name: Pull & update submodules recursively
+        run: git submodule update --recursive --remote
+
+      - name: Commit & push changes
+        uses: EndBug/add-and-commit@v8
+        with:
+          author_name: github-actions[bot]
+          author_email: github-actions[bot]@users.noreply.github.com
+          message: Update submodules
