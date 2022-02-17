@@ -1,0 +1,58 @@
+name: Append changelog for new release
+
+on:
+
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version'     
+        required: true
+
+jobs:
+
+  append-changelog:
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Write changelog
+        run: |
+          cp -fv CHANGELOG.md CHANGELOG.md.bak
+          head -n2 CHANGELOG.md.bak > CHANGELOG.md
+          cat >> CHANGELOG.md << EOF
+          ## ${{ github.event.inputs.version }}
+
+          ### New Features
+
+          * TODO
+
+          #### Document Editors
+
+          * TODO
+
+          #### Spreadsheet Editor
+
+          * TODO
+
+          #### Presentation Editors
+
+          * TODO
+
+          ### Fixes
+
+          * TODO
+
+          EOF
+          tail -n +3 CHANGELOG.md.bak >> CHANGELOG.md
+          rm -fv CHANGELOG.md.bak
+
+      - name: Commit & push changes
+        uses: EndBug/add-and-commit@v8
+        with:
+          author_name: github-actions[bot]
+          author_email: github-actions[bot]@users.noreply.github.com
+          message: Add template changelog for v${{ github.event.inputs.version }}
+          add: CHANGELOG.md
+          new_branch: feature/changelog-v${{ github.event.inputs.version }}
