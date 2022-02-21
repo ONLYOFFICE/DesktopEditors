@@ -14,7 +14,7 @@ jobs:
         with:
           submodules: recursive
 
-      - name: Pull & update submodules recursively
+      - name: Update submodules recursively
         run: git submodule update --recursive --remote
 
       - name: Commit & push changes
