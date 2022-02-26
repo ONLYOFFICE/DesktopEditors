@@ -40,7 +40,6 @@
 
 #### Forms
 
-* Fix problem with license end (Bug #54910)
 * Fix problem float characters limit (Bug #55410)
 
 ## 7.0.0
