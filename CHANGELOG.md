@@ -6,7 +6,7 @@
 
 #### All Editors
 
-Spelling language detection (Windows only)
+* Spelling language detection (Windows only)
 
 #### Spreadsheet Editor
 
