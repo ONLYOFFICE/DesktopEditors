@@ -4,6 +4,10 @@
 
 ### New Features
 
+#### All Editors
+
+Spelling language detection (Windows only)
+
 #### Spreadsheet Editor
 
 * `French (Switzerland)` regional setting (Bug #53978)
