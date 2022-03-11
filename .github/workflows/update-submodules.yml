@@ -1,8 +1,6 @@
 name: Update submodules
 
-on:
-
-  workflow_dispatch:
+on: workflow_dispatch
 
 jobs:
 
@@ -10,16 +8,20 @@ jobs:
     runs-on: ubuntu-latest
     steps:
 
-      - uses: actions/checkout@v2
+      - name: Checkout
+        uses: actions/checkout@v3
         with:
-          submodules: recursive
+          token: ${{ secrets.PUSH_TOKEN }}
 
       - name: Update submodules recursively
-        run: git submodule update --recursive --remote
+        run: |
+          git submodule update --init --recursive
+          git submodule update --recursive --remote
 
       - name: Commit & push changes
-        uses: EndBug/add-and-commit@v8
-        with:
-          author_name: github-actions[bot]
-          author_email: github-actions[bot]@users.noreply.github.com
-          message: Update submodules
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add --all
+          git commit -m 'Update submodules' || echo 'No changes to commit'
+          git push
