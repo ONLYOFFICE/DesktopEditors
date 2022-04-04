@@ -1,5 +1,11 @@
 # Change log
 
+## 7.0.2
+
+### Fixes
+
+Fix the problem with locking files when opened from mounted network locations (Linux)
+
 ## 7.0.1
 
 ### New Features
