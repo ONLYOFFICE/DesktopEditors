@@ -4,7 +4,7 @@
 
 ### Fixes
 
-Fix the problem with locking files when opened from Samba source (Linux)
+Fix the problem with locking files when opened from mounted network locations (Linux)
 
 ## 7.0.1
 
