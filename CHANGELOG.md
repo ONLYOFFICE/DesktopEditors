@@ -4,7 +4,7 @@
 
 ### Fixes
 
-Fix bug with locking files when opened from Sumba source (Linux)
+Fix bug with locking files when opened from Samba source (Linux)
 
 ## 7.0.1
 
