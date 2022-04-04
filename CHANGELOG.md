@@ -1,5 +1,11 @@
 # Change log
 
+## 7.0.2
+
+### Fixes
+
+Fix bug with locking files when opened from Sumba source (Linux)
+
 ## 7.0.1
 
 ### New Features
