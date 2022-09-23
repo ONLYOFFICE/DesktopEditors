@@ -62,7 +62,7 @@
 
 ### Fixes
 
-* All components received countless fixes
+* Various fixes and updates for all components
 
 ## 7.1.1
 
