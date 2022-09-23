@@ -1,5 +1,69 @@
 # Change log
 
+## 7.2.0
+
+### New Features
+
+#### All Editors
+
+* Show warning on macros execution if connection to another host. Fix CVE-2021-43446
+* Vector printing if the page does not contain gradient fills
+* Removed the restriction on the minimum window size
+* Top toolbar optimizations for smaller screens
+* Added the ability to choose "Contrast Dark" or "System default" interface
+  theme
+* Redone of icons in header line
+* Redone of settings page in the editors
+* New interface languages - "Portuguese (Portugal)" and "Armenian"
+* Improved color selection component
+* The ability to disable the alternative menu in the editors
+* Completely redesigned search inside the document
+* New hotkeys for "Special Paste"
+* Added "Cut" and "Select All" buttons to the toolbar next to Copy/Paste
+* Major improvements in Font engine (For languages like Bengali or Sinhala)
+  (only in Document Editor and Presentation Editor)
+* Ligatures support
+* Ability to insert tables as OLE object
+* Support for images as a bulleted list and the ability to work with them
+* Major improvements in "EMF" and "WMF" files rendering
+
+#### Document Editor
+
+* Ability to remove Header/Footer from toolbar
+* Ability to insert current heading in TOC
+* New warning if there is no TOC in document
+* Navigation panel renamed to "Headings"
+* Major improvements in "pdf", "djvu", "xps" convert to "docx"
+* Correct display greek letters as numbered list items
+
+#### Spreadsheet Editor
+
+* Ability to "Switch rows and columns" for Chart
+* New "Italiano (Svizzera)" language for regional settings
+* Row number highlight for filter
+* Remove "First sheet" and "Last sheet" from bottom toolbar
+* Selection of copied range
+* Pivot table option - "Auto-fit column widths on update"
+* 1904 date system support
+
+#### Presentation Editor
+
+* Animation with Custom path
+* New advanced settings "Placement" tab for graphic images
+* Added VLC libs so codecs are not required for video and audio playback
+
+#### Forms
+
+* Search in embedded and forms mode
+* Change field width for "Comb of characters"-enabled field
+* Ability to set tag for field
+* New "Format" and "Allowed Symbols" settings for field
+* New field types - "Phone number", "Email Address" and "Complex Field"
+
+### Fixes
+
+* All components received countless fixes
+
 ## 7.1.1
 
 ### Fixes
@@ -47,12 +111,15 @@
 * Use system scaling option for screen on Windows 10 and later
 * New menu for inserting shapes (with list of recent used)
 * Ability to edit points of a selected shapes
-* Ability to open new diagram types: Pyramid, Bar (Pyramid), vertical and horizontal cylinders, vertical and horizontal cones
+* Ability to open new diagram types: Pyramid, Bar (Pyramid), vertical and
+  horizontal cylinders, vertical and horizontal cones
 * Ability to crop a selected image to shape
 * Ability to see your file protection password when entering it
 * Support for SmartArt objects without converting into a group of objects
 * New UI language on Windows/Linux (Galego/Galician)
-* New UI languages on macOS (Belarusian, Bulgarian, Catalan, Danish, Dutch, Finnish, Galego, Greek, Hungarian, Indonesian, Japanese, Korean, Latvian, Norwegian, Romanian, Slovene, Swedish, Turkish, Ukrainian, Vietnamese, Lao)
+* New UI languages on macOS (Belarusian, Bulgarian, Catalan, Danish, Dutch,
+  Finnish, Galego, Greek, Hungarian, Indonesian, Japanese, Korean, Latvian,
+  Norwegian, Romanian, Slovene, Swedish, Turkish, Ukrainian, Vietnamese, Lao)
 * Gradient fill icon shows the chosen colors
 
 #### Document Editor
@@ -63,16 +130,20 @@
 * Ability to use special symbols when searching within documents
 * Ability to add a period with a double-space
 * Add Chinese/Japanese/Italian language to Watermark settings
-* New viewer for PDF, XPS, DJVU files with major performance improvements All operations are performed on the client side.
-* Ability to use the Page Thumbnails panel and to display the document's contents on the left sidebar for PDF files
+* New viewer for PDF, XPS, DJVU files with major performance improvements
+  All operations are performed on the client side.
+* Ability to use the Page Thumbnails panel and to display the document's
+  contents on the left sidebar for PDF files
 * Support for external and internal links in PDF opening
 * Ability to use Hand/Select tools in PDF viewer
-* The Document Info section of the Data tab contains information about PDF, XPS, DJVU files
+* The Document Info section of the Data tab contains information about PDF,
+  XPS, DJVU files
 
 #### Spreadsheet Editor
 
 * Using a built-in preview panel before printing out a spreadsheet
-* New view settings: Combine sheet and status bars, Always show toolbar, Interface theme, Show frozen panes shadow
+* New view settings: Combine sheet and status bars, Always show toolbar,
+  Interface theme, Show frozen panes shadow
 * New currencies as per ISO 4217 without needing to change the locale
 * Using tips when working with formulas for tables
 * Ability to set a text qualifier when importing text from TXT/CSV
