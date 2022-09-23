@@ -111,12 +111,15 @@
 * Use system scaling option for screen on Windows 10 and later
 * New menu for inserting shapes (with list of recent used)
 * Ability to edit points of a selected shapes
-* Ability to open new diagram types: Pyramid, Bar (Pyramid), vertical and horizontal cylinders, vertical and horizontal cones
+* Ability to open new diagram types: Pyramid, Bar (Pyramid), vertical and 
+  horizontal cylinders, vertical and horizontal cones
 * Ability to crop a selected image to shape
 * Ability to see your file protection password when entering it
 * Support for SmartArt objects without converting into a group of objects
 * New UI language on Windows/Linux (Galego/Galician)
-* New UI languages on macOS (Belarusian, Bulgarian, Catalan, Danish, Dutch, Finnish, Galego, Greek, Hungarian, Indonesian, Japanese, Korean, Latvian, Norwegian, Romanian, Slovene, Swedish, Turkish, Ukrainian, Vietnamese, Lao)
+* New UI languages on macOS (Belarusian, Bulgarian, Catalan, Danish, Dutch, 
+  Finnish, Galego, Greek, Hungarian, Indonesian, Japanese, Korean, Latvian, 
+  Norwegian, Romanian, Slovene, Swedish, Turkish, Ukrainian, Vietnamese, Lao)
 * Gradient fill icon shows the chosen colors
 
 #### Document Editor
@@ -127,16 +130,20 @@
 * Ability to use special symbols when searching within documents
 * Ability to add a period with a double-space
 * Add Chinese/Japanese/Italian language to Watermark settings
-* New viewer for PDF, XPS, DJVU files with major performance improvements All operations are performed on the client side.
-* Ability to use the Page Thumbnails panel and to display the document's contents on the left sidebar for PDF files
+* New viewer for PDF, XPS, DJVU files with major performance improvements 
+  All operations are performed on the client side.
+* Ability to use the Page Thumbnails panel and to display the document's 
+  contents on the left sidebar for PDF files
 * Support for external and internal links in PDF opening
 * Ability to use Hand/Select tools in PDF viewer
-* The Document Info section of the Data tab contains information about PDF, XPS, DJVU files
+* The Document Info section of the Data tab contains information about PDF,
+  XPS, DJVU files
 
 #### Spreadsheet Editor
 
 * Using a built-in preview panel before printing out a spreadsheet
-* New view settings: Combine sheet and status bars, Always show toolbar, Interface theme, Show frozen panes shadow
+* New view settings: Combine sheet and status bars, Always show toolbar,
+  Interface theme, Show frozen panes shadow
 * New currencies as per ISO 4217 without needing to change the locale
 * Using tips when working with formulas for tables
 * Ability to set a text qualifier when importing text from TXT/CSV
