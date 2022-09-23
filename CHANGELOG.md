@@ -10,7 +10,8 @@
 * Vector printing if the page does not contain gradient fills
 * Removed the restriction on the minimum window size
 * Top toolbar optimizations for smaller screens
-* Added the ability to choose "Contrast Dark" or "System default" interface theme 
+* Added the ability to choose "Contrast Dark" or "System default" interface
+  theme
 * Redone of icons in header line
 * Redone of settings page in the editors
 * New interface languages - "Portuguese (Portugal)" and "Armenian"
@@ -19,7 +20,8 @@
 * Completely redesigned search inside the document
 * New hotkeys for "Special Paste"
 * Added "Cut" and "Select All" buttons to the toolbar next to Copy/Paste
-* Major improvements in Font engine (For languages like Bengali or Sinhala) (only in Document Editor and Presentation Editor)
+* Major improvements in Font engine (For languages like Bengali or Sinhala)
+  (only in Document Editor and Presentation Editor)
 * Ligatures support
 * Ability to insert tables as OLE object
 * Support for images as a bulleted list and the ability to work with them
