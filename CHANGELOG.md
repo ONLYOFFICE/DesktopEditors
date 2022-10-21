@@ -1,5 +1,91 @@
 # Change log
 
+## 7.2.1
+
+### New Features
+
+* Add support for the `REGISTER_NONE` and `REGISTER_<file type>` parameters to
+set associations during silent installation of msi package (Windows only).
+
+### Fixes
+
+#### All Editors
+
+* Major improvements in the fonts render engine. Removal of `Alternative input` settings
+* Fix opening the "Open Files" window (Bug #33107)
+* Fix image loss when printing a file on Linux (Bug #59266)
+* Fix image cropping when printing a file (Bug #59263)
+* Fix the application crash when printing the PPTX file (Bug # 59354)
+* Fix the application crash when printing the PDF file which contains a raster
+image (Bug #59161)
+* Fix printing images in the OXPS files (Bug #59226)
+* Fix printing 3D charts (Bug #59187)
+* Fix printing the current page of the XLSX file (Bug #59208)
+* Fix proportions when printing on a sheet which does not coincide with
+the original format (Bug #59223)
+* Fix simultaneous opening of several application windows by shortcut (Bug # 36633)
+* Fix updating data about the VCRedist 2013 package installation (Bug #58771)
+* Fix switching to the correct tab when opening a file with Drag'n'Drop (Bug #59024)
+* Fix image rotation when printing a file (Bug #59258)
+* Fix closing a document which are opened in separate window using
+the context menu (Bug #58347)
+* Fix choosing a certificate when signing a document on Linux (Bug #59116)
+* Bring the Contrast Dark theme name to a single view in the application
+settings (Bug #58753)
+* Fix the problem with the window focus when clicking on the document area (Bug #56672)
+* Change the name of the system theme in the application settings from
+System default to Same as system (Bug #59010)
+
+#### Document Editor
+
+* Fix numbering in Portuguese or Basque language (Bug #59091)
+* Fix the problem with review types when splitting a paragraph (Bug #58512)
+* Fix the problem with the special paste button (Bug #59149)
+* Fix crash on opening docx (Bug #59212)
+* Fix the problem with reading the `rPrChange` property and review such
+files (Bug #59205)
+* Fix scrolling in the co-edit view mode (Bug #57928)
+* Fix the problem with performing the global undo (Bug #59270)
+* Fix the problem with setting the bold property for text in the complex
+script (Bug #59289)
+* Fix the special paste position (Bug #59139)
+* Fix saving a document in the Final / Original modes (Bug #59347)
+* Fix the problem with updating content of a Ref field (Bug #58606, Bug #59278)
+
+#### Spreadsheet Editor
+
+* Fix hangup on opening the xlsx file (Bug #58112)
+* Fix special paste via hotkeys (Bug #59148)
+
+#### Presentation Editor
+
+* Fix animations problems (Bug #59301)
+* Fix opening the pptx file (Bug #59308)
+
+#### PDF Viewer
+
+* Fix search highlight (Bug #59069)
+* Fix tooltip language for preview (Bug #59087)
+
+#### Forms
+
+* Implement saving text field formats to PDF (Bug #58901)
+* Add a default form key when creating new forms
+* Fix image track display (Bug #59120)
+* Fix the problem with highlight of a fixed form (Bug #59105)
+* Fix duplicating fixed forms when saving to PDF
+* Fix saving a form field format (Bug #58901)
+* Fix the problem with converting a complex field to a fixed form (Bug #59262)
+* Fix field detection in selection (Bug #59278)
+* Fix the problem with entering text to a form (Bug #59290)
+* Fix the context menu for some forms files (Bug #59278)
+* Fix the problem with working with complex fields and simple fields (Bug #59345)
+* Fix keys list problems (Bug #59377)
+* Fix the problem with canceling filling in the form on form blur (Bug #59373)
+* Fix the problem with a key of complex forms (Bug #59374)
+* Fix the complex form filling problem for forms with the same key (Bug #59375)
+* Fix the problem with printing form borders filled with placeholders (Bug #59378)
+
 ## 7.2.0
 
 ### New Features
