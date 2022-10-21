@@ -33,7 +33,7 @@ the context menu (Bug #58347)
 * Bring the Contrast Dark theme name to a single view in the application
 settings (Bug #58753)
 * Fix the problem with the window focus when clicking on the document area (Bug #56672)
-* Change the name of the system theme in the application settings from 
+* Change the name of the system theme in the application settings from
 System default to Same as system (Bug #59010)
 
 #### Document Editor
