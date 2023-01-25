@@ -9,13 +9,15 @@ jobs:
       - name: Publish EXE to WinGet
         uses: vedantmgoyal2009/winget-releaser@v1
         with:
-          identifier: Package.Identifier<X>
+          identifier: ONLYOFFICE.DesktopEditors<X>
           installers-regex: '\.exe$' # Only .exe files
           token: ${{ secrets.WINGET_TOKEN }}
+          fork-user: ONLYOFFICE
       - name: Publish MSI to WinGet
         uses: vedantmgoyal2009/winget-releaser@v1
         with:
-          identifier: Package.Identifier<Y>
+          identifier: ONLYOFFICE.DesktopEditors<Y>
           installers-regex: '\.msi$' # Only .msi files
           token: ${{ secrets.WINGET_TOKEN }}
+          fork-user: ONLYOFFICE
 
