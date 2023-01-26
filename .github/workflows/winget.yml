@@ -6,18 +6,9 @@ jobs:
   publish:
     runs-on: windows-latest
     steps:
-      - name: Publish EXE to WinGet
-        uses: vedantmgoyal2009/winget-releaser@v1
+      - uses: vedantmgoyal2009/winget-releaser@v1
         with:
-          identifier: ONLYOFFICE.DesktopEditors<X>
-          installers-regex: '\.exe$' # Only .exe files
+          identifier: ONLYOFFICE.DesktopEditors
+          installers-regex: '\.exe$|\.msi$'
           token: ${{ secrets.WINGET_TOKEN }}
           fork-user: ONLYOFFICE
-      - name: Publish MSI to WinGet
-        uses: vedantmgoyal2009/winget-releaser@v1
-        with:
-          identifier: ONLYOFFICE.DesktopEditors<Y>
-          installers-regex: '\.msi$' # Only .msi files
-          token: ${{ secrets.WINGET_TOKEN }}
-          fork-user: ONLYOFFICE
-
