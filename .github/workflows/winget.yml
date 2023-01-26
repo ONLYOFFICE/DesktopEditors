@@ -1,0 +1,15 @@
+name: Publish to WinGet
+on:
+  release:
+    types: [released]
+jobs:
+  publish:
+    runs-on: windows-latest
+    steps:
+      - uses: vedantmgoyal2009/winget-releaser@v1
+        with:
+          identifier: ONLYOFFICE.DesktopEditors
+          installers-regex: '\.exe$|\.msi$'
+          token: ${{ secrets.WINGET_TOKEN }}
+          fork-user: ONLYOFFICE
+
