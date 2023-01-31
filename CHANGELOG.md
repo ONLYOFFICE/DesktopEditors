@@ -1,5 +1,78 @@
 # Change log
 
+## 7.3.0
+
+### New Features
+
+#### All Editors
+
+* Unified appearance for tooltips (Windows, Linux)
+* Window shadow effect (Windows only)
+* Jump List (Tasks) for the application shortcut in the start menu and taskbar (Windows 7 and later)
+* Abandoning the third-party update window and reworking the Check for updates automatically option (Windows 7 and later)
+* Dialog windows (file manager and print) are replaced with the system ones (Linux only)
+* Support for xdg-desktop-portal in the file dialog window (Linux only)
+* Use the file name when printing to PDF by default (Linux only)
+* Equation quick access panel
+* 3D Rotation settings for 3D charts
+* Display of chart error bars (for opening only)
+* Inserting Smart Art objects
+* Uzbek dictionaries for spell checking: `Uzbek (Cyrillic)` and `Uzbek (Latin)`
+* Presets for inserting horizontal and vertical text boxes
+* Ability to hide left and right panel on the `View` tab of the top toolbar
+* Width of the styles / themes panel now fits the whole number of items
+* Grouping for table templates
+* Cell styles in the OLE object editor
+* Ability to resize dialog windows for editing charts, OLE objects, and mail merge recipients
+* Unified appearance for dialog windows, context menus, toolbar, etc.
+* Optimizing display of comments
+* Changed metafiles conversion to SVG
+* Reading and writing PDF are combined in a single library to optimize work
+* Quick print function (Windows, Linux)
+* Changed default logic of work with local documents locked for editing (Windows, Linux)
+
+#### Document Editor
+
+* Support for entering equations in two modes (Unicode and LaTeX)
+* Ability to protect a document by setting a restriction on editing
+* Button for accessing to statistics in the status bar
+* Support of relative links to local files
+
+#### Spreadsheet Editor
+
+* Watch Window
+* Ability to select multiple items using Ctrl/Shift in the Watch Window
+* Support for new functions: `TEXTBEFORE`, `TEXTAFTER`, `TEXTSPLIT`, `VSTACK`, `HSTACK`, `TOROW`, `TOCOL`, `WRAPROWS`,  `WRAPCOLS`, `TAKE`, `DROP`, `CHOOSEROWS`, `CHOOSECOLS`
+* Support for updating links to external files and the ability to create these links
+* Ability to add a link between files within the portal using Paste Special
+* Ability to insert data from the XML file (XML Spreadsheet 2003 is supported)
+* Changed preview size for cell styles
+* Support of relative links to local files
+
+#### Presentation Editor
+
+* Support for entering equations in two modes (Unicode and LaTeX)
+* Guides and Gridlines settings in the `View` tab and the context menu
+* Tooltips when moving guides and the ability to remove the selected guide
+* Paste Special parameters for a slide
+* Ability to save a shape (graphic object) as a picture in the context menu
+
+#### Forms
+
+* New fields: `Date and time`, `Zip Code`, `Credit Card`
+* Managing roles: adding, editing, removing roles, assigning them to fields
+* Ability to preview the `DOCXF` file from the point of view of each created role
+
+### Fixes
+
+* Fix the XSS vulnerability when creating a new style
+* Changed the Signature Setup window
+* New captions to fields
+* Show sign date option is enabled by default when adding a signature
+* Tip in the Instructions for signer field
+* Fixed application path when installing MSI in non-English locales (DesktopEditors#1157)
+* All editors received countless fixes
+
 ## 7.2.1
 
 ### New Features
