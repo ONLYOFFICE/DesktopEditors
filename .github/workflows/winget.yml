@@ -9,7 +9,6 @@ jobs:
       - uses: vedantmgoyal2009/winget-releaser@v1
         with:
           identifier: ONLYOFFICE.DesktopEditors
-          installers-regex: '\.exe$|\.msi$'
+          installers-regex: '\.exe$'
           token: ${{ secrets.WINGET_TOKEN }}
-          fork-user: ONLYOFFICE
 
