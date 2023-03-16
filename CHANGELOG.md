@@ -1,5 +1,45 @@
 # Change log
 
+## 7.3.3
+
+### Fixes
+
+#### All Editors
+
+* Fix display of the editor window minimized in the Maximize mode (Bug 58402)
+* Fix moving the file placed in a separate window (for Linux) (Bug 45037)
+* Fix display of the application window when connecting the second monitor (Bug 60899)
+* Fix the year in the About section (for MacOS) (Bug 61421)
+* Fix the application vulnerability which allows to load a library from the home directory (for Linux) (Bug 60244)
+* Fix a new file name when creating in Polish interface language (Bug 60764)
+* Fix display of the Help contents (Bug 61144)
+* Fix an encrypted file name when saving, if it is specified in Cyrillic (Bug 61243)
+* Fix display of the More button when the application scaling is more than 100% (Bug 61219)
+* Fix crash of the editor when opening a document in a separate window (Bug 61262)
+* Fix display of the Print to PDF button in the Print preview window for German interface language (Bug 61510)
+
+#### Spreadsheet Editor
+
+* Fix hangup of the editor when printing the XLSX file (Bug 61019)
+* Fix display of the Edit formatting rule window when the interface scaling is 125% and 175% (Bug 60952)
+* Fix printing a spreadsheet if the page size settings are specified (Bug 61214)
+* Fix changing the date format when saving the workbook to PDF (Bug 56499)
+* Fix saving data to the PDF format from the XLSX file (Bug 60334)
+
+#### Presentation Editor
+
+* Fix crash when uploading a presentation to the Private Room (Bug 51001)
+* Fix display of the presentation themes in the Private Room with the Classic, Green leaf, Lines, Safaryi templates (Bug 61430)
+
+#### Forms
+
+* Fix crash when opening the OFORM files (Bug 61142)
+
+#### PDF
+
+* Fix endless loading of the PDF file (Bug 60923)
+* Fix printing an empty sheet in the PDF files (Bug 61192)
+
 ## 7.3.0
 
 ### New Features
