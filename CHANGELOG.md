@@ -15,16 +15,16 @@ directory (for Linux) (Bug 60244)
 * Fix a new file name when creating in Polish interface language (Bug 60764)
 * Fix display of the Help contents (Bug 61144)
 * Fix an encrypted file name when saving, if it is specified in Cyrillic (Bug 61243)
-* Fix display of the More button when the application scaling is more than 
+* Fix display of the More button when the application scaling is more than
 100% (Bug 61219)
 * Fix crash of the editor when opening a document in a separate window (Bug 61262)
-* Fix display of the Print to PDF button in the Print preview window for German 
+* Fix display of the Print to PDF button in the Print preview window for German
 interface language (Bug 61510)
 
 #### Spreadsheet Editor
 
 * Fix hangup of the editor when printing the XLSX file (Bug 61019)
-* Fix display of the Edit formatting rule window when the interface 
+* Fix display of the Edit formatting rule window when the interface
 scaling is 125% and 175% (Bug 60952)
 * Fix printing a spreadsheet if the page size settings are specified (Bug 61214)
 * Fix changing the date format when saving the workbook to PDF (Bug 56499)
@@ -78,7 +78,7 @@ merge recipients
 * Changed metafiles conversion to SVG
 * Reading and writing PDF are combined in a single library to optimize work
 * Quick print function (Windows, Linux)
-* Changed default logic of work with local documents locked for editing 
+* Changed default logic of work with local documents locked for editing
 (Windows, Linux)
 
 #### Document Editor
@@ -93,7 +93,8 @@ merge recipients
 * Watch Window
 * Ability to select multiple items using Ctrl/Shift in the Watch Window
 * Support for new functions: `TEXTBEFORE`, `TEXTAFTER`, `TEXTSPLIT`, `VSTACK`,
-`HSTACK`, `TOROW`, `TOCOL`, `WRAPROWS`,  `WRAPCOLS`, `TAKE`, `DROP`, `CHOOSEROWS`, `CHOOSECOLS`
+`HSTACK`, `TOROW`, `TOCOL`, `WRAPROWS`,  `WRAPCOLS`, `TAKE`, `DROP`, `CHOOSEROWS`,
+`CHOOSECOLS`
 * Support for updating links to external files and the ability to create these links
 * Ability to add a link between files within the portal using Paste Special
 * Ability to insert data from the XML file (XML Spreadsheet 2003 is supported)
