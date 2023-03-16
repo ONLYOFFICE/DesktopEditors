@@ -1,5 +1,50 @@
 # Change log
 
+## 7.3.3
+
+### Fixes
+
+#### All Editors
+
+* Fix display of the editor window minimized in the Maximize mode (Bug 58402)
+* Fix moving the file placed in a separate window (for Linux) (Bug 45037)
+* Fix display of the application window when connecting the second monitor (Bug 60899)
+* Fix the year in the About section (for MacOS) (Bug 61421)
+* Fix the application vulnerability which allows to load a library from the home
+directory (for Linux) (Bug 60244)
+* Fix a new file name when creating in Polish interface language (Bug 60764)
+* Fix display of the Help contents (Bug 61144)
+* Fix an encrypted file name when saving, if it is specified in Cyrillic (Bug 61243)
+* Fix display of the More button when the application scaling is more than
+100% (Bug 61219)
+* Fix crash of the editor when opening a document in a separate window (Bug 61262)
+* Fix display of the Print to PDF button in the Print preview window for German
+interface language (Bug 61510)
+
+#### Spreadsheet Editor
+
+* Fix hangup of the editor when printing the XLSX file (Bug 61019)
+* Fix display of the Edit formatting rule window when the interface
+scaling is 125% and 175% (Bug 60952)
+* Fix printing a spreadsheet if the page size settings are specified (Bug 61214)
+* Fix changing the date format when saving the workbook to PDF (Bug 56499)
+* Fix saving data to the PDF format from the XLSX file (Bug 60334)
+
+#### Presentation Editor
+
+* Fix crash when uploading a presentation to the Private Room (Bug 51001)
+* Fix display of the presentation themes in the Private Room with the
+Classic, Green leaf, Lines, Safaryi templates (Bug 61430)
+
+#### Forms
+
+* Fix crash when opening the OFORM files (Bug 61142)
+
+#### PDF
+
+* Fix endless loading of the PDF file (Bug 60923)
+* Fix printing an empty sheet in the PDF files (Bug 61192)
+
 ## 7.3.0
 
 ### New Features
@@ -8,9 +53,12 @@
 
 * Unified appearance for tooltips (Windows, Linux)
 * Window shadow effect (Windows only)
-* Jump List (Tasks) for the application shortcut in the start menu and taskbar (Windows 7 and later)
-* Abandoning the third-party update window and reworking the Check for updates automatically option (Windows 7 and later)
-* Dialog windows (file manager and print) are replaced with the system ones (Linux only)
+* Jump List (Tasks) for the application shortcut in the start menu and
+taskbar (Windows 7 and later)
+* Abandoning the third-party update window and reworking the Check for updates
+automatically option (Windows 7 and later)
+* Dialog windows (file manager and print) are replaced with the system
+ones (Linux only)
 * Support for xdg-desktop-portal in the file dialog window (Linux only)
 * Use the file name when printing to PDF by default (Linux only)
 * Equation quick access panel
@@ -23,13 +71,15 @@
 * Width of the styles / themes panel now fits the whole number of items
 * Grouping for table templates
 * Cell styles in the OLE object editor
-* Ability to resize dialog windows for editing charts, OLE objects, and mail merge recipients
+* Ability to resize dialog windows for editing charts, OLE objects, and mail
+merge recipients
 * Unified appearance for dialog windows, context menus, toolbar, etc.
 * Optimizing display of comments
 * Changed metafiles conversion to SVG
 * Reading and writing PDF are combined in a single library to optimize work
 * Quick print function (Windows, Linux)
-* Changed default logic of work with local documents locked for editing (Windows, Linux)
+* Changed default logic of work with local documents locked for editing
+(Windows, Linux)
 
 #### Document Editor
 
@@ -42,7 +92,9 @@
 
 * Watch Window
 * Ability to select multiple items using Ctrl/Shift in the Watch Window
-* Support for new functions: `TEXTBEFORE`, `TEXTAFTER`, `TEXTSPLIT`, `VSTACK`, `HSTACK`, `TOROW`, `TOCOL`, `WRAPROWS`,  `WRAPCOLS`, `TAKE`, `DROP`, `CHOOSEROWS`, `CHOOSECOLS`
+* Support for new functions: `TEXTBEFORE`, `TEXTAFTER`, `TEXTSPLIT`, `VSTACK`,
+`HSTACK`, `TOROW`, `TOCOL`, `WRAPROWS`,  `WRAPCOLS`, `TAKE`, `DROP`, `CHOOSEROWS`,
+`CHOOSECOLS`
 * Support for updating links to external files and the ability to create these links
 * Ability to add a link between files within the portal using Paste Special
 * Ability to insert data from the XML file (XML Spreadsheet 2003 is supported)
