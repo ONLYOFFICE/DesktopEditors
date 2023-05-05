@@ -3,7 +3,7 @@
 
 ## Overview
 
-ONLYOFFICE Desktop Editors is a free office suite that combines text, spreadsheet and presentation editors allowing to create, view and edit documents stored on your Windows/Linux PC or Mac without an Internet connection. It is fully compatible with Office Open XML formats: .docx, .xlsx, .pptx.
+[ONLYOFFICE Desktop Editors][4] is a free office suite that combines text, spreadsheet and presentation editors allowing to create, view and edit documents stored on your Windows/Linux PC or Mac without an Internet connection. It is fully compatible with Office Open XML formats: .docx, .xlsx, .pptx.
 
 ## Components
 
@@ -30,15 +30,17 @@ The editors allow you to create, edit, save and export text, spreadsheet and pre
 ## Installation methods
 
 * Deb, rpm, exe, dmg on the [official website](https://www.onlyoffice.com/download-desktop.aspx?utm_source=GitHub&utm_medium=social&utm_campaign=GitHubDesktop)
-* Snap package. Get on [snapcraft.io](https://snapcraft.io/onlyoffice-desktopeditors) // See [source code](https://github.com/ONLYOFFICE/snap-desktopeditors)
-* Flatpak. Get on [flathub.org](https://flathub.org/apps/details/org.onlyoffice.desktopeditors) // See [source code](https://github.com/flathub/org.onlyoffice.desktopeditors)
-* AppImage.  Get on [AppImageHub](https://appimage.github.io/ONLYOFFICE/) // See [source code](https://github.com/ONLYOFFICE/appimage-desktopeditors)
+* Snap package. Get on [snapcraft.io](https://snapcraft.io/onlyoffice-desktopeditors). The official [source code](https://github.com/ONLYOFFICE/snap-desktopeditors) for ONLYOFFICE Desktop Editors Snap package
+* Flatpak. Get on [flathub.org](https://flathub.org/apps/details/org.onlyoffice.desktopeditors). The official [source code](https://github.com/flathub/org.onlyoffice.desktopeditors) for ONLYOFFICE Desktop Editors Flatpak
+* AppImage.  Get on [AppImageHub](https://appimage.github.io/ONLYOFFICE/). The official [source code](https://github.com/ONLYOFFICE/appimage-desktopeditors) for ONLYOFFICE Desktop Editors AppImage
 
 ## Project Information
 
-Official website: [https://www.onlyoffice.com/apps.aspx](https://www.onlyoffice.com/apps.aspx?utm_source=github&utm_medium=cpc&utm_campaign=GitHubDesktop)
+Official website: [https://www.onlyoffice.com/desktop.aspx](https://www.onlyoffice.com/desktop.aspx?utm_source=github&utm_medium=cpc&utm_campaign=GitHubDesktop)
 
 Code repository: [https://github.com/ONLYOFFICE/DesktopEditors](https://github.com/ONLYOFFICE/DesktopEditors "https://github.com/ONLYOFFICE/DesktopEditors")
+
+License: [GNU AGPL v3.0](https://onlyo.co/38YZGJh)
 
 ## User Feedback and Support
 
@@ -46,4 +48,5 @@ If you have any problems with or questions about ONLYOFFICE Desktop Editors, ple
 
   [1]: https://forum.onlyoffice.com
   [2]: https://github.com/ONLYOFFICE/DocumentServer
-  [3]: http://stackoverflow.com/questions/tagged/onlyoffice
+  [3]: https://stackoverflow.com/questions/tagged/onlyoffice
+  [4]: https://www.onlyoffice.com/desktop.aspx
