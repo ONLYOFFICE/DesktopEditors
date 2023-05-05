@@ -34,13 +34,9 @@ The editors allow you to create, edit, save and export text, spreadsheet and pre
 * Flatpak. Get on [flathub.org](https://flathub.org/apps/details/org.onlyoffice.desktopeditors). The official [source code](https://github.com/flathub/org.onlyoffice.desktopeditors) for ONLYOFFICE Desktop Editors Flatpak
 * AppImage.  Get on [AppImageHub](https://appimage.github.io/ONLYOFFICE/). The official [source code](https://github.com/ONLYOFFICE/appimage-desktopeditors) for ONLYOFFICE Desktop Editors AppImage
 
-## Project Information
+## License
 
-Official website: [https://www.onlyoffice.com/desktop.aspx](https://www.onlyoffice.com/desktop.aspx?utm_source=github&utm_medium=cpc&utm_campaign=GitHubDesktop)
-
-Code repository: [https://github.com/ONLYOFFICE/DesktopEditors](https://github.com/ONLYOFFICE/DesktopEditors)
-
-License: [GNU AGPL v3.0](https://onlyo.co/38YZGJh)
+ONLYOFFICE Desktop Editors is licensed under the GNU Affero Public License, version 3.0. See [LICENSE](https://onlyo.co/38YZGJh) for more information.
 
 ## How to Build
 
@@ -53,4 +49,4 @@ If you have any problems with or questions about ONLYOFFICE Desktop Editors, ple
   [1]: https://forum.onlyoffice.com
   [2]: https://github.com/ONLYOFFICE/DocumentServer
   [3]: https://stackoverflow.com/questions/tagged/onlyoffice
-  [4]: https://www.onlyoffice.com/desktop.aspx
+  [4]: https://www.onlyoffice.com/desktop.aspx?utm_source=github&utm_medium=cpc&utm_campaign=GitHubDesktop
