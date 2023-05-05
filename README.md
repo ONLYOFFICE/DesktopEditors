@@ -9,12 +9,12 @@
 
 ONLYOFFICE Desktop Editors contain the following components:
 
-* [desktop-apps](https://github.com/ONLYOFFICE/desktop-apps "desktop-apps") - the frontend for ONLYOFFICE Desktop Editors which is used to build the program interface for the operating system selected.
-* [desktop-sdk](https://github.com/ONLYOFFICE/desktop-sdk "desktop-sdk") - SDK which is a core part of ONLYOFFICE Desktop Editors.
-* [core](https://github.com/ONLYOFFICE/core "core") - server core components for [ONLYOFFICE Document Server][2] which is a part of ONLYOFFICE Desktop Editors and is used to enable the conversion between the most popular office document formats (DOC, DOCX, ODT, RTF, TXT, PDF, HTML, EPUB, XPS, DjVu, XLS, XLSX, ODS, CSV, PPT, PPTX, ODP).
-* [sdkjs](https://github.com/ONLYOFFICE/sdkjs "sdkjs") - JavaScript SDK for the [ONLYOFFICE Document Server][2] which is a part of ONLYOFFICE Desktop Editors and contains API for all the included components client-side interaction.
-* [web-apps](https://github.com/ONLYOFFICE/web-apps "web-apps") - the frontend for [ONLYOFFICE Document Server][2] which is a part of ONLYOFFICE Desktop Editors that allows the user to create, edit, save and export text, spreadsheet and presentation documents using the common interface of a document editor.
-* [dictionaries](https://github.com/ONLYOFFICE/dictionaries "dictionaries") - the dictionaries of various languages used for spellchecking in ONLYOFFICE Desktop Editors.
+* [desktop-apps](https://github.com/ONLYOFFICE/desktop-apps) - the frontend for ONLYOFFICE Desktop Editors which is used to build the program interface for the operating system selected.
+* [desktop-sdk](https://github.com/ONLYOFFICE/desktop-sdk) - SDK which is a core part of ONLYOFFICE Desktop Editors.
+* [core](https://github.com/ONLYOFFICE/core) - server core components for [ONLYOFFICE Document Server][2] which is a part of ONLYOFFICE Desktop Editors and is used to enable the conversion between the most popular office document formats (DOC, DOCX, ODT, RTF, TXT, PDF, HTML, EPUB, XPS, DjVu, XLS, XLSX, ODS, CSV, PPT, PPTX, ODP).
+* [sdkjs](https://github.com/ONLYOFFICE/sdkjs) - JavaScript SDK for the [ONLYOFFICE Document Server][2] which is a part of ONLYOFFICE Desktop Editors and contains API for all the included components client-side interaction.
+* [web-apps](https://github.com/ONLYOFFICE/web-apps) - the frontend for [ONLYOFFICE Document Server][2] which is a part of ONLYOFFICE Desktop Editors that allows the user to create, edit, save and export text, spreadsheet and presentation documents using the common interface of a document editor.
+* [dictionaries](https://github.com/ONLYOFFICE/dictionaries) - the dictionaries of various languages used for spellchecking in ONLYOFFICE Desktop Editors.
 
 
 ## Functionality
@@ -38,9 +38,13 @@ The editors allow you to create, edit, save and export text, spreadsheet and pre
 
 Official website: [https://www.onlyoffice.com/desktop.aspx](https://www.onlyoffice.com/desktop.aspx?utm_source=github&utm_medium=cpc&utm_campaign=GitHubDesktop)
 
-Code repository: [https://github.com/ONLYOFFICE/DesktopEditors](https://github.com/ONLYOFFICE/DesktopEditors "https://github.com/ONLYOFFICE/DesktopEditors")
+Code repository: [https://github.com/ONLYOFFICE/DesktopEditors](https://github.com/ONLYOFFICE/DesktopEditors)
 
 License: [GNU AGPL v3.0](https://onlyo.co/38YZGJh)
+
+## How to Build
+
+Instructions for building ONLYOFFICE Desktop Editors are in [build_tools](https://github.com/ONLYOFFICE/build_tools#desktop-editors).
 
 ## User Feedback and Support
 
