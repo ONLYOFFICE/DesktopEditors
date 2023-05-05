@@ -24,7 +24,9 @@ ONLYOFFICE Desktop Editors include the following editors:
 * [ONLYOFFICE Document Editor](https://www.onlyoffice.com/document-editor.aspx?utm_source=GitHub&utm_medium=social&utm_campaign=GitHubDesktop)
 * [ONLYOFFICE Spreadsheet Editor](https://www.onlyoffice.com/spreadsheet-editor.aspx?utm_source=GitHub&utm_medium=social&utm_campaign=GitHubDesktop)
 * [ONLYOFFICE Presentation Editor](https://www.onlyoffice.com/presentation-editor.aspx?utm_source=GitHub&utm_medium=social&utm_campaign=GitHubDesktop)
- 
+* [ONLYOFFICE Form Creator](https://www.onlyoffice.com/form-creator.aspx?utm_source=GitHub&utm_medium=social&utm_campaign=GitHubDesktop)
+* [ONLYOFFICE PDF reader and converter](https://www.onlyoffice.com/pdf-reader.aspx?utm_source=GitHub&utm_medium=social&utm_campaign=GitHubDesktop)
+
 The editors allow you to create, edit, save and export text, spreadsheet and presentation documents.
 
 ## Installation methods
