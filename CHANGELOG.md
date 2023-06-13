@@ -20,7 +20,7 @@
 * Added formats for opening in Editors: MHTML, SXC, ET, ETT, SXI, DPS, DPT, SXW, STW, WPS, WPT
 * Column headers have been added in some dialog windows with lists
 * The number of results found has been added to the search box
-* Added regional settings for the Danish language da-DK (Dansk (Danmark))
+* Added regional settings for the Danish language (Dansk (Danmark))
 * Added help in Turkish
 * Added a new Plugin Manager
 
