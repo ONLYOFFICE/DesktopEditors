@@ -1,5 +1,72 @@
 # Change log
 
+## 7.4.0
+
+### New Features
+
+#### All Editors
+
+* The Templates section with online form search has been added to the main page
+* The application now uses system (native) dialog boxes
+* Added application update service for Windows systems
+* The pages in the File menu have been redesigned and correspond to a single style
+* The print preview window has added the ability to specify: page range, number of copies, printing on both sides and the Print to PDF button
+* The Draw tab has been added to the Editors toolbar
+* The Eyedropper tool and hints for color names have been added to the color selection menu
+* Added the ability to copy style between graphic objects
+* The Save as picture item has been added to the context menu of graphic objects
+* Added opacity settings for fill and borders of graphic objects; autoshapes, charts, images and others
+* Added support for Radar charts
+* Added formats for opening in Editors: MHTML, SXC, ET, ETT, SXI, DPS, DPT, SXW, STW, WPS, WPT
+* Column headers have been added in some dialog windows with lists
+* The number of results found has been added to the search box
+* Added regional settings for the Danish language (Dansk (Danmark))
+* Added help in Turkish
+* Added a new Plugin Manager
+
+#### Document Editor
+
+* Added the ability to merge documents
+* The ability to change the width and spacing of each column independently has been added to the column settings window
+* Expanded the number of settings for numbered and multi-level lists
+* Added the Recently used section in the lists menu for the current document
+* Added the ability to apply the list from the List Options window
+* Added the ability to export a document as PNG/JPG images
+* Added a list of exceptions for autocorrect capital letters
+
+#### Spreadsheet Editor
+
+* Add the support for new functions; SEQUENCE, XMATCH, EXPAND, FILTER, ARRAYTOTEXT, SORT
+* Added translation of formulas into Armenian
+* The ability to change the case of text has been added to the Home toolbar
+* Page Break Preview mode has been added to the View toolbar
+* In the Print range settings, the Current sheet option has been replaced with Active sheets
+* The ability to set First page number has been added to the print settings
+* Long/short date formats have been added to the drop-down list of cell formats
+* Items for working with pivot tables have been added to the context menu
+* The Protect sheet settings window now includes Allow edit ranges
+* Added the ability to export a spreadsheet as PNG/JPG images
+
+#### Presentation Editor
+
+* Added a list of exceptions for autocorrect capital letters
+
+#### Forms
+
+* The position of the forms with the Fixed size field option is now calculated from the beginning of the page
+* Fixed rendering of the frame at the active field for forms with the Fixed size field option
+* Ability to add a new form without leaving the current one
+* Filling in the view mode (the View Form button remains
+* In Edit mode, the current shape has the same fill as all the others
+* It is forbidden to fill out forms inside a document sheet in Edit mode
+* Since it is forbidden to fill out forms in Edit mode, the default value setting (Default value) has been added to the right panel
+* Optimized the work of subforms inside complex forms
+
+### Fixes
+
+* `Same as system` item has been removed from the application settings (Interface theme) for Linux systems
+* All editors received countless fixes
+
 ## 7.3.3
 
 ### Fixes
