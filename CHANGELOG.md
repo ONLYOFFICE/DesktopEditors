@@ -15,7 +15,7 @@
 * The Eyedropper tool and hints for color names have been added to the color selection menu
 * Added the ability to copy style between graphic objects
 * The Save as picture item has been added to the context menu of graphic objects
-* Added opacity settings for fill and borders of graphic objects; autoshapes, charts, images and others
+* Added opacity settings for fill and borders of graphic objects: autoshapes, charts, images and others
 * Added support for Radar charts
 * Added formats for opening in Editors: MHTML, SXC, ET, ETT, SXI, DPS, DPT, SXW, STW, WPS, WPT
 * Column headers have been added in some dialog windows with lists
@@ -36,7 +36,7 @@
 
 #### Spreadsheet Editor
 
-* Add the support for new functions; SEQUENCE, XMATCH, EXPAND, FILTER, ARRAYTOTEXT, SORT
+* Add the support for new functions: SEQUENCE, XMATCH, EXPAND, FILTER, ARRAYTOTEXT, SORT
 * Added translation of formulas into Armenian
 * The ability to change the case of text has been added to the Home toolbar
 * Page Break Preview mode has been added to the View toolbar
