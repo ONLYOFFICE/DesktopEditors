@@ -73,12 +73,12 @@
 
 #### All Editors
 
+* Fix the application vulnerability CVE-2022-48422 which allows to load a library from
+the current directory (for Linux) (Bug 60244)
 * Fix display of the editor window minimized in the Maximize mode (Bug 58402)
 * Fix moving the file placed in a separate window (for Linux) (Bug 45037)
 * Fix display of the application window when connecting the second monitor (Bug 60899)
 * Fix the year in the About section (for MacOS) (Bug 61421)
-* Fix the application vulnerability which allows to load a library from the home
-directory (for Linux) (Bug 60244)
 * Fix a new file name when creating in Polish interface language (Bug 60764)
 * Fix display of the Help contents (Bug 61144)
 * Fix an encrypted file name when saving, if it is specified in Cyrillic (Bug 61243)
