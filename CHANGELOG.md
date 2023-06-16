@@ -56,7 +56,7 @@
 * The position of the forms with the Fixed size field option is now calculated from the beginning of the page
 * Fixed rendering of the frame at the active field for forms with the Fixed size field option
 * Ability to add a new form without leaving the current one
-* Filling in the view mode (the View Form button remains
+* Filling in the view mode (the View Form button remains)
 * In Edit mode, the current shape has the same fill as all the others
 * It is forbidden to fill out forms inside a document sheet in Edit mode
 * Since it is forbidden to fill out forms in Edit mode, the default value setting (Default value) has been added to the right panel
