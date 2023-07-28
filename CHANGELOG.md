@@ -1,5 +1,47 @@
 # Change log
 
+## 7.4.1
+
+### New Features
+
+#### All Editors
+
+* Fixed vulnerabilities with checking the integrity of a digital signature,
+ after manipulations with the document structure
+* Editors now display the correct error when trying to write a file, opened
+ in another application
+* Fixed an error that occurs when opening multiple files using drag'n'drop
+* Fixed an issue when opening templates which contain slashes in their names
+* Fixed incorrect name for the next tab after closing and saving the document
+ in front of it
+* The latest changes in the file are now included when sending via the Send plugin,
+ if they have not been saved
+* Fixed the processing of the link, that ends with `default.aspx`, when connecting
+ to the Workspace portal
+* The Open file location button for a document opened from the portal in a separate
+ window without the main one now works
+* Fixed working with tabs when documents are opened from the portal and the user
+ logs out on the Connect to cloud page
+* Fixed online help for macOS systems
+* Updated sets of application icons for Jump List (Tasks) on Windows systems
+* All components in Windows installation packages are now digitally signed
+* A large number of fixes and improvements to the MSI installation package
+
+#### Document Editor
+
+* Fixed displaying of non-printing characters after calling the print preview window
+
+#### Spreadsheet Editor
+
+* Fixed displaying of a document when printing to PDF if the width/height
+ of columns/rows were changed
+* Fixed the scroll bar display in the filtering window for legacy systems
+
+#### Presentation Editor
+
+* Fixed an error during slideshow auto-run and with system scale >200%
+ when opening multiple files using drag'n'drop
+
 ## 7.4.0
 
 ### New Features
@@ -10,8 +52,8 @@
 * The application now uses system (native) dialog boxes
 * Added application update service for Windows systems
 * The pages in the File menu have been redesigned and correspond to a single style
-* The print preview window has added the ability to specify: page range, number
-  of copies, printing on both sides and the Print to PDF button
+* The print preview window has added Print to PDF button and the ability to specify:
+ page range, number of copies, printing on both sides
 * The Draw tab has been added to the Editors toolbar
 * The Eyedropper tool and hints for color names have been added to the color
   selection menu
