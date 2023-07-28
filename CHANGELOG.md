@@ -16,7 +16,7 @@
  in front of it
 * The latest changes in the file are now included when sending via the Send plugin,
  if they have not been saved
-* Fixed the processing of the link, that ends with default.aspx, when connecting
+* Fixed the processing of the link, that ends with `default.aspx`, when connecting
  to the Workspace portal
 * The Open file location button for a document opened from the portal in a separate
  window without the main one now works
@@ -29,17 +29,17 @@
 
 #### Document Editor
 
-* Fixed displaying of nonprinting characters after calling the print preview window
+* Fixed displaying of non-printing characters after calling the print preview window
 
 #### Spreadsheet Editor
 
 * Fixed displaying of a document when printing to PDF if the width/height
  of columns/rows were changed
-* Fixed the scrollbar display in the filtering window for legacy systems
+* Fixed the scroll bar display in the filtering window for legacy systems
 
 #### Presentation Editor
 
-* Fixed an error during slideshow autorun and with system scale >200%
+* Fixed an error during slideshow auto-run and with system scale >200%
  when opening multiple files using drag'n'drop
 
 ## 7.4.0
