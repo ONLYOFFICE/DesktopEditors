@@ -128,6 +128,8 @@
 
 * Fix the application vulnerability CVE-2022-48422 which allows to load a library
   from the current directory (for Linux) (Bug 60244)
+* Fix the application vulnerability CVE-2023-30186 with memory exhaustion
+  during work with `NativeEngine` function (Bug 60433)
 * Fix display of the editor window minimized in the Maximize mode (Bug 58402)
 * Fix moving the file placed in a separate window (for Linux) (Bug 45037)
 * Fix display of the application window when connecting the second monitor (Bug 60899)
