@@ -101,10 +101,6 @@
   DOC to DOCX
 * Fix vulnerability which allows adding a third party image to a document when
   converting HTML to DOCX
-* Fix vulnerability which allows performing manipulations on the client machine
-  when converting HTML to DOCX
-* Fix vulnerability which allows finding out the JWT secret of a third party
-  server via the XLSB file conversion
 
 #### Plugins
 
