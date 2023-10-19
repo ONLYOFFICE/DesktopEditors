@@ -30,7 +30,8 @@
   * Option + Arrow Left – moving one word to the left
   * Option + Arrow Right  – moving one word to the right
   * Removing one word to the left: Ctrl + Backspace replaced with Option + Delete
-  * Removing one word to the right: Ctrl + Fn + Delete replaced with Option + Fn + Delete.
+  * Removing one word to the right: Ctrl + Fn + Delete replaced with
+    Option + Fn + Delete.
 
 #### Document Editor
 
