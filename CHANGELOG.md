@@ -1,5 +1,94 @@
 # Change log
 
+## 7.5.0
+
+### New Features
+
+#### All Editors
+
+* Added support for interface scales >200% (225, 250, 275, 300, 350, 400, 450, 500)
+* Files from the "Recent files" list of the application have been added to the "File" > “Open Recent” section, according to the editor formats
+* Updated VLC libraries (for Windows)
+* Updated the “About” page and the “Check for updates” block (for Windows)
+* Added a list of changes to deb/rpm packages (for Linux)
+* Added a warning when the application is closing if several files are opened
+* The "Last used" option has been added to the editors settings for "Default Zoom Value"
+* Add a menu for quick access to the most popular symbols to the button for inserting symbols
+* Support for SVG images
+* Add a setting to hide the toolbar for equation
+* Add hints for images in SmartArt objects
+* Add the ability to open files protected with a password in the embedded viewer
+* Add the ability to edit points of the autoshape border to the right panel
+* Only Ctrl + ./Ctrl + , keyboard shortcuts are now used for superscript/subscript characters
+* Change keyboard shortcuts for moving through the text on macOS:
+    * Cmd + Arrow Left – moving to the beginning of the line
+    * Cmd + Arrow Right – moving to the end of the line
+    * Option + Arrow Left – moving one word to the left
+    * Option + Arrow Right  – moving one word to the right
+    * Removing one word to the left: Ctrl + Backspace replaced with Option + Delete
+    * Removing one word to the right: Ctrl + Fn + Delete replaced with Option + Fn + Delete.
+
+#### Document Editor
+
+* Automatic hyphenation
+* Change the selection logic, add the “Smart paragraph selection” option in Advanced Setting
+* Add the “Remove content control when contents are edited” option to content control settings
+* Change behavior of the Accept/Reject review buttons in the toolbar
+* Disable the Zoom out action for the Ctrl + Numpad keyboard shortcut due to the conflict with inserting an em dash
+* Change the keyboard shortcut for strikeout text formatting on macOS: Ctrl + 5 replaced with Cmd + Shift + X
+* Change the keyboard shortcut for inserting ellipsis on macOS: Ctrl + Option + . replaced with Option + ;
+
+#### Spreadsheet Editor
+
+* The ability to display only formulas in cells
+* Trace precedents / dependents
+* New function: SORTBY
+* Added presets for "Margins" and the ability to show/hide "Print titles" in the "File" > "Print" menu
+* Add the ability to set a number format in the field settings for pivot tables
+* The Show details feature for working with a Pivot Table
+* Improvement of the ability to open data on a new sheet by double-clicking a value in a Pivot Table
+* Autocompletion for days of the week and months when stretching a cell value
+* Drag-and-drop for columns and rows
+* Add filters by date and the ability to display data with the "Date" format in the form of a tree in the Autofilter window
+* Inserting images into headers/footers
+* External data update for the currently edited source file
+* The last used Delimiter and Encoding setting for CSV files is now stored locally on the client side
+* The ability to insert page breaks from the Layout toolbar
+* Add the ability to open the source for external links
+* Add the Alt + Down keyboard shortcut for opening the Autofilter window when the header of a column with a filter is selected
+
+#### Presentation Editor
+
+* Add the "Morph" transition
+* Assigning names to objects in advanced settings
+* The "Number slides from" option has been added to the slide size settings
+* Notes and Handouts in headers/footers settings
+* Slide placeholders have alternative descriptions
+* SmartArt insertion is available via a slide placeholder
+* Add the ability to navigate to the specific slide with the consecutive pressing of the *slide number* + Enter when previewing a presentation
+* Change the keyboard shortcut for starting a presentation on macOS: Cmd + Shift + Return is used
+
+#### PDF Editor
+
+* Support for the PDF form, annotations, comments and drawings
+
+#### Forms
+
+* Bring settings on the right toolbar to unified appearance
+
+### Fixes
+
+#### Security
+
+* Fix vulnerability which allows reading data from memory when converting DOC to DOCX
+* Fix vulnerability which allows adding a third party image to a document when converting HTML to DOCX
+* Fix vulnerability which allows performing manipulations on the client machine when converting HTML to DOCX
+* Fix vulnerability which allows finding out the JWT secret of a third party server via the XLSB file conversion
+
+#### Plugins
+
+* Restore working capacity from China
+
 ## 7.4.1
 
 ### New Features
