@@ -10,7 +10,7 @@
 * Fixed some security issues
 * Fixed opening files with size more than 100MB
 * Fixed some issues with composite input
-* Fixed issues preventing launch application on MacOS version < 12.0
+* Fixed issues preventing work application on MacOS version < 12.0
 
 #### Document Editor
 
