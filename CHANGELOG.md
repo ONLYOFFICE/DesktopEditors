@@ -1,5 +1,39 @@
 # Change log
 
+## 7.5.1
+
+### Fixes
+
+#### All Editors
+
+* Fixed print options (rang) tuning for documents and presentations
+* Fixed some security issues
+* Fixed opening files with size more than 100MB
+* Fixed some issues with composite input
+* Fixed issues preventing launch application on MacOS version < 12.0
+
+#### Document Editor
+
+* Fixed incorrect painting inserted Text Art
+
+#### Spreadsheet Editor
+
+* Fixed issue when cell border became hidden due to hide row with part of merged cell
+* Fixed equation transformation for Linear/Professional mode switching from context menu
+            <li>Fixed print issue for Header/Footer</li>
+
+#### Presentation Editor
+
+* Fixed error on click Head & Footer in Insert tools panel
+* Fixed crashing in the Reporter mode on changing slide from end demonstration
+
+#### PDF Editor
+
+* Fixed saving document through "Save copy"
+* Fixed incorrect processing editor's config (editorType)
+* Fixed issue for plugin "Send" when there is no email client installed
+* Fixed issue related to input disabled on creating
+
 ## 7.5.0
 
 ### New Features
