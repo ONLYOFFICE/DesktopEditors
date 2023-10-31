@@ -18,9 +18,11 @@
 
 #### Spreadsheet Editor
 
-* Fixed issue when cell border became hidden due to hide row with part of merged cell
-* Fixed equation transformation for Linear/Professional mode switching from context menu
-            <li>Fixed print issue for Header/Footer</li>
+* Fixed issue when cell border became hidden due to hide row with part of
+  merged cell
+* Fixed equation transformation for Linear/Professional mode switching from
+  context menu
+* Fixed print issue for Header/Footer
 
 #### Presentation Editor
 
