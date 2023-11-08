@@ -10,11 +10,16 @@
 * Fixed some security issues
 * Fixed opening files with size more than 100MB
 * Fixed some issues with composite input
-* Fixed issues preventing work application on MacOS version < 12.0
+* Fixed issues preventing the application from working on MacOS version < 12.0 ([#1399](https://github.com/ONLYOFFICE/DesktopEditors/issues/1399))
+* Improved quality of the SVG images added to the documents ([#102](https://github.com/ONLYOFFICE/DesktopEditors/issues/102))
+* Fixed the main window hanging when closing the application after
+  working with several document tabs
+* Fixed signing of documents/spreadsheets using SVG images
 
 #### Document Editor
 
 * Fixed incorrect painting inserted Text Art
+* Fixed an error when combining/comparing documents
 
 #### Spreadsheet Editor
 
@@ -23,6 +28,7 @@
 * Fixed equation transformation for Linear/Professional mode switching from
   context menu
 * Fixed print issue for Header/Footer
+* Fixed crashing of the editor after creating file from password protected XLTX
 
 #### Presentation Editor
 
@@ -35,6 +41,7 @@
 * Fixed incorrect processing editor's config (editorType)
 * Fixed issue for plugin "Send" when there is no email client installed
 * Fixed issue related to input disabled on creating
+* Fixed opening help for PDF editor and files opened for viewing (XPS, DjVu)
 
 ## 7.5.0
 
