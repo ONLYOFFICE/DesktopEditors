@@ -34,6 +34,7 @@
 
 * Fixed error on click Head & Footer in Insert tools panel
 * Fixed crashing in the Reporter mode on changing slide from end demonstration
+* Fixed saving presentations with media files for compatibility with other editors
 
 #### PDF Editor
 
