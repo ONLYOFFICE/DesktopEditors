@@ -6,7 +6,7 @@
 
 #### All Editors
 
-* Fixed print options (rang) tuning for documents and presentations
+* Fixed print options (range) tuning for documents and presentations
 * Fixed some security issues
 * Fixed opening files with size more than 100MB
 * Fixed some issues with composite input
