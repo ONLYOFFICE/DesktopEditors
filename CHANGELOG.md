@@ -8,9 +8,10 @@
 
 * Fixed print options (range) tuning for documents and presentations
 * Fixed some security issues
-* Fixed opening files with size more than 100MB
+* Fixed opening files with size more than 100 MB
 * Fixed some issues with composite input
 * Fixed issues preventing the application from working on MacOS version < 12.0 ([#1399](https://github.com/ONLYOFFICE/DesktopEditors/issues/1399))
+* Fixed working with blocked text fields in dialog boxes
 * Improved quality of the SVG images added to the documents ([#102](https://github.com/ONLYOFFICE/DesktopEditors/issues/102))
 * Fixed the main window hanging when closing the application after
   working with several document tabs
@@ -32,7 +33,7 @@
 
 #### Presentation Editor
 
-* Fixed error on click Head & Footer in Insert tools panel
+* Fixed error on click Header & Footer in Insert tools panel
 * Fixed crashing in the Reporter mode on changing slide from end demonstration
 * Fixed saving presentations with media files for compatibility with other editors
 
@@ -41,7 +42,6 @@
 * Fixed saving document through "Save copy"
 * Fixed incorrect processing editor's config (editorType)
 * Fixed issue for plugin "Send" when there is no email client installed
-* Fixed issue related to input disabled on creating
 * Fixed opening help for PDF editor and files opened for viewing (XPS, DjVu)
 
 ## 7.5.0
