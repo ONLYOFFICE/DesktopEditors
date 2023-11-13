@@ -6,15 +6,21 @@
 
 #### All Editors
 
-* Fixed print options (rang) tuning for documents and presentations
+* Fixed print options (range) tuning for documents and presentations
 * Fixed some security issues
-* Fixed opening files with size more than 100MB
+* Fixed opening files with size more than 100 MB
 * Fixed some issues with composite input
-* Fixed issues preventing work application on MacOS version < 12.0
+* Fixed issues preventing the application from working on MacOS version < 12.0 ([#1399](https://github.com/ONLYOFFICE/DesktopEditors/issues/1399))
+* Fixed working with blocked text fields in dialog boxes
+* Improved quality of the SVG images added to the documents ([#102](https://github.com/ONLYOFFICE/DesktopEditors/issues/102))
+* Fixed the main window hanging when closing the application after
+  working with several document tabs
+* Fixed signing of documents/spreadsheets using SVG images
 
 #### Document Editor
 
 * Fixed incorrect painting inserted Text Art
+* Fixed an error when combining/comparing documents
 
 #### Spreadsheet Editor
 
@@ -23,18 +29,20 @@
 * Fixed equation transformation for Linear/Professional mode switching from
   context menu
 * Fixed print issue for Header/Footer
+* Fixed crashing of the editor after creating file from password protected XLTX
 
 #### Presentation Editor
 
-* Fixed error on click Head & Footer in Insert tools panel
+* Fixed error on click Header & Footer in Insert tools panel
 * Fixed crashing in the Reporter mode on changing slide from end demonstration
+* Fixed saving presentations with media files for compatibility with other editors
 
 #### PDF Editor
 
 * Fixed saving document through "Save copy"
 * Fixed incorrect processing editor's config (editorType)
 * Fixed issue for plugin "Send" when there is no email client installed
-* Fixed issue related to input disabled on creating
+* Fixed opening help for PDF editor and files opened for viewing (XPS, DjVu)
 
 ## 7.5.0
 
@@ -605,14 +613,14 @@ script (Bug #59289)
 * Ability to use special symbols when searching within documents
 * Ability to add a period with a double-space
 * Add Chinese/Japanese/Italian language to Watermark settings
-* New viewer for PDF, XPS, DJVU files with major performance improvements
+* New viewer for PDF, XPS, DjVu files with major performance improvements
   All operations are performed on the client side.
 * Ability to use the Page Thumbnails panel and to display the document's
   contents on the left sidebar for PDF files
 * Support for external and internal links in PDF opening
 * Ability to use Hand/Select tools in PDF viewer
 * The Document Info section of the Data tab contains information about PDF,
-  XPS, DJVU files
+  XPS, DjVu files
 
 #### Spreadsheet Editor
 
