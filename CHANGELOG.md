@@ -12,7 +12,6 @@
 * Add shortcuts to the Start menu for creating new files to EXE package (Windows)
 * Add a list of recent files and the ability to pin them via the context menu of
   the application in Jump List (Windows)
-* The draw.io plugin is excluded from the default installation package
 * All logos in the application and installation packages have been updated
 * VC Redist 2013 is excluded from the default installation package and
   is not required for the application to work (Windows)
