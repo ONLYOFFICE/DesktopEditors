@@ -24,8 +24,8 @@
 * Adapt styles of window control buttons in accordance with OS design (Linux)
 * Change the widget for displaying downloads from the portal and the download
   indicator (Windows, Linux)
-* Move adding a comment to the entire document from the bottom of the comments panel to
-  the settings button
+* Move adding a comment to the entire document from the bottom of the comments
+  panel to the settings button
 * Add a button for adding a comment to text to the header of
   the comments panel (similar to the button in the toolbar)
 * Add the interface translation into Arabic (ar-SA, Arabic - Saudi Arabia)
