@@ -64,7 +64,7 @@
 * Dialog for converting old `OFORM` files to `PDF`
 * For the radio button field, add the setting for the name of the selected
   element (Radio button choice)
-* Add a chain of tips when working with docxf files
+* Add a chain of tips when working with DOCXF files
 
 ### Fixes
 
