@@ -4,44 +4,60 @@
 
 ### Fixes
 
-* Significantly increased the speed of unpacking the update package through the built-in update service for future releases (Windows)
-* Fixed crash of the application when calling the Force Quit (Command + Option + Escape) window during the presentation demonstration on macOS (Bug 64930)
-* Fixed closing the application when opening a local presentation in the In its own window mode and launching the Presenter mode (Bug 66480)
+* Significantly increased the speed of unpacking the update package through
+  the built-in update service for future releases (Windows)
+* Fixed crash of the application when calling the Force Quit (Command +
+  Option + Escape) window during the presentation demonstration on macOS (Bug 64930)
+* Fixed closing the application when opening a local presentation in its
+  own window mode and launching the Presenter mode (Bug 66480)
 * Fixed the spreadsheet alignment on a page after printing (Bug 63058)
 * Renamed the form template creation button to PDF Form
-* Changed the font family for Arabic language on the application main page (Bug 65970, 66402)
-* Fixed the Open Document dialog window language if the Arabic interface is set in the system (Bug 65997)
-* Fixed changing the text direction in the User Name field when changing the keyboard layout if the RTL UI is enabled (Bug 66164)
+* Changed the font family for Arabic language on the application main
+  page (Bug 65970, 66402)
+* Fixed the Open Document dialog window language if the Arabic interface is
+  set in the system (Bug 65997)
+* Fixed changing the text direction in the User Name field when changing
+  the keyboard layout if the RTL UI is enabled (Bug 66164)
 * The RTL UI mode is hidden on Windows XP
 * Fixed applying a password when opening local files on Windows XP (Bug 66076)
 
 #### Document Editor
 
 * Fix crash when clicking comment inside a math equation (Bug 66252) ([DocumentServer#2556](https://github.com/ONLYOFFICE/DocumentServer/issues/2556))
-* Fix crash when using the Insert caption feature with the Include chapter number option (Bug 66372)
+* Fix crash when using the Insert caption feature with the Include
+  chapter number option (Bug 66372)
 * Fix crash when inserting a copied image using Ctrl (Bug 66398)
 * Fix a problem with rendering collaboration highlight (Bug 66276)
 * Fix an issue with highlighting searching results in some `DOCX` files (Bug 66563)
 * Fix display of highlighting a comment added to RTL text (Bug 66255)
 * Fix text label for Table of Contents in the RTL UI (Bug 66278)
 * Fix an issue with shaping text with different direction (RTL and LTR) (Bug 66317)
-* Improve the calculation of the cursor position in case when it is between text with different directions (RTL and LTR) (Bug 66262)
-* Fix an issue with correction of a text selection when passing through a complex field (Bug 66384)
-* Fix an issue with calculating the current cursor position while selecting elements in table (Bug 66376)
+* Improve the calculation of the cursor position in case when it is
+  between text with different directions (RTL and LTR) (Bug 66262)
+* Fix an issue with correction of a text selection when passing
+  through a complex field (Bug 66384)
+* Fix an issue with calculating the current cursor position while
+  selecting elements in table (Bug 66376)
 * Fix selection for the hidden part of complex fields (Bug 64883)
-* Fix an issue with selection draw and cursor positioning in complex fields (Bug 64883)
+* Fix an issue with selection draw and cursor positioning in complex
+  fields (Bug 64883)
 * Fix position of diacritics when typing in Arabic (Bug 66435)
 * Hide non-printing characters in header/footer label (Bug 66265)
 * Decrease the height of the header/footer label (Bug 66230)
 
 #### Spreadsheet Editor
 
-* Fix stopping work of the editor when exporting some `XLSX` files to `PNG`/`JPEG` (Bug 66201, Bug 66550)
+* Fix stopping work of the editor when exporting some `XLSX` files to
+  `PNG`/`JPEG` (Bug 66201, Bug 66550)
 * Fix display of the DBNum1 number format when opening some XLSX files (Bug 66318)
-* Fix display of the Currency format when exporting some `XLSX` to `ODS` and reopening (Bug 66392) ([DesktopEditors#1443](https://github.com/ONLYOFFICE/DesktopEditors/issues/1443))
-* Fix appearing artifacts when inserting an image via Drag-n-Drop and moving it (Bug 66429)
-* Fix saving the current sheet only when exporting a work book to `PNG`/`JPEG` (Bug 66126)
-* Fix display of the #REF! error when adding the VLOOKUP formula with an argument which is a reference to another file (Bug 66486)
+* Fix display of the Currency format when exporting some `XLSX` to `ODS` and
+  reopening (Bug 66392) ([DesktopEditors#1443](https://github.com/ONLYOFFICE/DesktopEditors/issues/1443))
+* Fix appearing artifacts when inserting an image via Drag-n-Drop and
+  moving it (Bug 66429)
+* Fix saving the current sheet only when exporting a work book to `PNG`/`JPEG`
+  (Bug 66126)
+* Fix display of the #REF! error when adding the VLOOKUP formula with an argument
+  which is a reference to another file (Bug 66486)
 
 #### Presentation Editor
 
@@ -49,8 +65,10 @@
 
 #### Forms
 
-* Fix crash when expanding the Date field in the forms edited in third-party editors (Bug 66545)
-* Fix closing a drop-down list in some PDF forms with the Turn on screen reader support option enabled(Bug 66217)
+* Fix crash when expanding the Date field in the forms edited in third-party
+  editors (Bug 66545)
+* Fix closing a drop-down list in some PDF forms with the Turn on screen reader
+  support option enabled(Bug 66217)
 * Change the default date-time format for a DatePicker form
 
 #### PDF Editor
@@ -61,21 +79,30 @@
 
 #### Security
 
-* Fixed the vulnerability in 'PIVOTVIEW::loadContent' method when converting `XLS` to `XLSX` (Bug 66394)
-* Fixed the vulnerability in 'GlobalsSubstream::UpdateXti()' method when converting `XLS` to `XLSX` (Bug 66395)
-* Fixed the vulnerability in 'ChartSheetSubstream::recalc' method when converting `XLS` to `XLSX` (Bug 66396)
-* Fixed the vulnerability which leads to buffer overflow when converting `ODP` to `PPTX` (Bug 66192)
-* Fixed the vulnerability which allows adding a third party file to a document while converting `HTML` to `DOCX`
+* Fixed the vulnerability in 'PIVOTVIEW::loadContent' method when converting `XLS`
+  to `XLSX` (Bug 66394)
+* Fixed the vulnerability in 'GlobalsSubstream::UpdateXti()' method when converting
+  `XLS` to `XLSX` (Bug 66395)
+* Fixed the vulnerability in 'ChartSheetSubstream::recalc' method when converting
+  `XLS` to `XLSX` (Bug 66396)
+* Fixed the vulnerability which leads to buffer overflow when converting `ODP` to
+  `PPTX` (Bug 66192)
+* Fixed the vulnerability which allows adding a third party file to a document while
+  converting `HTML` to `DOCX`
 * Fixed the ability to execute the PowerShell commands when converting `DOC` to `PDF`
 
 #### Convert
 
-* Fixed files corruption after converting some `ODT` files to `DOCX` (Bug 65786, 66419)
-* Fixed adding the excess 'Default Extension="docxf" parameter when converting `DOCXF` to `DOCX` (Bug 65994)
+* Fixed files corruption after converting some `ODT` files to `DOCX`
+  (Bug 65786, 66419)
+* Fixed adding the excess 'Default Extension="docxf" parameter when converting
+  `DOCXF` to `DOCX` (Bug 65994)
 * Fixed display of a date as a number when opening some `XLS` files (Bug 66312)
-* Fixed losing contents of the cell with an added comment after exporting to `ODS` (Bug 66345)
+* Fixed losing contents of the cell with an added comment after exporting to
+  `ODS` (Bug 66345)
 * Fixed files corruption after converting some `DOC` files to `DOCX` (Bug 66333)
-* Fixed document appearance in another editors after export some `DOCX` files (Bug 55873)
+* Fixed document appearance in another editors after export some `DOCX`
+  files (Bug 55873)
 * Fixed data loss when converting some `DOC` to `DOCX` (Bug 66401) ([DocumentServer#2588](https://github.com/ONLYOFFICE/DocumentServer/issues/2588))
 * Fixed stopping work of some `XLS` to `CSV` conversion (Bug 66440)
 * Fixed files corruption after converting some `ODS` files to `XLSX` (Bug 65975)
