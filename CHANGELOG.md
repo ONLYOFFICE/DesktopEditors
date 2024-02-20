@@ -55,7 +55,7 @@
 
 #### PDF Editor
 
-* Fix crash when opening some `DjVU` files (Bug 65400)
+* Fix crash when opening some `DjVu` files (Bug 65400)
 * Fix annotations offset when exporting to PDF (Bug 66223)
 * Fix the color of the worksheet borders with the light interface theme (Bug 66257)
 
