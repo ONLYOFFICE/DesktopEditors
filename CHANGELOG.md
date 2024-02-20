@@ -20,10 +20,12 @@
   the keyboard layout if the RTL UI is enabled
 * The RTL UI mode is hidden on Windows XP
 * Fixed applying a password when opening local files on Windows XP
+* Fixed the translation in the drop-down lists of options for the 'Disabled' state in the application settings
+* Fixed the description of the `DOCX` format in the Save As window
 
 #### Document Editor
 
-* Fix crash when clicking comment inside a math equation ([DocumentServer#2556](https://github.com/ONLYOFFICE/DocumentServer/issues/2556))
+* Fix crash when clicking comment inside a math equation
 * Fix crash when using the Insert caption feature with the Include
   chapter number option
 * Fix crash when inserting a copied image using Ctrl
@@ -40,7 +42,7 @@
   selecting elements in table
 * Fix selection for the hidden part of complex fields
 * Fix an issue with selection draw and cursor positioning in complex
-  fields (Bug 64883)
+  fields
 * Fix position of diacritics when typing in Arabic
 * Hide non-printing characters in header/footer label
 * Decrease the height of the header/footer label
@@ -51,7 +53,7 @@
   `PNG`/`JPEG`
 * Fix display of the DBNum1 number format when opening some XLSX files
 * Fix display of the Currency format when exporting some `XLSX` to `ODS` and
-  reopening ([DesktopEditors#1443](https://github.com/ONLYOFFICE/DesktopEditors/issues/1443))
+  reopening
 * Fix appearing artifacts when inserting an image via Drag-n-Drop and
   moving it
 * Fix saving the current sheet only when exporting a work book to `PNG`/`JPEG`
@@ -60,7 +62,7 @@
 
 #### Presentation Editor
 
-* Fix stopping work of the editor when opening some `PPTX` files ([DocumentServer#2591](https://github.com/ONLYOFFICE/DocumentServer/issues/2591))
+* Fix stopping work of the editor when opening some `PPTX` files
 
 #### Forms
 
@@ -101,7 +103,7 @@
 * Fixed files corruption after converting some `DOC` files to `DOCX`
 * Fixed document appearance in another editors after export some `DOCX`
   files
-* Fixed data loss when converting some `DOC` to `DOCX` ([DocumentServer#2588](https://github.com/ONLYOFFICE/DocumentServer/issues/2588))
+* Fixed data loss when converting some `DOC` to `DOCX`
 * Fixed stopping work of some `XLS` to `CSV` conversion
 * Fixed files corruption after converting some `ODS` files to `XLSX`
 * Fixed data loss on opening some `TXT` files
