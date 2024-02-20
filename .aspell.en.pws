@@ -262,6 +262,7 @@ CHOOSECOLS
 LaTeX
 Tooltips
 DOCXF
+docxf
 XSS
 autoshapes
 MHTML
@@ -294,6 +295,7 @@ RTL
 Dropdown
 ar
 EXE
+LTR
 XP
 DBNum
 DatePicker
