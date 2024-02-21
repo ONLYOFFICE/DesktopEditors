@@ -6,10 +6,6 @@
 
 * Significantly increased the speed of unpacking the update package through
   the built-in update service for future releases (Windows)
-* Fixed the app crash when pressing the `Command` + `,` keyboard shortcut in
-  Presenter View (macOS)
-* Fixed closing the application when opening a local presentation in its
-  own window mode and launching the Presenter View
 * Fixed the table alignment on a page after printing
 * Renamed the form template creation button to PDF Form
 * Changed the font family for Arabic language on the application main
@@ -64,6 +60,10 @@
 #### Presentation Editor
 
 * Fix stopping work of the editor when opening some `PPTX` files
+* Fixed the app crash when pressing the `Command` + `,` keyboard shortcut in
+  Presenter View (macOS)
+* Fixed closing the application when opening a local presentation in its
+  own window mode and launching the Presenter View
 
 #### Forms
 
