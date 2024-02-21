@@ -20,8 +20,8 @@
   the keyboard layout if the RTL UI is enabled
 * The RTL UI mode is hidden on Windows XP
 * Fixed applying a password when opening local files on Windows XP
-* Fixed the translation in the drop-down lists of options for the 'Disabled' state in
-  the application settings
+* Fixed the translation in the drop-down lists of options for the 'Disabled'
+  state in the application settings
 * Fixed the description of the `DOCX` format in the Save As dialog
 
 #### Document Editor
