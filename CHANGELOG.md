@@ -9,7 +9,7 @@
 * Fixed the app crash when pressing the `Command` + `,` keyboard shortcut in
   Presenter View (macOS)
 * Fixed closing the application when opening a local presentation in its
-  own window mode and launching the Presenter mode
+  own window mode and launching the Presenter View
 * Fixed the table alignment on a page after printing
 * Renamed the form template creation button to PDF Form
 * Changed the font family for Arabic language on the application main
@@ -20,7 +20,8 @@
   the keyboard layout if the RTL UI is enabled
 * The RTL UI mode is hidden on Windows XP
 * Fixed applying a password when opening local files on Windows XP
-* Fixed the translation in the drop-down lists of options for the 'Disabled' state in the application settings
+* Fixed the translation in the drop-down lists of options for the 'Disabled' state in
+  the application settings
 * Fixed the description of the `DOCX` format in the Save As dialog
 
 #### Document Editor
