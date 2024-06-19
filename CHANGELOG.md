@@ -88,8 +88,6 @@
 
 #### Security
 
-* Fixed the vulnerability in the fs.folderPath field which allows accessing
-  the file system
 * Fixed vulnerabilities in the PtgName::assemble, PtgNameX::assemble,
   PtgParen::assemble, PtgRef3d::assemble, PtgList::assemble and
   PtgArea3d::assemble methods which cause crash when converting `XLS` to `XLSX`
