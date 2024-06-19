@@ -84,6 +84,8 @@
   menu and the toolbar
 * Added a mini toolbar for adding annotations when selecting text
 
+### Fixes
+
 #### Security
 
 * Fixed the vulnerability in the fs.folderPath field which allows accessing
