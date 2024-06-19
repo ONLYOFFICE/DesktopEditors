@@ -8,7 +8,7 @@
 * Added the ability to disable the `Connect to cloud` page via
   the `--lock-portals` key
 * Added a window to restart the application if the settings marked with
-  the asterisk are applied
+  the asterisk are applied (Windows, Linux)
 * Added the `Use graphics acceleration` option to the application settings
 * Added the progress of unpacking downloaded update to the `About` page (Windows)
 * Added the ability to open a file by specifying its name in the terminal (Linux)
