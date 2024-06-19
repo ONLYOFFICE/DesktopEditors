@@ -5,15 +5,18 @@
 ### New Features
 
 * Switching to the creating forms in the `PDF` format
-* Added the ability to disable the 'Connect to cloud' section via the `--lock-portals` key
-* Added a window to restart the application if the settings marked with the asterisk are applied
+* Added the ability to disable the 'Connect to cloud' section via
+  the `--lock-portals` key
+* Added a window to restart the application if the settings marked with
+  the asterisk are applied
 * Added the ‘Use graphics acceleration’ option to the application settings
 * Added the progress of unpacking downloaded update to the `About` page (Windows)
 * Added the ability to open a file by specifying its name in the terminal (Linux)
 * Updated images for the error pages 
 * Added the translation into Serbian (sr-Latn-RS, Serbian (Latin, Serbia and Montenegro))
 * Added a button to select a local file in the hyperlink insertion dialog window
-* Changes in program interface: manageable functional buttons, Replace button is now on the Home tab, Copy style, Clear style, Select all
+* Changes in program interface: manageable functional buttons, Replace button is
+  now on the Home tab, Copy style, Clear style, Select all
 * Autoshape shadowing settings
 * Updated the set of color themes available in editors
 * Added internal help in Portuguese (pt-BR)
@@ -22,16 +25,20 @@
 
 #### Document Editor
 
-* New button on the top toolbar for changing document editing mode: `Editing`, Reviewing, Viewing
-* Added tooltips for new or updated functionality (displayed when loading the editor or when switching to the corresponding tab) 
+* New button on the top toolbar for changing document editing mode: `Editing`,
+  `Reviewing`, `Viewing`
+* Added tooltips for new or updated functionality (displayed when loading the
+  editor or when switching to the corresponding tab) 
 * Implemented the ability to set the format for page numbering
 * Added support for the page color
 * Updated built-in paragraph styles
-* New items in the indents menu for opening the right panel and managing paragraph indents, the ability to manage paragraph indents via the top toolbar
+* New items in the indents menu for opening the right panel and managing paragraph
+  indents, the ability to manage paragraph indents via the top toolbar
 * Color theme button is now on the Layout tab
 * Mail merge button is now on the Collaboration tab
 * Line spacing options updated
-* Improved work of the algorithm for displaying numbers and punctuation in Arabic text for the Neutral and Weak classes
+* Improved work of the algorithm for displaying numbers and punctuation in
+  Arabic text for the Neutral and Weak classes
 * Improved fitting for paragraphs with main `RTL` direction
 
 #### Spreadsheet Editor
@@ -43,11 +50,13 @@
 * Version history update: edited cells are highlighted
 * Users get custom protected range cells viewing rights
 * Implemented the ability to copy/move sheets between books in one browser
-* Changed the appearance of the sheet list in the embedded viewer in accordance with the styles of the main spreadsheet editor
+* Changed the appearance of the sheet list in the embedded viewer in accordance
+  with the styles of the main spreadsheet editor
 
 #### Presentation Editor
 
-* New slide settings on the right panel: show background graphics, reset background to the theme background, apply settings to all slides
+* New slide settings on the right panel: show background graphics, reset background
+  to the theme background, apply settings to all slides
 * Added `Animation` pane
 * Added a mode for editing master slides and templates
 * Updated the player interface for playing audio/video files (Windows and Linux)
@@ -55,33 +64,48 @@
 #### Forms
 
 * When adding a fixed form, now it is inserted without wrapping in front of the text
-* The color of the  Picture placeholder corresponds to the color of the role for this form
+* The color of the  Picture placeholder corresponds to the color of the role
+  for this form
 * The thickness of the frame for required fields is now 2px with any zoom
-* Added a button to switch to the editing mode (similar to the button in the editor header) for forms opened in the View or Fill forms mode
-* The presence of this button depends on the integrator's subscription to the onRequestEditRights event and the permissions.edit rights (in case of a viewer)
+* Added a button to switch to the editing mode (similar to the button in
+  the editor header) for forms opened in the View or Fill forms mode
+* The presence of this button depends on the integrator's subscription to
+  the onRequestEditRights event and the permissions.edit rights (in case of a viewer)
 
 #### PDF Editor
 
-* Added buttons for switching editing/viewing (annotations) modes to the toolbar and the editor header 
-* Added tooltips for new or updated functionality (displayed when loading the editor or when switching to the corresponding tab) 
-* In the Edit mode, it's possible to add various objects (using the Home and Insert tabs) and configure them using the right panel and context menu
-* Added the ability to add, delete or rotate pages using the context menu and the toolbar
+* Added buttons for switching editing/viewing (annotations) modes to
+  the toolbar and the editor header 
+* Added tooltips for new or updated functionality (displayed when loading
+  the editor or when switching to the corresponding tab) 
+* In the Edit mode, it's possible to add various objects (using the `Home`
+  and `Insert` tabs) and configure them using the right panel and context menu
+* Added the ability to add, delete or rotate pages using the context
+  menu and the toolbar
 * Added a mini toolbar for adding annotations when selecting text
 
 #### Security
 
-* Fixed the vulnerability in the fs.folderPath field which allows accessing the file system
-* Fixed vulnerabilities in the PtgName::assemble, PtgNameX::assemble, PtgParen::assemble, PtgRef3d::assemble, PtgList::assemble and PtgArea3d::assemble methods which cause crash when converting XLS to XLSX
-* Fixed the vulnerability in the `CDataStream::ReadEmrTextBase` method which causes crash when converting `ODP` to `PDF`
-* Fixed the vulnerability in the `GlobalsSubstream::UpdateDefineNames` method which causes crash when converting `XLS` to `XLSX`
-* Fixed the vulnerability in the `WorkBookStream::UpdateXti`, `WorkBookStream::UpdateXti`,  methods which causes crash when converting XLS to XLSX
+* Fixed the vulnerability in the fs.folderPath field which allows accessing
+  the file system
+* Fixed vulnerabilities in the PtgName::assemble, PtgNameX::assemble,
+  PtgParen::assemble, PtgRef3d::assemble, PtgList::assemble and
+  PtgArea3d::assemble methods which cause crash when converting `XLS` to `XLSX`
+* Fixed the vulnerability in the `CDataStream::ReadEmrTextBase` method which causes
+  crash when converting `ODP` to `PDF`
+* Fixed the vulnerability in the `GlobalsSubstream::UpdateDefineNames` method which
+  causes crash when converting `XLS` to `XLSX`
+* Fixed the vulnerability in the `WorkBookStream::UpdateXti`, `WorkBookStream::UpdateXti`,
+  methods which causes crash when converting `XLS` to `XLSX`
 * Fixed Heap Buffer Overflow when converting `EPUB` to `PDF`
-* Fixed the vulnerability in the `CPPTUserInfo::LoadExternal` method which allows writing a file to a folder with restricted access when converting `PPT` to `PPTX`
-* Fixed vulnerabilities which allow reading data from a third-party file when converting `OOXML` to `ODF` and vice versa
-* Fixed Heap Buffer Overflow in the `CSvmFile::Read_META_BMP` method when converting `ODP` to `PPTX`
-* Fixed the vulnerability in the commandSetPassword method which allows setting a password for a document regardless of rights
-
-# Change log
+* Fixed the vulnerability in the `CPPTUserInfo::LoadExternal` method which allows
+  writing a file to a folder with restricted access when converting `PPT` to `PPTX`
+* Fixed vulnerabilities which allow reading data from a third-party file when
+  converting `OOXML` to `ODF` and vice versa
+* Fixed Heap Buffer Overflow in the `CSvmFile::Read_META_BMP` method when
+  converting `ODP` to `PPTX`
+* Fixed the vulnerability in the commandSetPassword method which allows setting
+  a password for a document regardless of rights
 
 ## 8.0.1
 
