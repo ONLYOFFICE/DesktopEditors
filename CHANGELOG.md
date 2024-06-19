@@ -69,8 +69,6 @@
 * The thickness of the frame for required fields is now 2 px with any zoom
 * Added a button to switch to the editing mode (similar to the button in
   the editor header) for forms opened in the View or Fill forms mode
-* The presence of this button depends on the integrator\'s subscription to
-  the onRequestEditRights event and the permissions.edit rights (in case of a viewer)
 
 #### PDF Editor
 
@@ -104,8 +102,6 @@
   converting `OOXML` to `ODF` and vice versa
 * Fixed Heap Buffer Overflow in the `CSvmFile::Read_META_BMP` method when
   converting `ODP` to `PPTX`
-* Fixed the vulnerability in the commandSetPassword method which allows setting
-  a password for a document regardless of rights
 
 ## 8.0.1
 
