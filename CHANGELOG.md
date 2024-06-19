@@ -12,7 +12,7 @@
 * Added the ‘Use graphics acceleration’ option to the application settings
 * Added the progress of unpacking downloaded update to the `About` page (Windows)
 * Added the ability to open a file by specifying its name in the terminal (Linux)
-* Updated images for the error pages 
+* Updated images for the error pages
 * Added the translation into Serbian (sr-Latn-RS, Serbian (Latin, Serbia and Montenegro))
 * Added a button to select a local file in the hyperlink insertion dialog window
 * Changes in program interface: manageable functional buttons, Replace button is
@@ -28,7 +28,7 @@
 * New button on the top toolbar for changing document editing mode: `Editing`,
   `Reviewing`, `Viewing`
 * Added tooltips for new or updated functionality (displayed when loading the
-  editor or when switching to the corresponding tab) 
+  editor or when switching to the corresponding tab)
 * Implemented the ability to set the format for page numbering
 * Added support for the page color
 * Updated built-in paragraph styles
@@ -75,9 +75,9 @@
 #### PDF Editor
 
 * Added buttons for switching editing/viewing (annotations) modes to
-  the toolbar and the editor header 
+  the toolbar and the editor header
 * Added tooltips for new or updated functionality (displayed when loading
-  the editor or when switching to the corresponding tab) 
+  the editor or when switching to the corresponding tab)
 * In the Edit mode, it's possible to add various objects (using the `Home`
   and `Insert` tabs) and configure them using the right panel and context menu
 * Added the ability to add, delete or rotate pages using the context
