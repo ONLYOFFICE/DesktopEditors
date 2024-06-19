@@ -5,11 +5,11 @@
 ### New Features
 
 * Switching to the creating forms in the `PDF` format
-* Added the ability to disable the 'Connect to cloud' section via
+* Added the ability to disable the `Connect to cloud` page via
   the `--lock-portals` key
 * Added a window to restart the application if the settings marked with
   the asterisk are applied
-* Added the ‘Use graphics acceleration’ option to the application settings
+* Added the `Use graphics acceleration` option to the application settings
 * Added the progress of unpacking downloaded update to the `About` page (Windows)
 * Added the ability to open a file by specifying its name in the terminal (Linux)
 * Updated images for the error pages
@@ -49,7 +49,7 @@
 * New function category: Custom based on jsdoc
 * Version history update: edited cells are highlighted
 * Users get custom protected range cells viewing rights
-* Implemented the ability to copy/move sheets between books in one browser
+* Implemented the ability to copy/move sheets between opened books
 * Changed the appearance of the sheet list in the embedded viewer in accordance
   with the styles of the main spreadsheet editor
 
@@ -66,7 +66,7 @@
 * When adding a fixed form, now it is inserted without wrapping in front of the text
 * The color of the  Picture placeholder corresponds to the color of the role
   for this form
-* The thickness of the frame for required fields is now 2px with any zoom
+* The thickness of the frame for required fields is now 2 px with any zoom
 * Added a button to switch to the editing mode (similar to the button in
   the editor header) for forms opened in the View or Fill forms mode
 * The presence of this button depends on the integrator\'s subscription to
