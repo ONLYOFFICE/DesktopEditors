@@ -1,7 +1,6 @@
 name: Append changelog for new release
 
 on:
-
   workflow_dispatch:
     inputs:
       version:
@@ -9,13 +8,10 @@ on:
         required: true
 
 jobs:
-
   append-changelog:
     runs-on: ubuntu-latest
     steps:
-
-      - name: Checkout
-        uses: actions/checkout@v2
+      - uses: actions/checkout@v4
 
       - name: Write changelog
         run: |
@@ -49,7 +45,7 @@ jobs:
           rm -fv CHANGELOG.md.bak
 
       - name: Commit & push changes
-        uses: EndBug/add-and-commit@v8
+        uses: EndBug/add-and-commit@v9
         with:
           author_name: github-actions[bot]
           author_email: github-actions[bot]@users.noreply.github.com
