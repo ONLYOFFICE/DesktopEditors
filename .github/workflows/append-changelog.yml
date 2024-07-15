@@ -1,6 +1,7 @@
 name: Append changelog for new release
 
 on:
+
   workflow_dispatch:
     inputs:
       version:
@@ -8,10 +9,13 @@ on:
         required: true
 
 jobs:
+
   append-changelog:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+
+      - name: Checkout
+        uses: actions/checkout@v4
 
       - name: Write changelog
         run: |
