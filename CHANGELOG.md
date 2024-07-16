@@ -55,7 +55,7 @@ In the image upload filters, the `TIFF` format is added
   method for `TextPr`
 * Fixed incorrect display of autoshape shadow transparency when the `No Fill`
   option is activated
-* Fixed display of nonprinting characters when opening some `DOCX` files in
+* Fixed display of non-printing characters when opening some `DOCX` files in
   the viewing mode
 
 #### Spreadsheet Editor
