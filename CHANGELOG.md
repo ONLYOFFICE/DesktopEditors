@@ -94,7 +94,8 @@ In the image upload filters, the `TIFF` format is added
 * Fixed the size of placeholders on layouts after removing placeholders on the parent
   layout and applying Duplicate Slide Master
 * Fixed work of the Play/Pause buttons in the viewing window in the Slideshow mode
-* Fixed layering of objects when they are grouped when opening some `PPTX` files [#2573](https://github.com/ONLYOFFICE/DocumentServer/issues/2573)
+* Fixed layering of objects when they are grouped when opening
+  some `PPTX` files [#2573](https://github.com/ONLYOFFICE/DocumentServer/issues/2573)
 * Fixed work of internal hyperlinks when using the Next Slide parameters
 * Fixed work of `Enter` / `Space` / `Arrow Right` / `Arrow Left` keys in
   the Slideshow mode
@@ -154,7 +155,7 @@ In the image upload filters, the `TIFF` format is added
   to a different format
 * Fixed display of presentation theme after exporting some `PPTX` to `PDF/A`
 * Fixed the "Decimal" and "Use 1000 separator" options loss
-  when exporting `XLSX` to `CSV` [#821](https://github.com/ONLYOFFICE/DesktopEditors/issues/821)
+  when exporting `XLSX` to `ODS` [#821](https://github.com/ONLYOFFICE/DesktopEditors/issues/821)
 
 ## 8.1.0
 
