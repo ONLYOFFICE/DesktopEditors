@@ -32,7 +32,8 @@ In the image upload filters, the `TIFF` format is added
 * Fixed crash in TextShaper when using composite input
 * Fixed scroll to target when updating the position of a view port in
   collaborative editing [#2428](https://github.com/ONLYOFFICE/DocumentServer/issues/2428)
-* Added the ability to prevent scrolling to the current position when performing any action
+* Added the ability to prevent scrolling to the current position when
+  performing any action
 * Fixed review types for added paragraphs
 * Fixed missing the current change in review when receiving spellcheck variants
 * Fixed the recalculation of the document when changing the autohyphenation option
@@ -42,17 +43,20 @@ In the image upload filters, the `TIFF` format is added
 * Fixed an issue with simple text paste when track revisions is turned on
 * Fixed freeze when moving through review changes
 * Implemented display/accept/reject for review change of a table cell
-* Fixed an issue with accepting/rejecting review changes inside a block-level sdt [#2669](https://github.com/ONLYOFFICE/DocumentServer/issues/2669)
+* Fixed an issue with accepting/rejecting review changes inside
+  a block-level sdt [#2669](https://github.com/ONLYOFFICE/DocumentServer/issues/2669)
 * Fixed an issue with recalculating table
 * Fixed clearing table cells before moving them
 * Fixed cursor moving down when selected table cells
 * Fixed display of images when opening some `DOCX` files
 * Fixed an issue with reading numbering properties in styles and refactor
   using `AscWord.NumPr` class
-* Fixed clearing the text properties for an inline-level sdt and merge method for `TextPr`
+* Fixed clearing the text properties for an inline-level sdt and merge
+  method for `TextPr`
 * Fixed incorrect display of autoshape shadow transparency when the `No Fill`
   option is activated
-* Fixed display of nonprinting characters when opening some `DOCX` files in the viewing mode
+* Fixed display of nonprinting characters when opening some `DOCX` files in
+  the viewing mode
 
 #### Spreadsheet Editor
 
@@ -63,7 +67,8 @@ In the image upload filters, the `TIFF` format is added
 * Fixed inserting an empty column after moving a column with data [#2499](https://github.com/ONLYOFFICE/DocumentServer/issues/2499)
 * Fixed changing line height after applying Merge and Wrap Text, if the text
   extends the cell boundaries
-* Colors of row and column headers when hovering the cursor now correspond to color schemes
+* Colors of row and column headers when hovering the cursor now correspond
+  to color schemes
 * Fixed formula calculation if there is an intersection with a formatted table [#1558](https://github.com/ONLYOFFICE/DesktopEditors/issues/1558)
 * Fixed formula calculation if they contain named ranges
 * Fixed creating named ranges in languages with ligatures
@@ -75,7 +80,8 @@ In the image upload filters, the `TIFF` format is added
 #### Presentation Editor
 
 * Fixed crash after applying Reset slide in certain `PPTX` files
-* Fixed crash after copying a slide in the Normal mode and pasting in the Slide Master mode
+* Fixed crash after copying a slide in the Normal mode and pasting in
+  the Slide Master mode
 * Fixed crash when opening the Notes and handouts insertion menu
 * Fixed the issue with weak characters in RTL at the end of the line
 * Fixed presence of the Insert image from file / Insert image from URL buttons
@@ -90,14 +96,16 @@ In the image upload filters, the `TIFF` format is added
 * Fixed work of the Play/Pause buttons in the viewing window in the Slideshow mode
 * Fixed layering of objects when they are grouped when opening some `PPTX` files [#2573](https://github.com/ONLYOFFICE/DocumentServer/issues/2573)
 * Fixed work of internal hyperlinks when using the Next Slide parameters
-* Fixed work of `Enter` / `Space` / `Arrow Right` / `Arrow Left` keys in the Slideshow mode
+* Fixed work of `Enter` / `Space` / `Arrow Right` / `Arrow Left` keys in
+  the Slideshow mode
 * Fixed reset of object selection after copying using Drag-and-drop
 * Fixed display of shadow in the Slideshow mode
-* Fixed duplicating Slide Master when moving it using Drag-and-drop in the Slides tab
+* Fixed duplicating Slide Master when moving it using Drag-and-drop in
+  the `Slides` tab
 * Fixed display of text formatting applied on the parent layout
 * Fixed incorrect date indication in Header and Footer
-* Fixed applying Background theme after creating a custom theme via Slide settings and
-  using the Apply to All Slides option
+* Fixed applying Background theme after creating a custom theme via `Slide`
+  settings and using the Apply to All Slides option
 * Fixed display of custom theme layout when opening some `PPTX` files
 * Fixed marker overlapping when moving it along the Animation Pane timeline
 
@@ -135,15 +143,18 @@ In the image upload filters, the `TIFF` format is added
 
 * Fixed crash when converting some `XLS` files to `XLSB`
 * Fixed crash when exporting `DOCX` documents, containing autoshapes, to `HTML`
-* Fixed crash when opening some `DOC` files
-* Fixed crash when opening some `DOCX` files
+* Fixed crash when opening some `DOC` and `DOCX` files
 * Fixed crash when converting some `XLSM` files to `XLSB`
-* Fixed stopping work of the editor when opening some `XLSX` files, containing EMF images
+* Fixed stopping work of the editor when opening some `XLSX` files,
+  containing EMF images
 * Fixed compliance with the `PDF/A` format after exporting a `DOCX` document
-* Fixed an error when opening in third-party editors the `XLSX` file obtained when converting `XLSB`
-* Fixed text loss in `SVG` images after exporting the `DOCX` document to a different format
+* Fixed an error when opening in third-party editors the `XLSX` file obtained
+  when converting `XLSB`
+* Fixed text loss in `SVG` images after exporting the `DOCX` document
+  to a different format
 * Fixed display of presentation theme after exporting some `PPTX` to `PDF/A`
-* Fixed the "Decimal" and "Use 1000 separator" options loss when exporting `XLSX` to `CSV` [#821](https://github.com/ONLYOFFICE/DesktopEditors/issues/821)
+* Fixed the "Decimal" and "Use 1000 separator" options loss
+  when exporting `XLSX` to `CSV` [#821](https://github.com/ONLYOFFICE/DesktopEditors/issues/821)
 
 ## 8.1.0
 
