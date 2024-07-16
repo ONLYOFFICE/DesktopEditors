@@ -6,7 +6,7 @@
 
 #### All Editors
 
-In the image upload filters, the `TIFF` format is added
+* In the image upload filters, the `TIFF` format is added
 
 ### Fixes
 
