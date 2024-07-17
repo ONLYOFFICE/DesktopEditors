@@ -323,6 +323,15 @@ PtgList
 PtgArea
 CDataStream
 ReadEmrTextBase
+RDP
+TextShaper
+autohyphenation
+AscWord
+NumPr
+sdt
+TextPr
+TextShaper
+XLSM
 UpdateDefineNames
 WorkBookStream
 WorkBookStream
@@ -330,3 +339,4 @@ CPPTUserInfo
 LoadExternal
 CSvmFile
 commandSetPassword
+reconnection
