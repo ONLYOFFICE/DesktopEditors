@@ -31,7 +31,7 @@
 * The installation path selection page is disabled for security reasons;
   forced display of the page is possible using the `/enabledirpage` key (EXE package)
 * Added support for local templates; currently restricted to creating
-  documents from pre-installed templates only
+  documents from preinstalled templates only
 * Added the application translation into English (Great Britain, en-GB)
 * Updated icons of formats in the Create New and Recent files list
 * A hint in English has been added to the Interface language list on
@@ -71,8 +71,8 @@
 
 #### PDF Editor
 
-* Added ability to save `PDFs` to the storage
-* Added co-editing `PDFs`
+* Added ability to save `PDF` files to the storage
+* Added co-editing `PDF` files
 * Added correct processing of cropped/combined shapes when opening files
 * Added Gradient support
 * Improved text recognition
