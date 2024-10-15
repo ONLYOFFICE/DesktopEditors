@@ -35,7 +35,7 @@
   documents from pre-installed templates only
 * Added the application translation into English (Great Britain, en-GB)
 * Updated icons of formats in the Create New and Recent files list
-* A hint in English has been added to the Interface language list on 
+* A hint in English has been added to the Interface language list on
   the settings page
 
 #### Document Editor
@@ -56,7 +56,7 @@
 * The Pivot Table toolbar tab is only displayed when using the pivot table,
   and is otherwise hidden
 * The Pivot Table settings right panel now unfolds when adding a new Pivot Table
-* Added the ability to display trendlines (Equation on chart) to 
+* Added the ability to display trendlines (Equation on chart) to
   the Chart - Advanced Settings
 * Added preview window when opening local `CSV` files
 
@@ -81,11 +81,11 @@
 #### Security
 
 * Fixed the XSS injection in the Tooltip of the Animation Pane
-* Fixed the vulnerability that allowed bypassing document access rights and 
+* Fixed the vulnerability that allowed bypassing document access rights and
   making changes to it
-* Fixed the vulnerabilities in the `FormattedDiskPagePAPX`, `SectionPropertiesMapping`, 
-  `FormattedDiskPageCHPX`, and `XORCrypt` functions leading to Heap Buffer Overflow 
-  when converting to the `DOC` format
+* Fixed the vulnerabilities in the `FormattedDiskPagePAPX`,
+  `SectionPropertiesMapping`, `FormattedDiskPageCHPX`, and `XORCrypt` functions leading
+  to Heap Buffer Overflow when converting to the `DOC` format
 * Fixed the vulnerabilities in the `ECMADecryptor`, and `DirTree` functions
   leading to Buffer over-read when converting to the `DOC` format
 * Fixed the vulnerability in the Update Service leading to Directory
