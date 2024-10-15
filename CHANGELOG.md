@@ -77,6 +77,8 @@
 * Added Gradient support
 * Improved text recognition
 
+### Fixes
+
 #### Security
 
 * Fixed the XSS injection in the Tooltip of the Animation Pane
