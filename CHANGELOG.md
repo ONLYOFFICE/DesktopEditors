@@ -12,9 +12,7 @@
 * Support for new types of charts for opening: Histogram, Waterfall, and Funnel
 * Improved display of Chart labels for Date axes, Values, and Categories
 * Improved touch screen support in the full version of editors
-* New Gray interface theme
-* The appearance of the Version History panel has been changed
-* Updated styles for file renaming
+* A gray theme has been added to the settings page
 * Menu items in the File menu have been regrouped and icons have been added
 * Theme and toolbar settings are moved to a separate Appearance category in
   the File menu - Advanced Settings
@@ -72,7 +70,6 @@
 #### PDF Editor
 
 * Added ability to save `PDF` files to the storage
-* Added co-editing `PDF` files
 * Added correct processing of cropped/combined shapes when opening files
 * Added Gradient support
 * Improved text recognition
@@ -82,8 +79,6 @@
 #### Security
 
 * Fixed the XSS injection in the Tooltip of the Animation Pane
-* Fixed the vulnerability that allowed bypassing document access rights and
-  making changes to it
 * Fixed the vulnerabilities in the `FormattedDiskPagePAPX`,
   `SectionPropertiesMapping`, `FormattedDiskPageCHPX`, and `XORCrypt` functions leading
   to Heap Buffer Overflow when converting to the `DOC` format
