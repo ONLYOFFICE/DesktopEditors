@@ -12,7 +12,6 @@
 * Support for new types of charts for opening: Histogram, Waterfall, and Funnel
 * Improved display of Chart labels for Date axes, Values, and Categories
 * Improved touch screen support in the full version of editors
-* Added the editors translation into Hebrew (he-IL, Hebrew (Israel))
 * New Gray interface theme
 * The appearance of the Version History panel has been changed
 * Updated styles for file renaming
