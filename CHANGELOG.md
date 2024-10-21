@@ -1,5 +1,94 @@
 # Change log
 
+## 8.2.0
+
+### New features
+
+#### All Editors
+
+* Optimization of script loading to speed up opening all editors
+* Own rendering of some SmartArt objects instead of recorded images in the file
+* Updated dictionaries for Spellcheck and Hyphenation
+* Support for new types of charts for opening: Histogram, Waterfall, and Funnel
+* Improved display of Chart labels for Date axes, Values, and Categories
+* Improved touch screen support in the full version of editors
+* A gray theme has been added to the settings page
+* Menu items in the File menu have been regrouped and icons have been added
+* Theme and toolbar settings are moved to a separate Appearance category in
+  the File menu - Advanced Settings
+* Added the Tab style setting - view of tabs (Fill or Line) in
+  the File menu - Advanced Settings
+* Added the Use toolbar color as tabs background setting
+* Ability to add custom fields to the file information
+* Ability to view/add/edit custom fields without pressing the Apply button
+* Reorganized fields with file information in the File menu - Info
+* Improved work with the Lists of languages - the name of the language and region
+  is now duplicated in English
+* Implemented search in the Language list by name and in the target
+  language, as well as in English
+* The installation path selection page is disabled for security reasons;
+  forced display of the page is possible using the `/enabledirpage` key (EXE package)
+* Added support for local templates; currently restricted to creating
+  documents from preinstalled templates only
+* Added the application translation into English (Great Britain, en-GB)
+* Updated icons of formats in the Create New and Recent files list
+* A hint in English has been added to the Interface language list on
+  the settings page
+
+#### Document Editor
+
+* Support for old CheckBox types
+* Added the ability to Insert the contents of a third-party document
+* New numbered list presets for Arabic interface
+* Added the highlight of deleted text in the selected file version
+* Ability to add and edit complex fields using field instructions
+
+#### Spreadsheet Editor
+
+* Improved support for smooth scroll
+* Support for iterative calculations
+* Added the ability to switch the direction of cell placement
+* Added a button for setting the number format with separators to the toolbar
+* Ability to display pages in real scale in the Print preview window
+* The Pivot Table toolbar tab is only displayed when using the pivot table,
+  and is otherwise hidden
+* The Pivot Table settings right panel now unfolds when adding a new Pivot Table
+* Added the ability to display trendlines (Equation on chart) to
+  the Chart - Advanced Settings
+* Added preview window when opening local `CSV` files
+
+#### Presentation Editor
+
+* Acceleration of opening files due to rendering the slide before loading of images
+* Implemented a more visual way of selecting animation from the extended list
+* Added the `Random` transition
+
+#### Forms
+
+* Added a Signature field with the ability to upload a prepared image
+
+#### PDF Editor
+
+* Added ability to save `PDF` files to the storage
+* Added correct processing of cropped/combined shapes when opening files
+* Added Gradient support
+* Improved text recognition
+
+### Fixes
+
+#### Security
+
+* Fixed the XSS injection in the Tooltip of the Animation Pane
+* Fixed the vulnerabilities in the `FormattedDiskPagePAPX`,
+  `SectionPropertiesMapping`, `FormattedDiskPageCHPX`, and `XORCrypt` functions leading
+  to Heap Buffer Overflow when converting to the `DOC` format
+* Fixed the vulnerabilities in the `ECMADecryptor`, and `DirTree` functions
+  leading to Buffer over-read when converting to the `DOC` format
+* Fixed the vulnerability in the Update Service leading to Directory
+  Traversal Escalation of Privilege
+* Fixed the vulnerabilities in the `findNextBorderPixel` and `pixFewColorsOctcubeQuantMixed`
+  functions, leading to Heap-buffer overflow (CVE-2020-36278, CVE-2020-36281)
+
 ## 8.1.1
 
 ### New features

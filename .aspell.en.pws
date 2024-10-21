@@ -340,3 +340,14 @@ LoadExternal
 CSvmFile
 commandSetPassword
 reconnection
+enabledirpage
+FormattedDiskPagePAPX
+SectionPropertiesMapping
+FormattedDiskPageCHPX
+XORCrypt
+ECMADecryptor
+DirTree
+findNextBorderPixel
+pixFewColorsOctcubeQuantMixed
+CheckBox
+trendlines
