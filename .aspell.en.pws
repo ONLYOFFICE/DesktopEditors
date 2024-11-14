@@ -10,6 +10,7 @@ AutoCorrect
 autocorrection
 autofill
 Autofilter
+AutoFilter
 autofilter
 autofilters
 Autofit
@@ -351,3 +352,7 @@ findNextBorderPixel
 pixFewColorsOctcubeQuantMixed
 CheckBox
 trendlines
+TIF
+DocSpace
+IME
+strikethrough

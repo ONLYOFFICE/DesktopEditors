@@ -1,5 +1,210 @@
 # Change log
 
+## 8.2.1
+
+### Fixes
+
+#### All Editors
+
+* Fixed appearance of an extra argument when switching from a linear equation
+  to a professional one
+* Fixed navigation via menu instead of moving around text when using the Alt key
+  and keyboard arrows
+* Fixed inconsistency in the appearance of labels as compared to other editors when
+  opening some documents with charts
+* Fixed the ability to add some `TIF`/`TIFF` images to documents
+* Fixed switching to an incorrect directory when selecting the Open file location
+  option for an unsaved template
+* Fixed an incorrect format when exporting a document to an image if the application
+  is connected to DocSpace
+* Fixed an incorrect format when repeated exporting a document from the portal
+  if it was previously exported to an image
+* Fixed a problem with parallel installation of `EXE`/`MSI` x86 packages on a 64-bit
+  system (Windows)
+* Fixed switching the application to the RTL interface
+* Fixed installing the application with the English (United Kingdom) localization
+  instead of English (United States) (macOS Intel Chip)
+* Fixed repeated switching of the application theme to the system one (macOS)
+* Fixed inconsistency in displaying mathematical equations to the Dark document
+  mode (macOS)
+* Fixed inconsistency between scroll bar styles in the Local templates section and
+  the selected application theme
+* Fixed inconsistency in the Document Info page styles on Windows XP
+
+#### Document Editor
+
+* Fixed an issue with calculating spacing before for a paragraph in block-level sdt
+* Fixed an issue with cell selection after removing table rows
+* Fixed calculating footnotes in the extreme case when there is no space even
+  for 1 line
+* Fixed an issue with the exact row height support when opening `DOCX` files
+* Fixed the input window overlay on text in the Japanese (Microsoft IME) layout
+* Fixed inconsistency in displaying numbered lists as compared to other editors
+  when opening some `DOCX` documents
+* Fixed appearance of a frame around the paragraph inserted from other sources
+* Fixed the presence of artifacts when applying strikethrough or double
+  strikethrough in a formula
+* Fixed calculation of a math equation that was split into multiple lines
+* Fixed text offset in autoshapes when opening some `DOCX` files
+* Fixed table offset in header when opening some `DOCX` files
+* Fixed text offset when opening some `DOCX` files
+* Fixed saving some `SVG` images when exporting `DOCX` to `PDF`
+* Fixed removing a section break after converting some `RTF` files to `DOCX`
+* Fixed removing the Title and Tag properties when moving the Content Control
+  that contains an image
+* Fixed losing the Drop-down list that was added and modified in the Reviewing mode
+* Fixed duplicating an input field when moving the Content Control using the mouse
+* Fixed shifting focus from the Check Box to other elements after changing
+  its state in some `DOCX` documents
+* Fixed losing the OLE object contents when exporting some `DOCX` files to `HTML`
+
+#### Spreadsheet Editor
+
+* Fixed correct work of data validation specified with the `LEFT` formula
+* Fixed consideration of the time zone when inserting a date using `Ctrl` + `;`
+* Fixed stopping work of the editor when copying the cell, containing
+  a link to an external file
+* Fixed stopping work of the editor when changing the column width using a stylus
+* Fixed long opening of some `XLSX` files which causes stopping work of the editor
+* Fixed displaying autoshapes containing a macro mechanism
+* Fixed losing changes when using special paste after building some `XLSX` files
+* Fixed the value type error when recalculating the `IF` function in some
+  `XLSX` files
+* Fixed appearance of extra pages when previewing or printing some `XLSX` files
+* Fixed appearance of borders after inserting cells copied from third-party applications
+* Fixed appearance of an extra warning when editing a link to an external data source
+* Fixed selecting fractional numbers using Goal Seek
+* Fixed incorrect rounding when using the `ROUNDUP` function
+* Fixed creating data array as a result of calculating the `VLOOKUP` function
+  if the argument is not an array
+* Fixed the rendering artifacts for some cases when scrolling the content of
+  the sheet
+* Fixed the dependence of the scroll step on the system scale
+* Fixed displaying the drop-down list button
+* Fixed the ability to apply the AutoFilter to an imported range
+* Fixed the ability to use the space in a name of a protected range
+* Fixed jumps when scrolling a sheet using selection with the `Shift` key and
+  keyboard arrows
+* Fixed the ability to choose cells after scrolling an area frozen with
+  the Freeze Panes option if there are other cells below them
+* Fixed the position of the comment window when expanding the panel with them
+* Fixed overlapping the cell content by a comment in the Sheet Right-to-left mode
+* Fixed layering of line number when scrolling a sheet in the Sheet
+  Right-to-left mode
+* Fixed duplicating the comment marker in the Sheet Right-to-left mode
+* Fixed shifting of column guides when resizing them in the Sheet Right-to-left mode
+* Fixed shifting of graphic objects when opening the toolbar in the Sheet
+  Right-to-left mode
+* Fixed shifting of the equation field when entering values in the Sheet
+  Right-to-left mode
+* Fixed highlighting of an added equation after after restarting the editor
+* Fixed displaying the equation auxiliary menu when switching to the Sheet
+  Right-to-left mode
+* Fixed displaying the comment after activating the Sheet Right-to-left mode
+* Fixed shifting of conditional formatting icons after enabling the Sheet
+  Right-to-left mode
+* Fixed missing graphic objects in some `XLSX` files on horizontal scrolling
+  in the Sheet Right-to-left mode
+* Fixed moving graphic objects after their rotation in the Sheet Right-to-left mode
+* Fixed the displayed number of rows or columns exceeding specification limits
+* Fixed inconsistency between the style of row and column headers and the Gray
+  application theme
+
+#### Presentation Editor
+
+* Fixed missing a chart when opening some `PPTX` files
+* Fixed inline check and numbering bullet check in presentation mode for math equations
+* Fixed the watermark position when using protection in the DocSpace room
+* Fixed missing graphic elements in the presenter mode when demonstrating some
+  `PPTX` files
+* Fixed changing the color scheme when opening some `PPTX` files
+* Fixed the ability to apply columns for a group of SmartArt objects
+* Fixed applying object formatting performed on a parent slide in
+  the Slide Master mode
+
+#### Forms
+
+* Fixed the ability to delete the field with the Lock property if
+  the Fixed size setting is enabled
+* Fixed the absence of the ability to submit a completed form if it contains
+  the Date & Time field with the Required property
+* Fixed the work of composite input in fields with the Comb of characters property
+* Fixed the ability to insert an image from storage or URL to the form field
+* Fixed the absence of the ability to go to the Signature field using
+  the toolbar buttons
+* Fixed the ability to put the cursor to the same paragraph after creating
+  an Inline Text Field
+* Fixed moving a form field located in a table after activating the Fixed size
+  field property
+* Fixed the size of the Signature field track when switching from the Edit to
+  View mode and vice versa
+* Fixed stopping navigation through fields using the Previous/Next Field buttons
+  in some forms
+
+#### PDF Editor
+
+* Reworked loading of fonts required for page rendering due to page
+  hang out in collaborative mode
+* Fixed stopping work of the editor when printing some `PDF` files
+* Fixed stopping work of the editor when opening some `PDF` files
+* Fixed stopping work of the editor after receiving an autoshape with text in co-editing
+* Fixed the issue with different text shaping in collaboration mode
+* Fixed different appearance of documents after transferring an image in co-editing
+* Fixed the appearance of a deleted page after re-saving some `PDF` files
+* Fixed shifting of a table when adding rows using Tab
+* Fixed applying fill when creating some formulas
+* Fixed displaying styles of some formulas in co-editing
+* Fixed clearing all elements when erasing one of them with the Erase tool
+* Fixed missing Text call out after the file formation
+* Fixed losing a comment in co-editing if another user replied to it
+* Fixed the distortion of the bulleted list after editing some `PDF` files
+* Fixed missing notifications about inactivity when working with `PDF` files for
+  a long time
+* Fixed recording of checkbox state changes in `PDF` files
+* Fixed losing an autoshape shadow when opening some `PDF` files
+* Fixed changing the color of some images after inserting them and saving the
+  `PDF` file
+* Fixed changing the color of hieroglyphs when exporting some `PDF` files to images
+* Fixed rotation of the modified page content after saving some `PDF` files
+* Fixed missing added changes on preview or after printing some `PDF` files
+  from the portal
+* Fixed incorrect selector behavior when selecting lines in some `PDF` files
+* Fixed the ability to enter text after pasting from the clipboard
+* Fixed the appearance of a warning when pasting text via the Paste button on
+  the toolbar
+* Fixed missing contents on the preview of the added page when editing some
+  `PDF` files
+
+#### Convert
+
+* Fixed the appearance of an error when opening the result of converting
+  `PDF` to `DOCX` in third-party editors
+* Fixed stopping work of the editor after opening the result of converting some
+  `XLSX` to `XLSB`
+* Fixed endless conversion of some `ODP` files to `PPTX`
+* Fixed the Segmentation fault error during the conversion of some `ODP`
+  files to `OTP`
+* Fixed the Segmentation fault error during the conversion of some `DOCX` files to
+  `HTML`/`DJVU`/`EPUB`
+* Fixed crash when converting some `DOCX` files to `HTML`/`DJVU`/`EPUB` or
+  image file formats
+* Fixed an error when converting some `XLS` to `XLSX`
+* Fixed the appearance of an error when opening the result of converting `XPS` to
+  `DOCX` in third-party editors
+* Fixed the appearance of an error when opening the result of converting `ODP`/`OTP`/`FODT`
+  to `PPTX` in third-party editors
+* Fixed the appearance of an error when opening the result of converting `ODT` to
+  `DOCX` in third-party editors
+* Fixed data loss in a table when converting `DOCX` to `RTF`
+* Fixed layering of hieroglyphs in the `EMF` images when opening some `XLSX` files
+* Fixed document structure corruption when opening some `EPUB` documents
+* Fixed cropping the `EMF` images after converting some `DOCX` files to an image
+* Fixed writing the formula calculation result when exporting `XLSX` to `CSV`
+* Fixed considering the availability of the VBA macros when converting
+  the `XLSB` files
+* Fixed corruption of links to sheets containing non-Latin characters after
+  exporting to the `ODS` format
+
 ## 8.2.0
 
 ### New features
