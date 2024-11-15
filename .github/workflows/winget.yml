@@ -6,9 +6,28 @@ jobs:
   publish:
     runs-on: windows-latest
     steps:
-      - uses: vedantmgoyal2009/winget-releaser@main
+      - name: Publish x64 exe to WinGet
+        uses: vedantmgoyal2009/winget-releaser@main
         with:
           identifier: ONLYOFFICE.DesktopEditors
-          installers-regex: '\.exe$'
+          installers-regex: 'x64\.exe$'
+          token: ${{ secrets.WINGET_TOKEN }}
+      - name: Publish x64 msi to WinGet
+        uses: vedantmgoyal2009/winget-releaser@main
+        with:
+          identifier: ONLYOFFICE.DesktopEditors
+          installers-regex: 'x64\.msi$'
+          token: ${{ secrets.WINGET_TOKEN }}
+      - name: Publish x86 exe to WinGet
+        uses: vedantmgoyal2009/winget-releaser@main
+        with:
+          identifier: ONLYOFFICE.DesktopEditors
+          installers-regex: 'x86\.exe$'
+          token: ${{ secrets.WINGET_TOKEN }}
+      - name: Publish x86 msi to WinGet
+        uses: vedantmgoyal2009/winget-releaser@main
+        with:
+          identifier: ONLYOFFICE.DesktopEditors
+          installers-regex: 'x86\.msi$'
           token: ${{ secrets.WINGET_TOKEN }}
 
