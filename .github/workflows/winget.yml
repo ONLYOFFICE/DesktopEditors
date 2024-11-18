@@ -6,9 +6,10 @@ jobs:
   publish:
     runs-on: windows-latest
     steps:
-      - uses: vedantmgoyal2009/winget-releaser@main
+      - name: Publish to WinGet
+        uses: vedantmgoyal2009/winget-releaser@main
         with:
           identifier: ONLYOFFICE.DesktopEditors
-          installers-regex: '\.exe$'
+          installers-regex: '(x86|x64)\.(exe|msi)$'
           token: ${{ secrets.WINGET_TOKEN }}
 
