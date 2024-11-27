@@ -11,6 +11,8 @@
 * Fixed application launch on macOS Big Sur with the Apple Silicone architecture
 * Fixed crash of the editor when detaching a tab with a document, opened from
   the cloud portal, into a separate window
+* Fixed the ability to return to the current document from the version history or
+  show the file if a new version was build on the portal DocSpace/Workspace
 
 #### Document Editor
 
@@ -19,8 +21,6 @@
 * Fixed slow scrolling of documents if the document extends the visible area
 * Fixed stopping work of the editor when comparing some `DOCX` documents
 * Fixed text selection when clicking on a paragraph with Justified alignment
-* Fixed the ability to return to the current document from the version history or
-  show the file if a new version was build on the portal DocSpace/Workspace
 
 #### Spreadsheet Editor
 
