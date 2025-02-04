@@ -12,7 +12,7 @@
 * Added the ability to reset Crop for images in the right panel and context menu
 * Added the interface translation into `Albanian` (sq-AL, Albanian (Albania))
 * Added new languages to the list of exceptions for text `AutoCorrect`
-* Blocking dialogs that require the editor restart are replaced with notifications
+* Blocking dialogues that require the editor restart are replaced with notifications
 * Connection status notifications are moved from the status bar
   to the top of the editor
 * The `RTL Interface` option is hidden in the settings and automatically
@@ -22,7 +22,7 @@
 #### Document Editor
 
 * Implemented support for `customXml` and `dataBinding`, when the content of
-  the content control is binded to an element in a custom xml
+  the content control is bound to an element in a custom xml
 * When editing protected documents, the tools available for the selected
   part are activated
 * Added the ability to change the main direction of the paragraph
