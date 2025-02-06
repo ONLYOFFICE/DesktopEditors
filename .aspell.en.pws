@@ -9,6 +9,7 @@ autocomplete
 AutoCorrect
 autocorrection
 autofill
+autofilling
 Autofilter
 AutoFilter
 autofilter
@@ -357,3 +358,8 @@ DocSpace
 IME
 strikethrough
 Sur
+customXml
+dataBinding
+HWP
+HWPX
+xml
