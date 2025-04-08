@@ -15,8 +15,8 @@ body:
       description: "If you know this bug occurs on multiple operating systems, select all you have tested."
       multiple: true
       options:
-      - Windows (EXE)
-      - Windows (MSI)
+      - Windows x64
+      - Windows x86
       - macOS (ARM)
       - macOS (x86-64)
       - Linux (DEB package)
