@@ -5,6 +5,7 @@
 ### Fixes
 
 #### All Editors
+
 * Fixed an error that occurred when opening files on x86 packages under Windows
 
 #### Document Editor
