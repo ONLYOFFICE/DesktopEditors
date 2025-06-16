@@ -8,7 +8,7 @@
 
 * Redesigned interface of the main application window
 * Added new interface themes: Modern Light and Modern Dark
-* Added saving of the last selected languages ​​in spellcheck lists
+* Added saving of the last selected languages in spellcheck lists
 * Added Arabic spellcheck dictionary used in sixteen dialects
 * Added AI-powered macro generation from descriptions and VBA-to-JavaScript conversion
 * Added the interface translation into Urdu (ur-PK, Urdu (Pakistan))
