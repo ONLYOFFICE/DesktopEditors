@@ -16,23 +16,26 @@
 * Added support for drawing the Up/Down Bars chart elements
 * Merged local and cloud template lists into a unified view
 * The list of templates is now processed on the client side, not on the server
-* The installed system languages are now displayed at the top of the text/document/dictionary list
+* The installed system languages are now displayed at the top of
+  the text/document/dictionary list
 * Added a contrast-reducing effect for control buttons in inactive windows
 * Added the option to select a printer in the print preview menu
-* The `Print using the system dialog` option has been added to the print preview menu
+* The `Print using the system dialog` option has been added to the print
+  preview menu
 * The ability to configure format associations for modern Windows OS in the EXE package
   installation wizard has been unlocked
 
 #### Document Editor
 
-* Added correct display of previews for paragraph numbers for RTL 
-* Improved positioning and settings of TextArt for RTL 
+* Added correct display of previews for paragraph numbers for RTL
+* Improved positioning and settings of TextArt for RTL
 * Improved drawing of borders and fill for paragraphs with RTL direction
-* Enabled accurate cursor navigation with arrow keys based on the paragraph's text direction
+* Enabled accurate cursor navigation with arrow keys based on
+  the paragraph's text direction
 * Added the ability to display numbers using Hindi digits
 * Added a setting in the File menu for selecting the preferred font size: Western/Chinese
   for the Chinese interface language (Chinese (Simplified))
-* Added a Borders button to the Home toolbar to quickly set paragraph settings 
+* Added a Borders button to the Home toolbar to quickly set paragraph settings
 * Added support for the `MD` format for reading
 
 #### Spreadsheet Editor
@@ -52,7 +55,8 @@
 * Changed the appearance of the Signature and Image fields: the placeholder and
   signature icon are now always displayed
 * Improved user experience when filling in the Signature and Image fields
-* Added a new "type": "signature" for the Signature field, used in the process of filling out forms
+* Added a new "type": "signature" for the Signature field, used in the process
+  of filling out forms
 
 #### PDF Editor
 
