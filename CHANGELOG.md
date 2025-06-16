@@ -1,5 +1,76 @@
 # Change log
 
+## 9.0.0
+
+### New features
+
+#### All Editors
+
+* Redesigned interface of the main application window
+* Added new interface themes: Modern Light and Modern Dark
+* Added saving of the last selected languages ​​in spellcheck lists
+* Added Arabic spellcheck dictionary used in sixteen dialects
+* Added AI-powered macro generation from descriptions and VBA-to-JavaScript conversion
+* Added the interface translation into Urdu (ur-PK, Urdu (Pakistan))
+* Added support for TextArt text settings inside chart labels
+* Added support for drawing the Up/Down Bars chart elements
+* Merged local and cloud template lists into a unified view
+* The list of templates is now processed on the client side, not on the server
+* The installed system languages are now displayed at the top of the text/document/dictionary list
+* Added a contrast-reducing effect for control buttons in inactive windows
+* Added the option to select a printer in the print preview menu
+* The `Print using the system dialog` option has been added to the print preview menu
+* The ability to configure format associations for modern Windows OS in the EXE package
+  installation wizard has been unlocked
+
+#### Document Editor
+
+* Added correct display of previews for paragraph numbers for RTL 
+* Improved positioning and settings of TextArt for RTL 
+* Improved drawing of borders and fill for paragraphs with RTL direction
+* Enabled accurate cursor navigation with arrow keys based on the paragraph's text direction
+* Added the ability to display numbers using Hindi digits
+* Added a setting in the File menu for selecting the preferred font size: Western/Chinese
+  for the Chinese interface language (Chinese (Simplified))
+* Added a Borders button to the Home toolbar to quickly set paragraph settings 
+* Added support for the `MD` format for reading
+
+#### Spreadsheet Editor
+
+* Added support for displaying bidirectional text
+* Added the ability to select external data from another spreadsheet
+
+#### Presentation Editor
+
+* Added the ability to set the paragraph direction (Text Direction > RTL) on
+  the toolbar and in the advanced settings
+* Added the ability to view animations with text
+* Added the "Preserve" option to the Slide Master context menu
+
+#### Forms
+
+* Changed the appearance of the Signature and Image fields: the placeholder and
+  signature icon are now always displayed
+* Improved user experience when filling in the Signature and Image fields
+* Added a new "type": "signature" for the Signature field, used in the process of filling out forms
+
+#### PDF Editor
+
+* Added the ability to set RTL direction for text
+* The Edit Text option is available in the Community Edition build
+* Implemented a `PDF` form editor
+* Added copying pages between `PDF` files
+
+#### Diagrams
+
+* Release of the first version of the Diagram Viewer with the ability to open
+  `VSD` and `VSDX` files for viewing
+
+#### Convert
+
+* Added conversion of the `XLSB` format to the editor's internal format,
+  allowing editing and saving in `XLSX` without preliminary conversion
+
 ## 8.3.3
 
 ### Fixes
