@@ -1,11 +1,46 @@
 [![License](https://img.shields.io/badge/License-GNU%20AGPL%20V3-green.svg?style=flat)](https://www.gnu.org/licenses/agpl-3.0.en.html)
 ![Platforms Windows | macOS | Linux](https://img.shields.io/badge/Platforms-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey.svg?style=flat) ![Release](https://img.shields.io/badge/Release-v8.3.0-blue.svg?style=flat)
 
-## Overview
+## Welcome to the ONLYOFFICE Desktop Editors repo!
 
-[ONLYOFFICE Desktop Editors][4] is a free office suite that combines text, spreadsheet and presentation editors allowing to create, view and edit documents stored on your Windows/Linux PC or Mac without an Internet connection. It is fully compatible with Office Open XML formats: .docx, .xlsx, .pptx.
+[ONLYOFFICE Desktop Editors](https://www.onlyoffice.com/desktop.aspx?utm_source=github&utm_medium=cpc&utm_campaign=GitHubDesktop) is a free office suite that combines text, spreadsheet, presentation, and PDF editors & Diagram Viewer. The application allows creating, viewing and editing documents stored on your Windows/Linux PC or Mac without an Internet connection. It is fully compatible with Office Open XML formats: .docx, .xlsx, .pptx.
 
-## Components
+![ONLYOFFICE Desktop Editors](./screenshots/ONLYOFFICE%20Desktop%20Editors.png)
+
+## Features you'll love ✨
+
+Take advantage of the powerful editors included in ONLYOFFICE Desktop Editors:
+
+* [ONLYOFFICE Document Editor](https://www.onlyoffice.com/document-editor.aspx?utm_source=GitHub&utm_medium=social&utm_campaign=GitHubDesktop)
+* [ONLYOFFICE Spreadsheet Editor](https://www.onlyoffice.com/spreadsheet-editor.aspx?utm_source=GitHub&utm_medium=social&utm_campaign=GitHubDesktop)
+* [ONLYOFFICE Presentation Editor](https://www.onlyoffice.com/presentation-editor.aspx?utm_source=GitHub&utm_medium=social&utm_campaign=GitHubDesktop)
+* [ONLYOFFICE Form Creator](https://www.onlyoffice.com/form-creator.aspx?utm_source=GitHub&utm_medium=social&utm_campaign=GitHubDesktop)
+* [ONLYOFFICE PDF Editor](https://www.onlyoffice.com/pdf-editor.aspx?utm_source=GitHub&utm_medium=social&utm_campaign=GitHubDesktop)
+* [ONLYOFFICE Diagram Viewer](https://www.onlyoffice.com/diagram-viewer.aspx?utm_source=GitHub&utm_medium=social&utm_campaign=GitHubDesktop)
+
+The suite empowers you to create, edit, save, and export text documents, spreadsheets, presentations, PDFs, fill out PDF forms, open diagrams, all while offering additional advanced features such as:
+
+* Connection to the cloud (ONLYOFFICE, Moodle, Nextcloud, ownCloud, Seafile, Liferay, kDrive) for [real-time collaboration](https://www.onlyoffice.com/seamless-collaboration.aspx?utm_source=github&utm_medium=cpc&utm_campaign=GitHubDesktop) ☁️
+* [AI-powered assistants](https://www.onlyoffice.com/ai-assistants.aspx?utm_source=github&utm_medium=cpc&utm_campaign=GitHubDesktop) 🤖
+* Digital signatures ✍️🔏
+* Password protection 🔒🔑
+* Scalable UI options (including dark mode 🌓)
+
+## Localization 🌐
+
+ONLYOFFICE is constantly improving localization of the editors to make the suite accessible to all users, all over the world.
+
+* Interface available in 46 languages
+* RTL support
+* Hieroglyph support 🈴
+
+## Plugins 🧩
+
+ONLYOFFICE Desktop Editors offer support for plugins allowing developers to add specific features to the editors that are not directly related to the OOXML format. For more information, see [our API](https://api.onlyoffice.com/docs/plugin-and-macros/get-started/overview/) or visit the [GitHub plugins repo](https://github.com/ONLYOFFICE/onlyoffice.github.io).
+
+Would like to explore the existing plugins in details? You are welcome to visit our [Marketplace](https://www.onlyoffice.com/app-directory?utm_source=github&utm_medium=cpc&utm_campaign=GitHubDesktop).
+
+## Components 📦
 
 ONLYOFFICE Desktop Editors contain the following components:
 
@@ -16,42 +51,34 @@ ONLYOFFICE Desktop Editors contain the following components:
 * [web-apps](https://github.com/ONLYOFFICE/web-apps) - the frontend for [ONLYOFFICE Document Server][2] which is a part of ONLYOFFICE Desktop Editors that allows the user to create, edit, save and export text, spreadsheet and presentation documents using the common interface of a document editor.
 * [dictionaries](https://github.com/ONLYOFFICE/dictionaries) - the dictionaries of various languages used for spellchecking in ONLYOFFICE Desktop Editors.
 
-## Plugins
+## Easy installation options
 
-ONLYOFFICE Desktop Editors offer support for plugins allowing developers to add specific features to the editors that are not directly related to the OOXML format. For more information see [our API](https://api.onlyoffice.com/plugin/basic) or visit github [plugins repo](https://github.com/ONLYOFFICE/onlyoffice.github.io).
+Get set up quickly with deb, rpm, exe, or dmg packages from our [official website️](https://www.onlyoffice.com/download-desktop.aspx?utm_source=GitHub&utm_medium=social&utm_campaign=GitHubDesktop).
 
-## Functionality
+Prefer other methods? Snap, Flatpak, or AppImage are all available!
 
-ONLYOFFICE Desktop Editors include the following editors:
+* Snap package. Get on [snapcraft.io](https://snapcraft.io/onlyoffice-desktopeditors). The official [source code](https://github.com/ONLYOFFICE/snap-desktopeditors) for ONLYOFFICE Desktop Editors Snap package.
+* Flatpak. Get on [flathub.org](https://flathub.org/apps/details/org.onlyoffice.desktopeditors). The official [source code](https://github.com/flathub/org.onlyoffice.desktopeditors) for ONLYOFFICE Desktop Editors Flatpak.
+* AppImage.  Get on [AppImageHub](https://appimage.github.io/ONLYOFFICE/). The official [source code](https://github.com/ONLYOFFICE/appimage-desktopeditors) for ONLYOFFICE Desktop Editors AppImage.
 
-* [ONLYOFFICE Document Editor](https://www.onlyoffice.com/document-editor.aspx?utm_source=GitHub&utm_medium=social&utm_campaign=GitHubDesktop)
-* [ONLYOFFICE Spreadsheet Editor](https://www.onlyoffice.com/spreadsheet-editor.aspx?utm_source=GitHub&utm_medium=social&utm_campaign=GitHubDesktop)
-* [ONLYOFFICE Presentation Editor](https://www.onlyoffice.com/presentation-editor.aspx?utm_source=GitHub&utm_medium=social&utm_campaign=GitHubDesktop)
-* [ONLYOFFICE Form Creator](https://www.onlyoffice.com/form-creator.aspx?utm_source=GitHub&utm_medium=social&utm_campaign=GitHubDesktop)
-* [ONLYOFFICE PDF editor, reader & converter](https://www.onlyoffice.com/pdf-reader.aspx?utm_source=GitHub&utm_medium=social&utm_campaign=GitHubDesktop)
+## License 📄
 
-The editors allow you to create, edit, save and export text, spreadsheet and presentation documents.
+ONLYOFFICE Desktop Editors is licensed under the GNU Affero Public License, version 3.0, ensuring its transparency and commitment to the open-source community.
 
-## Installation methods
+See [LICENSE](https://onlyo.co/38YZGJh) for more information.
 
-* Deb, rpm, exe, dmg on the [official website](https://www.onlyoffice.com/download-desktop.aspx?utm_source=GitHub&utm_medium=social&utm_campaign=GitHubDesktop)
-* Snap package. Get on [snapcraft.io](https://snapcraft.io/onlyoffice-desktopeditors). The official [source code](https://github.com/ONLYOFFICE/snap-desktopeditors) for ONLYOFFICE Desktop Editors Snap package
-* Flatpak. Get on [flathub.org](https://flathub.org/apps/details/org.onlyoffice.desktopeditors). The official [source code](https://github.com/flathub/org.onlyoffice.desktopeditors) for ONLYOFFICE Desktop Editors Flatpak
-* AppImage.  Get on [AppImageHub](https://appimage.github.io/ONLYOFFICE/). The official [source code](https://github.com/ONLYOFFICE/appimage-desktopeditors) for ONLYOFFICE Desktop Editors AppImage
+## How to build 🛠
 
-## License
+You can find the detailed instructions for building ONLYOFFICE Desktop Editors in [build_tools](https://github.com/ONLYOFFICE/build_tools#desktop-editors).
 
-ONLYOFFICE Desktop Editors is licensed under the GNU Affero Public License, version 3.0. See [LICENSE](https://onlyo.co/38YZGJh) for more information.
+## 💡 Need help? User feedback and support
 
-## How to Build
+If you face any issues or have questions about ONLYOFFICE Desktop Editors, please visit our official forum: [forum.onlyoffice.com][1].
 
-Instructions for building ONLYOFFICE Desktop Editors are in [build_tools](https://github.com/ONLYOFFICE/build_tools#desktop-editors).
+You are also welcome to ask and answer ONLYOFFICE development questions on [Stack Overflow][3], as well as share your thoughts and suggestions on [feedback.onlyoffice.com](https://feedback.onlyoffice.com/forums/966080-your-voice-matters).
 
-## User Feedback and Support
-
-If you have any problems with or questions about ONLYOFFICE Desktop Editors, please visit our official forum to find answers to your questions: [forum.onlyoffice.com][1] or you can ask and answer ONLYOFFICE development questions on [Stack Overflow][3].
+Join [our Discord community](https://discord.gg/Hcgtf5n4uF) for connecting with fellow developers.
 
   [1]: https://forum.onlyoffice.com
   [2]: https://github.com/ONLYOFFICE/DocumentServer
   [3]: https://stackoverflow.com/questions/tagged/onlyoffice
-  [4]: https://www.onlyoffice.com/desktop.aspx?utm_source=github&utm_medium=cpc&utm_campaign=GitHubDesktop
