@@ -1,5 +1,108 @@
 # Change log
 
+## 9.0.3
+
+### Fixes
+
+#### All Editors
+
+* The display of the cursor and text selection is now limited by the size
+  of the object/shape
+* Fixed some icons for Modern themes when the interface scale is higher than 200%
+* Improved appearance of the autoshape Merge/Flip icons for the Modern themes
+* Fixed the application freezes on the first launch during the template preview
+  generation process
+* Fixed the ability to paste code in the Macros window
+* Fixed work of the Open existing file (Open Document) shortcut on the Home page
+* Improved display of icons for Clouds connection on the main page of the application
+* Changed the font for the Urdu Interface language
+* Fixed the position of the editor version line in the About window
+* Improved display of the main page of the application for Windows XP
+* Fixed pausing when connecting to the portal if the debug window is open
+* Fixed the Copyright line for editor files (Windows)
+
+#### Document Editor
+
+* Fixed stopping work of the editor when editing footer in some `DOCX` files
+* Fixed errors during Compare/Combine/Text from file operations with files
+  containing images
+* Fixed a crash when restoring a placeholder with a list when deleting
+  Content Control content
+* Fixed significant increasing of the file size due to including CJK fonts when
+  exporting to `PDF`
+* Fixed auto-detection of the document language in the text with
+  the Text Direction > RTL option
+
+#### Spreadsheet Editor`
+
+* Fixed stopping work of the editor when trying to reference a cell with a formula
+* Fixed appearing the #NAME error in the final file when using a custom
+  function and exporting to `PDF`
+* Fixed a problem with saving custom function to a file
+* Fixed an issue with autofitting row height when changing column width if Wrap Text
+  is applied to a cell
+* Fixed display of the Zoom option value in the bottom toolbar in RTL UI with
+  the Sheet RTL option disabled
+* Fixed the incorrect position of the percent sign in the status bar for
+  Zoom with Chinese (Simplified)
+* Fixed stopping work of the application when exporting a spreadsheet to `PDF`
+
+#### Presentation Editor
+
+* Fixed stopping work of the editor when applying some animations from
+  the Emphasis Effects section to an image
+* Fixed the editor crash when deleting slides sequentially from preview panel
+* Fixed stopping work of the editor when copying all content on the slide in
+  some `PPTX` files
+* Fixed incorrect translations of tools in the Draw menu of the Presenter View window
+* Fixed changing word order in the bidirectional text when opening some
+  `PPTX` files in the application
+
+#### Forms
+
+* Fixed stopping work of the editor after applying the TextArt setting to
+  the Signature field
+* Fixed stopping work of the editor when restoring a file connection after
+  a long period of inactivity
+* Fixed cursor change for Content Control buttons
+* Fixed missing the Clear Fields icons in the form viewing mode for the Modern themes
+
+#### PDF Editor
+
+* Fixed stopping work of the editor when performing Cut/Paste operations
+  simultaneously on the thumbnail panel
+* Fixed display of the text after breaking and restoring a session when working with
+  some `PDF` files
+* Fixed saving form field settings when there are no other changes in the editor
+* Blocked the ability to change the contents of the document when the connection
+  is lost
+* Fixed an error when trying to copy page contents from the thumbnail panel
+  for `XPS/DjVu` formats
+* Blocked the ability to display of the form field titles in the embedded mode
+* Fixed display of the form field highlight when undoing and redoing actions
+* Fixed blocking the ability to enter text immediately after inserting a Text Comment
+* Fixed an error that occurred in the application when quickly opening
+  several documents one after another
+
+#### Diagram
+
+* Fixed display of the slide in the working area when opening some `VSTX` files
+
+#### Convert
+
+* Fixed crash when converting some `DOCX` files to an image
+* Fixed crash when converting some `HWP` files to the binary format
+* Fixed endless conversion of some `HWP` files to the binary format
+* Fixed endless conversion of some `DOC` files to the binary format
+* Fixed the appearance of an error when opening the result of converting
+  some `HWP` files to `DOCX` in third-party editors
+* Fixed crash when converting some `DOC` files to the binary format
+* Fixed the appearance of an error when opening the result of converting
+  some `XLS` files to `XLSX` in third-party editors
+* Fixed crash when converting some `DOCX` files to the binary format
+* Fixed the difference in display of autoshapes after converting
+  some `VSDX` files to `PNG`
+
 ## 9.0.0
 
 ### New features
