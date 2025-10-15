@@ -1,5 +1,88 @@
 # Change log
 
+## 9.1.0
+
+### New features
+
+#### All Editors
+
+* Added external data for charts. When copying between editors, it's possible to
+  select either an embedded file or a link to the source
+* Added the ability to enable/disable chart elements
+* Added support for the Explosion option (separating a segment of pie and doughnut
+  2d charts) for opening
+* Added support for the `HEIF` images
+* Added the ability to configure the display of resolved/open comments in
+  the left panel
+* Added preview for cloud templates
+* Added the "Spelling language detection" option on the application settings
+  page (macOS)
+* Added the ability to configure sending notifications from the application via
+ the "Notifications & actions" system section for modern OS (Windows 10 and later)
+* Added the option to select color mode for the printer in the print preview menu
+
+#### Document Editor
+
+* Implemented support for breaking sections within block content controls
+  with any nesting level
+* Added a full-featured chart editor. Embedded `XLSX` files are now opened
+  instead of
+  loading values from the chart cache
+* Added support for the `HWPML` text document format for viewing
+* Added support for inserting mathematical formulas from the MathML format
+
+#### Spreadsheet Editor
+
+* Add a setting for a general text direction in a cell
+* Added support for date filters in pivot tables
+* Added some Form Controls (Check Box, Combo Box, List Box, Spin Button, Scroll Bar,
+  Button) for opening
+* Improved the logic of formulas for mixed data types
+* Reduced memory consumption during formula calculations
+* Optimized calculation of the `VLOOKUP` and `XLOOKUP` formulas
+* Added highlighting of active arguments when entering a formula
+* Added translation of formulas into Serbian (Cyrillic), Serbian (Latin) and
+  Chinese (Traditional)
+* Added support for inserting mathematical formulas from the MathML format
+* Moved formatted table settings from the right panel to the Table Design tab of
+  the top toolbar.
+  The tab appears only when we are working within a table
+* Added the ability to rename a sheet by double-clicking on its name without opening
+  additional windows
+
+#### Presentation Editor
+
+* Added a full-featured chart editor. Embedded `XLSX` files are now opened
+  instead of
+  loading values from the chart cache
+* Moved Master Slide settings from the Insert tab to a separate tab of the top toolbar
+* Added an audio/video player (macOS)
+
+#### Forms
+
+* Improved user experience when working with fields
+* Renamed the View Form and Manage Roles buttons to Preview and
+  Manage Recipient Roles
+* Added support for inserting mathematical formulas from the MathML format
+
+#### PDF Editor
+
+* Added functionality for hiding confidential information - Redact
+* Added new annotation types to the Comment section
+* Implemented work with Smart Art
+* Added support for charts
+* Implemented copying and pasting graphic elements and forms
+
+#### Convert
+
+* Added the ability to convert `PDF` and `PPTX` to `TXT` directly
+
+### Fixes
+
+#### Security
+
+* Fixed the XSS vulnerability when processing hyperlinks in documents
+
 ## 9.0.4
 
 ### New features
