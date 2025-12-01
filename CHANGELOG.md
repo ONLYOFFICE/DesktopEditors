@@ -1,5 +1,41 @@
 # Change log
 
+## 9.2.0
+
+### New features
+
+#### All Editors
+
+* Added AI Agent, enabling document generation, PDF form filling, document
+  content reading, document analysis, local file operations, MCP Server connection,
+  and online information search
+* Added the ability to customize keyboard shortcuts
+* Added the ability to record some executed actions as a macro in all editors,
+  except for PDF
+
+#### Presentation Editor
+
+* Implemented insertion of equations from a third-party resource
+
+#### Forms
+
+* Added local PDF Forms templates
+* Implemented the ability to select the role for which new fields will be added
+* Implemented the ability to add labels for checkboxes and radio buttons. In
+  the filling mode, clicking on the label works like clicking on the checkbox itself
+
+#### PDF Editor
+
+* Added the ability to change color for hidden text (Redact)
+* Implemented insertion of equations from a third-party resource
+
+### Fixes
+
+#### Security
+
+* Fixed the vulnerability which allows adding a named range in the protected workbook
+  via websocket
+
 ## 9.1.0
 
 ### New features
