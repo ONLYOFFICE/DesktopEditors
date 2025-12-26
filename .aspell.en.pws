@@ -395,3 +395,5 @@ HWPML
 MCP
 checkboxes
 websocket
+textarea
+RCE
