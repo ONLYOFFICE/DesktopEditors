@@ -10,6 +10,6 @@ jobs:
         uses: vedantmgoyal9/winget-releaser@main
         with:
           identifier: ONLYOFFICE.DesktopEditors
-          installers-regex: '(x86|x64)\.(exe|msi)$'
+          installers-regex: '(x86|x64|arm64)\.exe$'
           token: ${{ secrets.WINGET_TOKEN }}
 
