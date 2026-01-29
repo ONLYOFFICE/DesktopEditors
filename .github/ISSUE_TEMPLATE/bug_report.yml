@@ -15,13 +15,35 @@ body:
       description: "If you know this bug occurs on multiple operating systems, select all you have tested."
       multiple: true
       options:
-      - Windows x64
-      - Windows x86
-      - macOS (ARM)
-      - macOS (x86-64)
-      - Linux (DEB package)
-      - Linux (RPM package)
-      - other (specify in description)
+      - Windows
+      - macOS
+      - Linux
+    validations:
+      required: true
+  - type: dropdown
+    id: architecture
+    attributes:
+      label: Architecture
+      description: "Select the architecture of the package you are using."
+      options:
+      - x86_64
+      - arm64
+    validations:
+      required: true
+  - type: dropdown
+    id: package-type
+    attributes:
+      label: Package Type
+      description: "Select the package type you are using."
+      options:
+      - exe
+      - msi
+      - dmg
+      - deb
+      - rpm
+      - flatpak
+      - snap
+      - appimage
     validations:
       required: true
   - type: input
@@ -56,8 +78,10 @@ body:
       placeholder: |
         Example:
         1. Change font size to 16
-        2. Set font color to white      
+        2. Set font color to white
         3. Observe as the text is not white
+    validations:
+      required: true
   - type: textarea
     id: additional
     attributes:
