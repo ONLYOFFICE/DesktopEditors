@@ -1,5 +1,91 @@
 # Change log
 
+## 9.3.0
+
+### New features
+
+#### All Editors
+
+* Added the Use AI functions option to the application settings
+* Added Box and Dropbox cloud providers
+* Added the Pin option to the Recent files and Recent folders lists on
+  the start page
+* Added the ability to work with files in separate windows (macOS)
+* Added the Open File option to the application settings to open a file in a separate
+  window (macOS)
+* Implemented the ability to add hyperlinks to images, shapes, or groups
+* Implemented all settings for texture fills for images
+* Updated macro recording in documents, spreadsheets, and presentations
+
+#### Document Editor
+
+* Added Multiple pages view
+* Added the Zoom to 100% and Multiple pages buttons to the View tab
+* Changed the appearance of comments. Now a user's color is used and
+  the beginning and end of the comment are displayed
+* Implemented the ability to select words/paragraphs by double/triple-clicking
+  the mouse
+* Added saving to the `MD` format
+* Moved header and footer settings to a separate Header & Footer tab
+
+#### Spreadsheet Editor
+
+* Added support for new functions: `REGEXTEST`, `REGEXREPLACE`, `REGEXEXTRACT`
+* Improved work of the `COUNTIF` function
+* Added support for dynamic arrays
+* Added Solver for solving linear problems (Simplex LP)
+* Changed the color of the resolved comment indicator
+* Added the ability to select multiple separators when splitting text into columns/pasting
+  from the clipboard
+* Added the Format button, which combines various functions for working with sheets/rows/columns
+* Added support for `TSV` files for reading
+* Added options for pasting from the clipboard for the Paste button on the top toolbar
+
+#### Presentation Editor
+
+* Added support for GIF animations playback in the slideshow demonstration mode
+
+#### Forms
+
+* Added the signature settings window with the ability to draw and add text to signatures
+* Added the ability to stretch fixed forms to fit the table cell size using
+  the context menu
+* Added the Protection tab, which duplicates the Protect functionality in the
+  `File` menu
+* Added saving to the `MD` format
+
+#### PDF Editor
+
+* Added version history
+* Added Multiple pages view
+* Added the Zoom to 100% and Multiple pages buttons to the View tab
+* Implemented a password prompt when enabling the Edit PDF mode if the file is
+  protected from editing
+* Added support for Link annotations with the ability to add them both to
+  an area and to text on a page
+* Added the ability to continue editing `PDF` using embedded fonts
+* Added the ability to redact text using the auxiliary pop-up toolbar
+* Added parameters for printing pages
+
+#### Diagram
+
+* Added print preview
+
+### Fixes
+
+#### Security
+
+* Fixed several vulnerabilities with out-of-bounds read in `XLS` processing/conversion
+  (via `FilePass`, `HLink`, `rgXTI`.`itabLast`, `Formula` record `cce`, `ShapePropsStream`,
+  and `CRN`.`colLast` records/fields) leading to information leak and `ASLR` bypass
+* Fixed vulnerabilities with untrusted pointer dereference in `XLS` processing/conversion
+  (via `pictFmla`.`cbBufInCtlStm` and other vectors) leading to information
+  leak and `ASLR` bypass
+* Fixed a DOM-based XSS vulnerability when executing a macro using dynamic import()
+  (CVE-2021-43446, CVE-2023-50883, CVE-2024-44085)
+* Fixed the vulnerability in the update service, that allows you to perform actions
+  with files with system privileges
+
 ## 9.2.1
 
 ### Fixes
