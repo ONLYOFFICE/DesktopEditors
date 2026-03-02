@@ -1,5 +1,13 @@
 # Change log
 
+## 9.3.1
+
+### Fixes
+
+#### Spreadsheet Editor
+
+* Fixed the issue of displaying the comment author's name when opening a spreadsheet
+
 ## 9.3.0
 
 ### New features
