@@ -1,5 +1,161 @@
 # Change log
 
+## 10.0.0
+
+> [!WARNING]
+> Important: Version 10.0 is a fully rebuilt app, so some settings can’t be transferred
+> from previous versions. After updating, just sign in to your clouds again in
+> the Clouds section. If you used a custom user name instead of your system account
+> name, simply enter it again in Settings.
+
+### New features
+
+#### AI
+
+* Added the ability to install AI Tools (beta) with support for ONLYOFFICE
+  Document Builder functionality, PowerShell and Bash command execution, as well
+  as calculations in macros and in the agent itself
+* Redesigned the chat interface: renamed the AI tab to AI Tools and Chatbot to
+  AI Chat; organized the tab elements into the Quick Actions and AI Assistants
+  groups **(ai-tools)**
+* Added prompt templates for different editors **(ai-tools)**
+* Added the ability to create Quick Actions (custom one-time commands for the
+  selected text) and choose a model for AI assistants in the Document Editor and
+  Form Editor **(ai-tools)**
+* Added support for internal links in the AI plugin: when answering questions
+  about the content of documents and spreadsheets, the assistant formats
+  references to locations as clickable links **(ai-tools)**
+* Improved the text rewriting tool in the AI plugin in the Document Editor: any
+  text selection is supported, including inside tables, with formatting and the
+  position of inline objects preserved **(ai-tools)**
+* Added support for MCP servers in the editors **(ai-tools)**
+* Added web search support in the editors **(ai-tools)**
+
+#### All Editors
+
+* Updated the start page: moved the buttons to the left sidebar and redesigned
+  the cloud service and template panels
+* Removed local document templates (only online templates remain)
+* Removed the AI plugin from the default package; it is now installed as an
+  add-on
+* Reduced the window border thickness and added a window shadow (Linux)
+
+#### Document Editor
+
+* Added the horizontal line settings window
+* Implemented clipping of text by lines in a paragraph with exact line spacing
+* Added support for the `keepNext` parameter for tables, as well as for
+  paragraphs and tables inside block content controls
+* Improved support for graphic equations and other inline objects in
+  right-to-left (RTL) text
+* Implemented a table row option that prevents a row from breaking across pages
+* Added items for continuing a list or restarting numbering to the Paste Special
+  menu
+* Implemented the ability to go to another user's cursor and follow it during
+  co-editing
+
+#### Spreadsheet Editor
+
+* Added range highlighting in the formula bar
+* Added saving to the `XLS` format
+* Sped up some operations by storing styles and data separately
+* Implemented creating charts from non-adjacent data
+* Added an option to enable and disable AutoComplete for cell values
+* Added tooltips for constants in function arguments (the `AGGREGATE` function)
+* Added an animated selection border after copying or cutting
+* Implemented support for sheet background when opening and saving files
+* Improved performance of array formulas that reference entire columns or rows
+  (`ROW`, `COLUMN`, `SEQUENCE`, `SUM`, `SUMPRODUCT`, etc.): calculations are
+  faster and use less memory
+* Extended the capabilities for working with hidden rows and columns, including
+  displaying hidden edge rows and columns via the context menu
+
+#### Presentation Editor
+
+* Extended print settings: added modes for printing notes, handouts, and
+  outline, as well as printing hidden slides, slide background and frame,
+  comments, slide numbers on handouts, and fitting to the page size
+* Added view modes: Outline, Notes, Handout Master, and Notes Master
+* Added the Reading View mode
+* Added the Animated and Video buttons to the File menu for exporting a
+  presentation with a choice of slide range, resolution, slide duration, and
+  format
+* Set a separate default duration for each transition type
+
+#### Forms
+
+* Added the ability to save a signature in signature fields and reuse it from
+  the list of saved signatures
+* Added an option to enable and disable spell checking when filling out a
+  specific form
+
+#### PDF Editor
+
+* Implemented removal of annotations in the Redact area
+* Added the ability to remove metadata from a document using the Redact feature
+* Added the annotation settings panel
+* Added the ability to insert a signature into a document via the Comment tab
+* The Comments panel now displays all annotations indicating their type
+* Added the ability to edit PDF form actions via Advanced Settings in the form
+  settings panel
+* Implemented creating and filling out forms by roles, as well as collecting
+  data from filled-out forms
+* Added recognition of tables with visible borders in the Edit Text mode
+* Added the signature field to the Forms tab in the Edit PDF mode
+* Added field visibility options to the right form settings panel
+
+#### Convert
+
+* Added support for the `OFD` format: files can be opened for viewing and
+  converted to other formats in the same way as `XPS`
+
+#### Security
+
+* Fixed XSS vulnerability in hyperlinks in `DOCX` documents
+* Fixed CVE-2022-23308 vulnerability during document conversion
+* Fixed macro sandbox bypass
+* Fixed incorrect memory write when converting `XLS` to `XLSX`
+* Fixed XSS vulnerability in the Name field when creating an AI assistant
+* Fixed converter crash when processing circular style inheritance chains in `DOCX`
+* Fixed stack buffer overflow when reading OLE data during conversion of legacy
+  format documents
+* Fixed heap buffer overflow when rendering image masks in `PDF`
+* Fixed macro sandbox bypass with access to cookies
+* Fixed out-of-bounds read when converting `DOC` to `DOCX`
+* Fixed out-of-bounds read when processing `PPT` metafiles, which led to memory
+  disclosure in the resulting `PPTX`
+* Fixed out-of-bounds read when parsing character formatting in `DOC` files
+* Fixed out-of-bounds read when parsing the piece table in `DOC` files
+* Fixed execution of embedded JavaScript in `PDF` documents
+* Fixed double free when converting some `DOCX` files
+* Fixed out-of-bounds read when parsing the font table in `DOC` files
+* Fixed availability of the `AscDesktopEditor` object to untrusted web pages
+  opened via an `oo-office://` link
+* Fixed heap out-of-bounds write caused by integer overflow during document
+  conversion
+* Fixed arbitrary command execution via the document name when using the Send
+  feature
+* Fixed XSS vulnerability in the function arguments window in the Spreadsheet
+  Editor
+* Fixed execution of malicious JavaScript added to `PDF` file actions
+* Fixed path traversal vulnerability when processing `HML` files
+* Fixed arbitrary file write when extracting archives during conversion
+* Fixed local file read during `EPUB` conversion
+* Fixed XSS vulnerability in the Document Editor via a font or style name in the
+  Review panel
+* Fixed out-of-bounds read when converting `XLS` to `XLSX`
+* Fixed arbitrary file deletion from a `PDF` document
+* Fixed document crash when calling `AscDesktopEditor.execCommand()` and
+  `AscDesktopEditor.PluginInstall()` without arguments
+* Fixed stack buffer overflow when processing fonts in `XPS` files
+* Fixed XSS vulnerability in the HTML plugin when pasting into a document
+* Fixed out-of-bounds read when processing `EMF+` bitmaps, which led to memory
+  disclosure
+* Fixed out-of-bounds read when processing hyperlinks in `XLS`, which led to
+  memory disclosure
+* Fixed out-of-bounds read when rendering `WMF`, which led to memory disclosure
+  in the resulting document
+
 ## 9.4.0
 
 ### New features
