@@ -15,6 +15,10 @@ jobs:
       - uses: DavidAnson/markdownlint-cli2-action@v9
         with:
           globs: 'CHANGELOG.md'
+      - name: Check code fences with rumdl
+        run: |
+          npm install -g rumdl@0.3.0
+          rumdl check --no-config --no-cache --enable MD046,MD070 CHANGELOG.md
   spellchecker:
     runs-on: ubuntu-latest
     steps:
